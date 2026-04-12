@@ -2,12 +2,33 @@ const UserRouter = require('./UserRouter')
 const ProductRouter = require('./ProductRouter')
 const OrderRouter = require('./OrderRouter')
 const PaymentRouter = require('./PaymentRouter')
+const PostRouter = require('./PostRouter')
+const CategoryRouter = require('./CategoryRouter')
+const ReviewRouter = require('./ReviewRouter')
+const WishlistRouter = require('./WishlistRouter')
+const BannerRouter = require('./BannerRouter')
+const ContactRouter = require('./ContactRouter')
+const UploadRouter = require('./UploadRouter')
+const AddressRouter = require('./AddressRouter')
+const AdminRouter = require('./AdminRouter')
 
 const routes = (app) => {
+    // Existing routes
     app.use('/api/user', UserRouter)
     app.use('/api/product', ProductRouter)
     app.use('/api/order', OrderRouter)
     app.use('/api/payment', PaymentRouter)
+    app.use('/api/post', PostRouter)
+
+    // New routes
+    app.use('/api/category', CategoryRouter)
+    app.use('/api/review', ReviewRouter)
+    app.use('/api/wishlist', WishlistRouter)
+    app.use('/api/banner', BannerRouter)
+    app.use('/api/contact', ContactRouter)
+    app.use('/api/upload', UploadRouter)
+    app.use('/api/address', AddressRouter)
+    app.use('/api/admin', AdminRouter)
 }
 
 module.exports = routes

@@ -1,0 +1,905 @@
+[
+  {
+    "_id": {
+      "$oid": "8029ff3739c11a04948d8b9f"
+    },
+    "title": "Trang Sức Bạc Cao Cấp JENSY",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/01_banner.jpg",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_hero",
+    "isActive": true,
+    "order": 1,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a8a6a62afc7612bf2143c341"
+    },
+    "title": "Bộ Sưu Tập Mới 2026",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/01_index_coll_tscc_img.jpg",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_sub",
+    "isActive": true,
+    "order": 2,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3d71d74c0aeca9f98566614f"
+    },
+    "title": "Flash Sale - Giảm 50%",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/02_banner.jpg",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_flash_sale",
+    "isActive": true,
+    "order": 3,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "342846064f2b18119c0ee7a9"
+    },
+    "title": "Valentine Collection",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/03_banner.jpg",
+    "imageMobile": null,
+    "link": "/",
+    "position": "category_top",
+    "isActive": true,
+    "order": 4,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "782d95736e6e94ca936160d7"
+    },
+    "title": "Quà Tặng Ý Nghĩa",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/04_banner.png",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_hero",
+    "isActive": true,
+    "order": 5,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a3a76f4a4b9806f5f484b89c"
+    },
+    "title": "Kim Cương Moissanite GRA",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/05_banner.png",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_sub",
+    "isActive": true,
+    "order": 6,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4c783ac539b410e96f5b029d"
+    },
+    "title": "Bạc S925 Chính Hãng",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/06_banner.png",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_flash_sale",
+    "isActive": true,
+    "order": 7,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d026bfe2ca11dad52091bce5"
+    },
+    "title": "Miễn Phí Ship Đơn 500K",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/07_banner.png",
+    "imageMobile": null,
+    "link": "/",
+    "position": "category_top",
+    "isActive": true,
+    "order": 8,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1987aa6498caf9ebc8e03e96"
+    },
+    "title": "Combo Tiết Kiệm",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/08_banner.png",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_hero",
+    "isActive": true,
+    "order": 9,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3260503718256fd107f4c4eb"
+    },
+    "title": "New Arrivals",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/09_banner.png",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_sub",
+    "isActive": true,
+    "order": 10,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "43127ffbbc177a6654d48593"
+    },
+    "title": "Best Seller 2025",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/10_banner.jpg",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_flash_sale",
+    "isActive": true,
+    "order": 11,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3ebece6e50a2e6b797a9053d"
+    },
+    "title": "Set Quà Tặng Premium",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/11_banner.png",
+    "imageMobile": null,
+    "link": "/",
+    "position": "category_top",
+    "isActive": true,
+    "order": 12,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "72ba4128e98357242a5cc852"
+    },
+    "title": "Trang Sức Bạc Cao Cấp JENSY 13",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/12_banner.jpg",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_hero",
+    "isActive": true,
+    "order": 13,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a2ee9f446889e35553a25d8e"
+    },
+    "title": "Bộ Sưu Tập Mới 2026 14",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/13_banner.png",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_sub",
+    "isActive": true,
+    "order": 14,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4c3f5d5adf6a9e43fbcec826"
+    },
+    "title": "Flash Sale - Giảm 50% 15",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/14_banner.jpg",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_flash_sale",
+    "isActive": true,
+    "order": 15,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "372c8fccb16def338d4d71fb"
+    },
+    "title": "Valentine Collection 16",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/15_banner.png",
+    "imageMobile": null,
+    "link": "/",
+    "position": "category_top",
+    "isActive": true,
+    "order": 16,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5224b52dae138c715fb7d097"
+    },
+    "title": "Quà Tặng Ý Nghĩa 17",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/16_banner.jpg",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_hero",
+    "isActive": true,
+    "order": 17,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1c0362ca0663ab966dc9d826"
+    },
+    "title": "Kim Cương Moissanite GRA 18",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/17_banner.png",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_sub",
+    "isActive": true,
+    "order": 18,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "10e325f5eff2a274ca9bf621"
+    },
+    "title": "Bạc S925 Chính Hãng 19",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/18_banner.jpg",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_flash_sale",
+    "isActive": true,
+    "order": 19,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "007a30ec9c02ea7c792d06df"
+    },
+    "title": "Miễn Phí Ship Đơn 500K 20",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/19_banner.jpg",
+    "imageMobile": null,
+    "link": "/",
+    "position": "category_top",
+    "isActive": true,
+    "order": 20,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bf0e0bebdbd00afaf351f590"
+    },
+    "title": "Combo Tiết Kiệm 21",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/20_banner.jpg",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_hero",
+    "isActive": false,
+    "order": 21,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9e797678e4dc9bc1f7fb2760"
+    },
+    "title": "New Arrivals 22",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/21_banner.jpg",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_sub",
+    "isActive": false,
+    "order": 22,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1c5f16e5758b66c9b1e3c8f1"
+    },
+    "title": "Best Seller 2025 23",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/22_banner.jpg",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_flash_sale",
+    "isActive": false,
+    "order": 23,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2709e3c3a8ea15e2b6923ff5"
+    },
+    "title": "Set Quà Tặng Premium 24",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/23_banner.png",
+    "imageMobile": null,
+    "link": "/",
+    "position": "category_top",
+    "isActive": false,
+    "order": 24,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d1aefbf1d30d0e07f1f49473"
+    },
+    "title": "Trang Sức Bạc Cao Cấp JENSY 25",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/24_banner.png",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_hero",
+    "isActive": false,
+    "order": 25,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b272d6bdc9605ee573807887"
+    },
+    "title": "Bộ Sưu Tập Mới 2026 26",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/25_banner.png",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_sub",
+    "isActive": false,
+    "order": 26,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7ae337aa62103c51ddba4bfc"
+    },
+    "title": "Flash Sale - Giảm 50% 27",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/26_banner.png",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_flash_sale",
+    "isActive": false,
+    "order": 27,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6bd3117af288312f7095b505"
+    },
+    "title": "Valentine Collection 28",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/27_banner.png",
+    "imageMobile": null,
+    "link": "/",
+    "position": "category_top",
+    "isActive": false,
+    "order": 28,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b78c764e0abb7e075e83cfa3"
+    },
+    "title": "Quà Tặng Ý Nghĩa 29",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/28_banner.png",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_hero",
+    "isActive": false,
+    "order": 29,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e3a06b9972081380a429159b"
+    },
+    "title": "Kim Cương Moissanite GRA 30",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/29_banner.png",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_sub",
+    "isActive": false,
+    "order": 30,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "21c45e0c9ecd8200fd739b4a"
+    },
+    "title": "Bạc S925 Chính Hãng 31",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/30_banner.jpg",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_flash_sale",
+    "isActive": false,
+    "order": 31,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0d6e476bf4cb503efa6a3c61"
+    },
+    "title": "Miễn Phí Ship Đơn 500K 32",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/31_banner.jpg",
+    "imageMobile": null,
+    "link": "/",
+    "position": "category_top",
+    "isActive": false,
+    "order": 32,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b11b920315d61446e1ece6d9"
+    },
+    "title": "Combo Tiết Kiệm 33",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/32_banner.jpg",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_hero",
+    "isActive": false,
+    "order": 33,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "95f8d1048a2e0e57f173dcc7"
+    },
+    "title": "New Arrivals 34",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/33_banner.jpg",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_sub",
+    "isActive": false,
+    "order": 34,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ddd662096dafd0bd666e088"
+    },
+    "title": "Best Seller 2025 35",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/34_banner.jpg",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_flash_sale",
+    "isActive": false,
+    "order": 35,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "342e1a2e29006ee6c53e8f87"
+    },
+    "title": "Set Quà Tặng Premium 36",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/35_banner.jpg",
+    "imageMobile": null,
+    "link": "/",
+    "position": "category_top",
+    "isActive": false,
+    "order": 36,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b841172f3988d22cb046af6e"
+    },
+    "title": "Trang Sức Bạc Cao Cấp JENSY 37",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/36_banner.png",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_hero",
+    "isActive": false,
+    "order": 37,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "abc5af40b203341bfbf2eca3"
+    },
+    "title": "Bộ Sưu Tập Mới 2026 38",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/37_banner.png",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_sub",
+    "isActive": false,
+    "order": 38,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5d53520a5587404115df0192"
+    },
+    "title": "Flash Sale - Giảm 50% 39",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/38_banner.jpg",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_flash_sale",
+    "isActive": false,
+    "order": 39,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e5c5c0c5aeafdf029d760fb8"
+    },
+    "title": "Valentine Collection 40",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/39_banner.jpg",
+    "imageMobile": null,
+    "link": "/",
+    "position": "category_top",
+    "isActive": false,
+    "order": 40,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "25fb30ec7e71083aa965c665"
+    },
+    "title": "Quà Tặng Ý Nghĩa 41",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/40_banner.png",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_hero",
+    "isActive": false,
+    "order": 41,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "48d6766293a506a7ccae87d3"
+    },
+    "title": "Kim Cương Moissanite GRA 42",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/41_banner.jpg",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_sub",
+    "isActive": false,
+    "order": 42,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "42fd78a5c3528f26be2049e4"
+    },
+    "title": "Bạc S925 Chính Hãng 43",
+    "subtitle": "Jensy - Lấp Lánh Em Xinh",
+    "image": "/images/banners/42_banner.jpg",
+    "imageMobile": null,
+    "link": "/",
+    "position": "homepage_flash_sale",
+    "isActive": false,
+    "order": 43,
+    "startDate": null,
+    "endDate": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  }
+]

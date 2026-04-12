@@ -204,10 +204,34 @@ const getAllOrder = () => {
     })
 }
 
+const updateOrderStatus = (id, status, cancelReason) => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const validStatuses = ['pending', 'confirmed', 'shipping', 'delivered', 'cancelled']
+            if (!validStatuses.includes(status)) {
+                return resolve({ status: 'ERR', message: `Trạng thái không hợp lệ. Chỉ chấp nhận: ${validStatuses.join(', ')}` })
+            }
+            const updateData = { status }
+            if (status === 'delivered') {
+                updateData.isDelivered = true
+                updateData.deliveredAt = new Date()
+            }
+            if (status === 'cancelled') {
+                updateData.cancelledAt = new Date()
+                if (cancelReason) updateData.cancelReason = cancelReason
+            }
+            const order = await Order.findByIdAndUpdate(id, updateData, { new: true })
+            if (!order) return resolve({ status: 'ERR', message: 'Không tìm thấy đơn hàng' })
+            resolve({ status: 'OK', message: 'Cập nhật trạng thái đơn hàng thành công', data: order })
+        } catch (e) { reject(e) }
+    })
+}
+
 module.exports = {
     createOrder,
     getAllOrderDetails,
     getOrderDetails,
     cancelOrderDetails,
-    getAllOrder
-}
+    getAllOrder,
+    updateOrderStatus
+}

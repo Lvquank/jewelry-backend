@@ -150,7 +150,14 @@ const getDetailsUser = async (req, res) => {
 
 const refreshToken = async (req, res) => {
     try {
-        let token = req.headers.token.split(' ')[1]
+        const rawToken = req.headers.authorization;
+        if (!rawToken) {
+            return res.status(200).json({
+                status: 'ERR',
+                message: 'The token is required'
+            })
+        }
+        let token = rawToken.split(' ')[1]
         if (!token) {
             return res.status(200).json({
                 status: 'ERR',
@@ -180,6 +187,31 @@ const logoutUser = async (req, res) => {
         })
     }
 }
+const googleLogin = async (req, res) => {
+    try {
+        const { googleToken } = req.body
+        if (!googleToken) {
+            return res.status(200).json({
+                status: 'ERR',
+                message: 'Google token là bắt buộc'
+            })
+        }
+        const response = await UserService.loginWithGoogle(googleToken)
+        const { refresh_token, ...newResponse } = response
+        res.cookie('refresh_token', refresh_token, {
+            httpOnly: true,
+            secure: false,
+            sameSite: 'strict',
+            path: '/',
+        })
+        return res.status(200).json({ ...newResponse, refresh_token })
+    } catch (e) {
+        return res.status(404).json({
+            message: e.message || e
+        })
+    }
+}
+
 module.exports = {
     createUser,
     loginUser,
@@ -189,5 +221,6 @@ module.exports = {
     getDetailsUser,
     refreshToken,
     logoutUser,
-    deleteMany
+    deleteMany,
+    googleLogin
 }

@@ -1,0 +1,6792 @@
+[
+  {
+    "_id": {
+      "$oid": "94892ad4b32e3cf06655106d"
+    },
+    "name": "Bông Tai Bạc Đính Moissanite Xi Bạch Kim \"Bowtie\"",
+    "slug": "bong-tai-bac-dinh-moissanite-xi-bach-kim-bowtie",
+    "sku": "GBDDDDW060487",
+    "image": "/images/products/bong-tai/01_GBDDDDW060487.png",
+    "images": [
+      "/images/products/bong-tai/01_GBDDDDW060487.png"
+    ],
+    "type": "Bông Tai Bạc",
+    "category": "Bông Tai Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Bông Tai Bạc",
+      "bạc s925"
+    ],
+    "price": 700000,
+    "countInStock": 12,
+    "rating": 4,
+    "numReviews": 42,
+    "description": "Bông Tai Bạc Đính Moissanite Xi Bạch Kim \"Bowtie\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 15,
+    "selled": 56,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-11-08T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fbe3a51922273f92b3ee3526"
+    },
+    "name": "Bông Tai Bạc Nữ Đính CZ Kiểu Giọt Nước \"Teardrop\"",
+    "slug": "bong-tai-bac-nu-dinh-cz-kieu-giot-nuoc-teardrop",
+    "sku": "GBXMXMW003716",
+    "image": "/images/products/bong-tai/02_GBXMXMW003716.png",
+    "images": [
+      "/images/products/bong-tai/02_GBXMXMW003716.png"
+    ],
+    "type": "Bông Tai Bạc",
+    "category": "Bông Tai Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Bông Tai Bạc",
+      "bạc s925"
+    ],
+    "price": 1038000,
+    "countInStock": 89,
+    "rating": 4.2,
+    "numReviews": 28,
+    "description": "Bông Tai Bạc Nữ Đính CZ Kiểu Giọt Nước \"Teardrop\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 18,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": true,
+    "flashSalePrice": 726600,
+    "flashSaleEndTime": {
+      "$date": "2026-04-19T09:12:48.891Z"
+    },
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-11-01T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e0855c74fd8a4608aa8d1a44"
+    },
+    "name": "Bông Tai Bạc Nữ Hình Tròn \"Circle Stud\"",
+    "slug": "bong-tai-bac-nu-hinh-tron-circle-stud",
+    "sku": "GBDD00W060182",
+    "image": "/images/products/bong-tai/03_GBDD00W060182.png",
+    "images": [
+      "/images/products/bong-tai/03_GBDD00W060182.png"
+    ],
+    "type": "Bông Tai Bạc",
+    "category": "Bông Tai Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Bông Tai Bạc",
+      "bạc s925"
+    ],
+    "price": 1011000,
+    "countInStock": 75,
+    "rating": 5,
+    "numReviews": 43,
+    "description": "Bông Tai Bạc Nữ Hình Tròn \"Circle Stud\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 230,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": true,
+    "flashSalePrice": 707700,
+    "flashSaleEndTime": {
+      "$date": "2026-04-19T09:12:48.891Z"
+    },
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-19T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "93312c8c1669d350cb9a5b53"
+    },
+    "name": "Bông Tai Bạc Đính Kim Cương Moissanite \"Solitaire Ear\"",
+    "slug": "bong-tai-bac-dinh-kim-cuong-moissanite-solitaire-ear",
+    "sku": "GBXMXMW003837",
+    "image": "/images/products/bong-tai/04_GBXMXMW003837.png",
+    "images": [
+      "/images/products/bong-tai/04_GBXMXMW003837.png"
+    ],
+    "type": "Bông Tai Bạc",
+    "category": "Bông Tai Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Bông Tai Bạc",
+      "bạc s925"
+    ],
+    "price": 355000,
+    "countInStock": 58,
+    "rating": 4,
+    "numReviews": 32,
+    "description": "Bông Tai Bạc Đính Kim Cương Moissanite \"Solitaire Ear\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 20,
+    "selled": 72,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": true,
+    "flashSalePrice": 248499,
+    "flashSaleEndTime": {
+      "$date": "2026-04-19T09:12:48.891Z"
+    },
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-17T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1f14aeb3119177694f037e6c"
+    },
+    "name": "Bông Tai Bạc Nữ Kiểu Dài \"Drop Earring\"",
+    "slug": "bong-tai-bac-nu-kieu-dai-drop-earring",
+    "sku": "GBXMXMH000170",
+    "image": "/images/products/bong-tai/05_GBXMXMH000170.png",
+    "images": [
+      "/images/products/bong-tai/05_GBXMXMH000170.png"
+    ],
+    "type": "Bông Tai Bạc",
+    "category": "Bông Tai Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Bông Tai Bạc",
+      "bạc s925"
+    ],
+    "price": 1388000,
+    "countInStock": 79,
+    "rating": 4.8,
+    "numReviews": 29,
+    "description": "Bông Tai Bạc Nữ Kiểu Dài \"Drop Earring\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 204,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-05T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e01a8c5e7ab17b1a140be1ae"
+    },
+    "name": "Bông Tai Bạc Nữ Đính Ngọc Trai \"Pearl Stud\"",
+    "slug": "bong-tai-bac-nu-dinh-ngoc-trai-pearl-stud",
+    "sku": "GBXMXMW003899",
+    "image": "/images/products/bong-tai/06_GBXMXMW003899.png",
+    "images": [
+      "/images/products/bong-tai/06_GBXMXMW003899.png"
+    ],
+    "type": "Bông Tai Bạc",
+    "category": "Bông Tai Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Bông Tai Bạc",
+      "bạc s925"
+    ],
+    "price": 1074000,
+    "countInStock": 25,
+    "rating": 4.8,
+    "numReviews": 23,
+    "description": "Bông Tai Bạc Nữ Đính Ngọc Trai \"Pearl Stud\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 223,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": true,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-11-12T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4c2712dce90d1d45c468060b"
+    },
+    "name": "Bông Tai Bạc Xi Bạch Kim Hình Hoa \"Flower Stud\"",
+    "slug": "bong-tai-bac-xi-bach-kim-hinh-hoa-flower-stud",
+    "sku": "GBDDDDW004497",
+    "image": "/images/products/bong-tai/07_GBDDDDW004497.png",
+    "images": [
+      "/images/products/bong-tai/07_GBDDDDW004497.png"
+    ],
+    "type": "Bông Tai Bạc",
+    "category": "Bông Tai Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Bông Tai Bạc",
+      "bạc s925"
+    ],
+    "price": 1430000,
+    "countInStock": 57,
+    "rating": 5,
+    "numReviews": 34,
+    "description": "Bông Tai Bạc Xi Bạch Kim Hình Hoa \"Flower Stud\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 292,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-25T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9f4e39afe99ed5204c63cadb"
+    },
+    "name": "Bông Tai Bạc Nữ Kiểu Kẹp \"Ear Cuff\"",
+    "slug": "bong-tai-bac-nu-kieu-kep-ear-cuff",
+    "sku": "GBDDDDW004634",
+    "image": "/images/products/bong-tai/08_GBDDDDW004634.png",
+    "images": [
+      "/images/products/bong-tai/08_GBDDDDW004634.png"
+    ],
+    "type": "Bông Tai Bạc",
+    "category": "Bông Tai Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Bông Tai Bạc",
+      "bạc s925"
+    ],
+    "price": 657000,
+    "countInStock": 82,
+    "rating": 5,
+    "numReviews": 24,
+    "description": "Bông Tai Bạc Nữ Kiểu Kẹp \"Ear Cuff\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 15,
+    "selled": 280,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-12-11T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a05f543ae3e0044a706a59cc"
+    },
+    "name": "Bông Tai Bạc Nữ Hình Ngôi Sao \"Star Earring\"",
+    "slug": "bong-tai-bac-nu-hinh-ngoi-sao-star-earring",
+    "sku": "GBDDDDW004636",
+    "image": "/images/products/bong-tai/09_GBDDDDW004636.png",
+    "images": [
+      "/images/products/bong-tai/09_GBDDDDW004636.png"
+    ],
+    "type": "Bông Tai Bạc",
+    "category": "Bông Tai Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Bông Tai Bạc",
+      "bạc s925"
+    ],
+    "price": 1536000,
+    "countInStock": 99,
+    "rating": 4.8,
+    "numReviews": 1,
+    "description": "Bông Tai Bạc Nữ Hình Ngôi Sao \"Star Earring\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 230,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-11-08T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ffcdb56bfb4b467cc48130f1"
+    },
+    "name": "Bông Tai Bạc S925 Đính Đá Nhỏ \"Micro Stud\"",
+    "slug": "bong-tai-bac-s925-dinh-da-nho-micro-stud",
+    "sku": "GBDDDDW004666",
+    "image": "/images/products/bong-tai/10_GBDDDDW004666.png",
+    "images": [
+      "/images/products/bong-tai/10_GBDDDDW004666.png"
+    ],
+    "type": "Bông Tai Bạc",
+    "category": "Bông Tai Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Bông Tai Bạc",
+      "bạc s925"
+    ],
+    "price": 1545000,
+    "countInStock": 9,
+    "rating": 4.2,
+    "numReviews": 37,
+    "description": "Bông Tai Bạc S925 Đính Đá Nhỏ \"Micro Stud\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 198,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-04T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5e74f7b8079df5c8ebe30c8f"
+    },
+    "name": "Bông Tai Bạc Nữ Hình Tim \"Heart Earring\"",
+    "slug": "bong-tai-bac-nu-hinh-tim-heart-earring",
+    "sku": "GBXMXMW003817",
+    "image": "/images/products/bong-tai/11_GBXMXMW003817.png",
+    "images": [
+      "/images/products/bong-tai/11_GBXMXMW003817.png"
+    ],
+    "type": "Bông Tai Bạc",
+    "category": "Bông Tai Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Bông Tai Bạc",
+      "bạc s925"
+    ],
+    "price": 655000,
+    "countInStock": 27,
+    "rating": 4.7,
+    "numReviews": 42,
+    "description": "Bông Tai Bạc Nữ Hình Tim \"Heart Earring\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 233,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-27T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "902cae7ff83283600b66404e"
+    },
+    "name": "Bông Tai Bạc Nữ Kiểu Tua Rua \"Tassel\"",
+    "slug": "bong-tai-bac-nu-kieu-tua-rua-tassel",
+    "sku": "GBXMXMY009514",
+    "image": "/images/products/bong-tai/12_GBXMXMY009514.png",
+    "images": [
+      "/images/products/bong-tai/12_GBXMXMY009514.png"
+    ],
+    "type": "Bông Tai Bạc",
+    "category": "Bông Tai Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Bông Tai Bạc",
+      "moissanite"
+    ],
+    "price": 418000,
+    "countInStock": 27,
+    "rating": 4,
+    "numReviews": 33,
+    "description": "Bông Tai Bạc Nữ Kiểu Tua Rua \"Tassel\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 298,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-10T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "192699dc0302d122e5940569"
+    },
+    "name": "Bông Tai Bạc Mạ Vàng 18K \"Gold Stud\"",
+    "slug": "bong-tai-bac-ma-vang-18k-gold-stud",
+    "sku": "GBXMXMY009516",
+    "image": "/images/products/bong-tai/13_GBXMXMY009516.png",
+    "images": [
+      "/images/products/bong-tai/13_GBXMXMY009516.png"
+    ],
+    "type": "Bông Tai Bạc",
+    "category": "Bông Tai Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Bông Tai Bạc",
+      "bạc s925"
+    ],
+    "price": 1136000,
+    "countInStock": 74,
+    "rating": 4.5,
+    "numReviews": 12,
+    "description": "Bông Tai Bạc Mạ Vàng 18K \"Gold Stud\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 5,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": true,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-19T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a2e8d3a1890092975de6def1"
+    },
+    "name": "Bông Tai Bạc Nữ Hình Lá \"Leaf Earring\"",
+    "slug": "bong-tai-bac-nu-hinh-la-leaf-earring",
+    "sku": "SBXM00W060085",
+    "image": "/images/products/bong-tai/14_SBXM00W060085.png",
+    "images": [
+      "/images/products/bong-tai/14_SBXM00W060085.png"
+    ],
+    "type": "Bông Tai Bạc",
+    "category": "Bông Tai Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Bông Tai Bạc",
+      "bạc s925"
+    ],
+    "price": 1566000,
+    "countInStock": 24,
+    "rating": 4.5,
+    "numReviews": 42,
+    "description": "Bông Tai Bạc Nữ Hình Lá \"Leaf Earring\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 17,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-02T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "44757f1481c23495a9e21b84"
+    },
+    "name": "Khuyên Tai Bạc Nữ Hình Bướm \"Butterfly Ear\"",
+    "slug": "khuyen-tai-bac-nu-hinh-buom-butterfly-ear",
+    "sku": "SBPF00W060005",
+    "image": "/images/products/bong-tai/15_SBPF00W060005.png",
+    "images": [
+      "/images/products/bong-tai/15_SBPF00W060005.png"
+    ],
+    "type": "Bông Tai Bạc",
+    "category": "Bông Tai Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Bông Tai Bạc",
+      "bạc s925"
+    ],
+    "price": 1646000,
+    "countInStock": 92,
+    "rating": 4.8,
+    "numReviews": 8,
+    "description": "Khuyên Tai Bạc Nữ Hình Bướm \"Butterfly Ear\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 83,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-12-27T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8e3773e822c681ce4897187d"
+    },
+    "name": "Bông Tai Bạc Nữ Phong Cách Minimalist \"Simple Ear\"",
+    "slug": "bong-tai-bac-nu-phong-cach-minimalist-simple-ear",
+    "sku": "GBXM00W001698",
+    "image": "/images/products/bong-tai/16_GBXM00W001698.png",
+    "images": [
+      "/images/products/bong-tai/16_GBXM00W001698.png"
+    ],
+    "type": "Bông Tai Bạc",
+    "category": "Bông Tai Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Bông Tai Bạc",
+      "bạc s925"
+    ],
+    "price": 1507000,
+    "countInStock": 55,
+    "rating": 4.2,
+    "numReviews": 42,
+    "description": "Bông Tai Bạc Nữ Phong Cách Minimalist \"Simple Ear\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 256,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-10-21T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "206196fc644c1198e19cd434"
+    },
+    "name": "Bông Tai Bạc Đôi Cặp \"Couple Earring\"",
+    "slug": "bong-tai-bac-doi-cap-couple-earring",
+    "sku": "GB0000W061015",
+    "image": "/images/products/bong-tai/17_GB0000W061015.png",
+    "images": [
+      "/images/products/bong-tai/17_GB0000W061015.png"
+    ],
+    "type": "Bông Tai Bạc",
+    "category": "Bông Tai Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Bông Tai Bạc",
+      "moissanite"
+    ],
+    "price": 917000,
+    "countInStock": 39,
+    "rating": 4,
+    "numReviews": 37,
+    "description": "Bông Tai Bạc Đôi Cặp \"Couple Earring\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 49,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-12-20T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5b34f6a4d0936b456f324ce0"
+    },
+    "name": "Khuyên Tai Bạc Nữ Đính Đá Xanh \"Blue Stud\"",
+    "slug": "khuyen-tai-bac-nu-dinh-da-xanh-blue-stud",
+    "sku": "GB00DDW060979",
+    "image": "/images/products/bong-tai/18_GB00DDW060979.png",
+    "images": [
+      "/images/products/bong-tai/18_GB00DDW060979.png"
+    ],
+    "type": "Bông Tai Bạc",
+    "category": "Bông Tai Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Bông Tai Bạc",
+      "bạc s925"
+    ],
+    "price": 481000,
+    "countInStock": 68,
+    "rating": 4.7,
+    "numReviews": 48,
+    "description": "Khuyên Tai Bạc Nữ Đính Đá Xanh \"Blue Stud\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 198,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-03T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d245fa694a9c5ee9ff02b8f3"
+    },
+    "name": "Bông Tai Bạc Nữ Hình Mặt Trăng \"Moon Earring\"",
+    "slug": "bong-tai-bac-nu-hinh-mat-trang-moon-earring",
+    "sku": "GB0000Y003528",
+    "image": "/images/products/bong-tai/19_GB0000Y003528.png",
+    "images": [
+      "/images/products/bong-tai/19_GB0000Y003528.png"
+    ],
+    "type": "Bông Tai Bạc",
+    "category": "Bông Tai Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Bông Tai Bạc",
+      "bạc s925"
+    ],
+    "price": 1691000,
+    "countInStock": 31,
+    "rating": 4.8,
+    "numReviews": 13,
+    "description": "Bông Tai Bạc Nữ Hình Mặt Trăng \"Moon Earring\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 117,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-16T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "14d7c6d88b229dbc3fa47314"
+    },
+    "name": "Charm Bạc S925 Hình Trái Tim \"Heart Charm\"",
+    "slug": "charm-bac-s925-hinh-trai-tim-heart-charm",
+    "sku": "GI0000Y000801",
+    "image": "/images/products/charm/01_GI0000Y000801.png",
+    "images": [
+      "/images/products/charm/01_GI0000Y000801.png"
+    ],
+    "type": "Charm Bạc",
+    "category": "Charm Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Charm Bạc",
+      "bạc s925"
+    ],
+    "price": 1448000,
+    "countInStock": 95,
+    "rating": 4.5,
+    "numReviews": 40,
+    "description": "Charm Bạc S925 Hình Trái Tim \"Heart Charm\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 6,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-10-19T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "81b71c9859a684f55576c641"
+    },
+    "name": "Charm Bạc Đính Đá CZ Hình Ngôi Sao \"Star Charm\"",
+    "slug": "charm-bac-dinh-da-cz-hinh-ngoi-sao-star-charm",
+    "sku": "GI0000W000180",
+    "image": "/images/products/charm/02_GI0000W000180.png",
+    "images": [
+      "/images/products/charm/02_GI0000W000180.png"
+    ],
+    "type": "Charm Bạc",
+    "category": "Charm Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Charm Bạc",
+      "bạc s925"
+    ],
+    "price": 804000,
+    "countInStock": 28,
+    "rating": 4.2,
+    "numReviews": 22,
+    "description": "Charm Bạc Đính Đá CZ Hình Ngôi Sao \"Star Charm\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 290,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-10-17T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cc4c83b70fabcb4d67fe9dcc"
+    },
+    "name": "Charm Bạc Nữ Hình Bướm \"Butterfly Charm\"",
+    "slug": "charm-bac-nu-hinh-buom-butterfly-charm",
+    "sku": "GIXM00W000154",
+    "image": "/images/products/charm/03_GIXM00W000154.png",
+    "images": [
+      "/images/products/charm/03_GIXM00W000154.png"
+    ],
+    "type": "Charm Bạc",
+    "category": "Charm Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Charm Bạc",
+      "bạc s925"
+    ],
+    "price": 1135000,
+    "countInStock": 91,
+    "rating": 4.8,
+    "numReviews": 29,
+    "description": "Charm Bạc Nữ Hình Bướm \"Butterfly Charm\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 15,
+    "selled": 216,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": true,
+    "flashSalePrice": 794500,
+    "flashSaleEndTime": {
+      "$date": "2026-04-19T09:12:48.891Z"
+    },
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-12-19T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "78571e5fd6b37a9f3dc8a582"
+    },
+    "name": "Charm Bạc Đính Moissanite \"Diamond Charm\"",
+    "slug": "charm-bac-dinh-moissanite-diamond-charm",
+    "sku": "SIQT00W000002",
+    "image": "/images/products/charm/04_SIQT00W000002.png",
+    "images": [
+      "/images/products/charm/04_SIQT00W000002.png"
+    ],
+    "type": "Charm Bạc",
+    "category": "Charm Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Charm Bạc",
+      "bạc s925"
+    ],
+    "price": 564000,
+    "countInStock": 91,
+    "rating": 4.2,
+    "numReviews": 27,
+    "description": "Charm Bạc Đính Moissanite \"Diamond Charm\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 20,
+    "selled": 137,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-10-25T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2afca0f2741ccedbd0709d4f"
+    },
+    "name": "Charm Bạc S925 Hình Hoa \"Flower Charm\"",
+    "slug": "charm-bac-s925-hinh-hoa-flower-charm",
+    "sku": "SIXMXMW060488",
+    "image": "/images/products/charm/05_SIXMXMW060488.png",
+    "images": [
+      "/images/products/charm/05_SIXMXMW060488.png"
+    ],
+    "type": "Charm Bạc",
+    "category": "Charm Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Charm Bạc",
+      "bạc s925"
+    ],
+    "price": 701000,
+    "countInStock": 75,
+    "rating": 5,
+    "numReviews": 18,
+    "description": "Charm Bạc S925 Hình Hoa \"Flower Charm\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 69,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": true,
+    "flashSalePrice": 490699,
+    "flashSaleEndTime": {
+      "$date": "2026-04-19T09:12:48.891Z"
+    },
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-21T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "33e66165e4fd9406baa5bdc0"
+    },
+    "name": "Charm Bạc Hình Mặt Trăng \"Moon Charm\"",
+    "slug": "charm-bac-hinh-mat-trang-moon-charm",
+    "sku": "SIZTZTW060061",
+    "image": "/images/products/charm/06_SIZTZTW060061.png",
+    "images": [
+      "/images/products/charm/06_SIZTZTW060061.png"
+    ],
+    "type": "Charm Bạc",
+    "category": "Charm Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Charm Bạc",
+      "bạc s925"
+    ],
+    "price": 1412000,
+    "countInStock": 37,
+    "rating": 5,
+    "numReviews": 13,
+    "description": "Charm Bạc Hình Mặt Trăng \"Moon Charm\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 152,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": true,
+    "flashSalePrice": 988399,
+    "flashSaleEndTime": {
+      "$date": "2026-04-19T09:12:48.891Z"
+    },
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-05T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "332699a8673f853e251c7d95"
+    },
+    "name": "Charm Bạc Đính Đá Opal \"Opal Charm\"",
+    "slug": "charm-bac-dinh-da-opal-opal-charm",
+    "sku": "SIZTXMW060098",
+    "image": "/images/products/charm/07_SIZTXMW060098.png",
+    "images": [
+      "/images/products/charm/07_SIZTXMW060098.png"
+    ],
+    "type": "Charm Bạc",
+    "category": "Charm Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Charm Bạc",
+      "bạc s925"
+    ],
+    "price": 825000,
+    "countInStock": 39,
+    "rating": 5,
+    "numReviews": 11,
+    "description": "Charm Bạc Đính Đá Opal \"Opal Charm\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 178,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": true,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-08T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1f9c631007455a87938d4e70"
+    },
+    "name": "Dây Chuyền Bạc Đính Moissanite 5 Ly Xi Bạch Kim \"Julia\"",
+    "slug": "day-chuyen-bac-dinh-moissanite-5-ly-xi-bach-kim-julia",
+    "sku": "GMXM00W000953",
+    "image": "/images/products/day-chuyen/01_GMXM00W000953.png",
+    "images": [
+      "/images/products/day-chuyen/01_GMXM00W000953.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 739000,
+    "countInStock": 13,
+    "rating": 4.8,
+    "numReviews": 22,
+    "description": "Dây Chuyền Bạc Đính Moissanite 5 Ly Xi Bạch Kim \"Julia\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 271,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-18T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0b41710c30eb7a27fed96888"
+    },
+    "name": "Dây Chuyền Đôi Bạc S925 \"Couple Ring\"",
+    "slug": "day-chuyen-doi-bac-s925-couple-ring",
+    "sku": "GCDD00W000502",
+    "image": "/images/products/day-chuyen/02_GCDD00W000502.png",
+    "images": [
+      "/images/products/day-chuyen/02_GCDD00W000502.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "moissanite"
+    ],
+    "price": 577000,
+    "countInStock": 49,
+    "rating": 4.7,
+    "numReviews": 0,
+    "description": "Dây Chuyền Đôi Bạc S925 \"Couple Ring\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 210,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-28T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "70fd59f9f7205df93ac1853a"
+    },
+    "name": "Dây Chuyền Bạc Nữ Mặt Trái Tim \"Sweet Love\"",
+    "slug": "day-chuyen-bac-nu-mat-trai-tim-sweet-love",
+    "sku": "GMXM00W000952",
+    "image": "/images/products/day-chuyen/03_GMXM00W000952.png",
+    "images": [
+      "/images/products/day-chuyen/03_GMXM00W000952.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 1300000,
+    "countInStock": 50,
+    "rating": 4.5,
+    "numReviews": 47,
+    "description": "Dây Chuyền Bạc Nữ Mặt Trái Tim \"Sweet Love\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 3,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": true,
+    "flashSalePrice": 910000,
+    "flashSaleEndTime": {
+      "$date": "2026-04-19T09:12:48.891Z"
+    },
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-13T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ee760a172a97089af7fbacb8"
+    },
+    "name": "Dây Chuyền Bạc Đính Ngọc Trai Thiên Nhiên \"Pearl Essence\"",
+    "slug": "day-chuyen-bac-dinh-ngoc-trai-thien-nhien-pearl-essence",
+    "sku": "GMXMXMW000429",
+    "image": "/images/products/day-chuyen/04_GMXMXMW000429.png",
+    "images": [
+      "/images/products/day-chuyen/04_GMXMXMW000429.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 1499000,
+    "countInStock": 31,
+    "rating": 4,
+    "numReviews": 0,
+    "description": "Dây Chuyền Bạc Đính Ngọc Trai Thiên Nhiên \"Pearl Essence\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 96,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-10T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8f18e5d7d7f6d2e55bd012ac"
+    },
+    "name": "Dây Chuyền Bạc Nữ Đính Kim Cương Moissanite \"Shining Star\"",
+    "slug": "day-chuyen-bac-nu-dinh-kim-cuong-moissanite-shining-star",
+    "sku": "GMDDDDW000636",
+    "image": "/images/products/day-chuyen/05_GMDDDDW000636.png",
+    "images": [
+      "/images/products/day-chuyen/05_GMDDDDW000636.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 1123000,
+    "countInStock": 24,
+    "rating": 4.7,
+    "numReviews": 30,
+    "description": "Dây Chuyền Bạc Nữ Đính Kim Cương Moissanite \"Shining Star\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 218,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": true,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-25T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1d663e341fa4d6d4d14e6c1b"
+    },
+    "name": "Dây Chuyền Bạc Mặt Vuông Đính CZ \"Modern Square\"",
+    "slug": "day-chuyen-bac-mat-vuong-dinh-cz-modern-square",
+    "sku": "GCXMXMW000705",
+    "image": "/images/products/day-chuyen/06_GCXMXMW000705.png",
+    "images": [
+      "/images/products/day-chuyen/06_GCXMXMW000705.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 646000,
+    "countInStock": 15,
+    "rating": 5,
+    "numReviews": 25,
+    "description": "Dây Chuyền Bạc Mặt Vuông Đính CZ \"Modern Square\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 288,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-12-14T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "644e4c404cb513194a4ac121"
+    },
+    "name": "Dây Chuyền Đôi Bạc Mặt Ghép Tim \"Two Halves\"",
+    "slug": "day-chuyen-doi-bac-mat-ghep-tim-two-halves",
+    "sku": "GCXMXMW000706",
+    "image": "/images/products/day-chuyen/07_GCXMXMW000706.png",
+    "images": [
+      "/images/products/day-chuyen/07_GCXMXMW000706.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "moissanite"
+    ],
+    "price": 1610000,
+    "countInStock": 60,
+    "rating": 4.5,
+    "numReviews": 26,
+    "description": "Dây Chuyền Đôi Bạc Mặt Ghép Tim \"Two Halves\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 20,
+    "selled": 253,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-14T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "19088175cf17a7273588f2b5"
+    },
+    "name": "Dây Chuyền Bạc Nữ Kiểu Choker \"Elegant Choker\"",
+    "slug": "day-chuyen-bac-nu-kieu-choker-elegant-choker",
+    "sku": "GCXMXMH000076",
+    "image": "/images/products/day-chuyen/08_GCXMXMH000076.png",
+    "images": [
+      "/images/products/day-chuyen/08_GCXMXMH000076.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "moissanite"
+    ],
+    "price": 834000,
+    "countInStock": 9,
+    "rating": 4.2,
+    "numReviews": 2,
+    "description": "Dây Chuyền Bạc Nữ Kiểu Choker \"Elegant Choker\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 185,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-12-26T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1373c96b49e9d094476a3c39"
+    },
+    "name": "Dây Chuyền Bạc Xi Bạch Kim Mặt Tròn \"Circle of Life\"",
+    "slug": "day-chuyen-bac-xi-bach-kim-mat-tron-circle-of-life",
+    "sku": "GCXM00W000307",
+    "image": "/images/products/day-chuyen/09_GCXM00W000307.png",
+    "images": [
+      "/images/products/day-chuyen/09_GCXM00W000307.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 529000,
+    "countInStock": 76,
+    "rating": 4.7,
+    "numReviews": 26,
+    "description": "Dây Chuyền Bạc Xi Bạch Kim Mặt Tròn \"Circle of Life\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 234,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-12-16T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bc9206b72decb7d03ef227ba"
+    },
+    "name": "Dây Chuyền Bạc Đính Đá Sapphire Xanh \"Ocean Blue\"",
+    "slug": "day-chuyen-bac-dinh-da-sapphire-xanh-ocean-blue",
+    "sku": "GCDDDDW000836",
+    "image": "/images/products/day-chuyen/10_GCDDDDW000836.png",
+    "images": [
+      "/images/products/day-chuyen/10_GCDDDDW000836.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 1668000,
+    "countInStock": 69,
+    "rating": 5,
+    "numReviews": 22,
+    "description": "Dây Chuyền Bạc Đính Đá Sapphire Xanh \"Ocean Blue\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 164,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-11-04T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ea1e02d8ba844b4ab015f60c"
+    },
+    "name": "Dây Chuyền Bạc Nữ Mặt Giọt Nước \"Teardrop\"",
+    "slug": "day-chuyen-bac-nu-mat-giot-nuoc-teardrop",
+    "sku": "GCSPDDW000027",
+    "image": "/images/products/day-chuyen/11_GCSPDDW000027.png",
+    "images": [
+      "/images/products/day-chuyen/11_GCSPDDW000027.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 534000,
+    "countInStock": 27,
+    "rating": 4.5,
+    "numReviews": 29,
+    "description": "Dây Chuyền Bạc Nữ Mặt Giọt Nước \"Teardrop\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 260,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": true,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-01T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "add77177815aa504946a694d"
+    },
+    "name": "Dây Chuyền Bạc S925 Mặt Bướm \"Butterfly Pendant\"",
+    "slug": "day-chuyen-bac-s925-mat-buom-butterfly-pendant",
+    "sku": "GCSPDDW000028",
+    "image": "/images/products/day-chuyen/12_GCSPDDW000028.png",
+    "images": [
+      "/images/products/day-chuyen/12_GCSPDDW000028.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 1406000,
+    "countInStock": 78,
+    "rating": 4.5,
+    "numReviews": 36,
+    "description": "Dây Chuyền Bạc S925 Mặt Bướm \"Butterfly Pendant\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 53,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-08T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a9e94ff1cebd56748a4c0920"
+    },
+    "name": "Dây Chuyền Bạc Đính Kim Cương Moissanite 7 Ly \"Grand\"",
+    "slug": "day-chuyen-bac-dinh-kim-cuong-moissanite-7-ly-grand",
+    "sku": "GCDDDDW001056",
+    "image": "/images/products/day-chuyen/13_GCDDDDW001056.png",
+    "images": [
+      "/images/products/day-chuyen/13_GCDDDDW001056.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 1058000,
+    "countInStock": 84,
+    "rating": 5,
+    "numReviews": 27,
+    "description": "Dây Chuyền Bạc Đính Kim Cương Moissanite 7 Ly \"Grand\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 20,
+    "selled": 156,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-11-02T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d5b3dfd4de4d3e62fa1dc85b"
+    },
+    "name": "Dây Chuyền Bạc Nữ Mặt Ngôi Sao \"Starry Night\"",
+    "slug": "day-chuyen-bac-nu-mat-ngoi-sao-starry-night",
+    "sku": "GCDDDDW001039",
+    "image": "/images/products/day-chuyen/14_GCDDDDW001039.png",
+    "images": [
+      "/images/products/day-chuyen/14_GCDDDDW001039.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 315000,
+    "countInStock": 46,
+    "rating": 5,
+    "numReviews": 10,
+    "description": "Dây Chuyền Bạc Nữ Mặt Ngôi Sao \"Starry Night\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 194,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-08T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3285a0e79d1a3c92e9e3c8bd"
+    },
+    "name": "Dây Chuyền Bạc Mạ Vàng 18K \"Golden Charm\"",
+    "slug": "day-chuyen-bac-ma-vang-18k-golden-charm",
+    "sku": "GMDDDDW002972",
+    "image": "/images/products/day-chuyen/15_GMDDDDW002972.png",
+    "images": [
+      "/images/products/day-chuyen/15_GMDDDDW002972.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "moissanite"
+    ],
+    "price": 1355000,
+    "countInStock": 56,
+    "rating": 4,
+    "numReviews": 23,
+    "description": "Dây Chuyền Bạc Mạ Vàng 18K \"Golden Charm\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 15,
+    "selled": 213,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-12-21T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "db578da826244c7330d9e199"
+    },
+    "name": "Dây Chuyền Bạc Nữ Mặt Hoa \"Floral Dream\"",
+    "slug": "day-chuyen-bac-nu-mat-hoa-floral-dream",
+    "sku": "GMDDDDW002970",
+    "image": "/images/products/day-chuyen/16_GMDDDDW002970.png",
+    "images": [
+      "/images/products/day-chuyen/16_GMDDDDW002970.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 1719000,
+    "countInStock": 25,
+    "rating": 4.8,
+    "numReviews": 24,
+    "description": "Dây Chuyền Bạc Nữ Mặt Hoa \"Floral Dream\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 145,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-04T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b0efae1b8f6960d88f965ffa"
+    },
+    "name": "Dây Chuyền Bạc Nữ Dáng Dài \"Long Pendant\"",
+    "slug": "day-chuyen-bac-nu-dang-dai-long-pendant",
+    "sku": "GMPSDDC060001",
+    "image": "/images/products/day-chuyen/17_GMPSDDC060001.png",
+    "images": [
+      "/images/products/day-chuyen/17_GMPSDDC060001.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 1767000,
+    "countInStock": 95,
+    "rating": 4.2,
+    "numReviews": 29,
+    "description": "Dây Chuyền Bạc Nữ Dáng Dài \"Long Pendant\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 20,
+    "selled": 62,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-26T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7867ec93f2e8d6e89212da76"
+    },
+    "name": "Dây Chuyền Bạc Nữ Mặt Chữ Cái \"Initial\"",
+    "slug": "day-chuyen-bac-nu-mat-chu-cai-initial",
+    "sku": "GCPA00Y060018",
+    "image": "/images/products/day-chuyen/18_GCPA00Y060018.png",
+    "images": [
+      "/images/products/day-chuyen/18_GCPA00Y060018.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 782000,
+    "countInStock": 80,
+    "rating": 5,
+    "numReviews": 38,
+    "description": "Dây Chuyền Bạc Nữ Mặt Chữ Cái \"Initial\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 79,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-11-20T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "db347e70974851b4e065b9ab"
+    },
+    "name": "Dây Chuyền Bạc Nữ Phong Cách Vintage \"Classic\"",
+    "slug": "day-chuyen-bac-nu-phong-cach-vintage-classic",
+    "sku": "GCPFXMW000097",
+    "image": "/images/products/day-chuyen/19_GCPFXMW000097.png",
+    "images": [
+      "/images/products/day-chuyen/19_GCPFXMW000097.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 1272000,
+    "countInStock": 63,
+    "rating": 5,
+    "numReviews": 22,
+    "description": "Dây Chuyền Bạc Nữ Phong Cách Vintage \"Classic\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 116,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": true,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-12-08T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "db2db74ae223e2b9375f3f01"
+    },
+    "name": "Dây Chuyền Bạc Nữ Mặt Mặt Trăng \"Crescent\"",
+    "slug": "day-chuyen-bac-nu-mat-mat-trang-crescent",
+    "sku": "GCXMXMW000689",
+    "image": "/images/products/day-chuyen/20_GCXMXMW000689.png",
+    "images": [
+      "/images/products/day-chuyen/20_GCXMXMW000689.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 700000,
+    "countInStock": 66,
+    "rating": 4.7,
+    "numReviews": 32,
+    "description": "Dây Chuyền Bạc Nữ Mặt Mặt Trăng \"Crescent\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 106,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-20T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a1884a8c1a7cc97855dd8944"
+    },
+    "name": "Dây Chuyền Bạc Nữ Đính Đá Opal \"Moonstone\"",
+    "slug": "day-chuyen-bac-nu-dinh-da-opal-moonstone",
+    "sku": "GMXMXMW003711",
+    "image": "/images/products/day-chuyen/21_GMXMXMW003711.png",
+    "images": [
+      "/images/products/day-chuyen/21_GMXMXMW003711.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "moissanite"
+    ],
+    "price": 553000,
+    "countInStock": 25,
+    "rating": 4.5,
+    "numReviews": 7,
+    "description": "Dây Chuyền Bạc Nữ Đính Đá Opal \"Moonstone\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 163,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-11-08T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ff8d4a88e61e7a7d567eb917"
+    },
+    "name": "Dây Chuyền Bạc S925 Dây Mảnh \"Delicate Chain\"",
+    "slug": "day-chuyen-bac-s925-day-manh-delicate-chain",
+    "sku": "GD0000W061363",
+    "image": "/images/products/day-chuyen/22_GD0000W061363.png",
+    "images": [
+      "/images/products/day-chuyen/22_GD0000W061363.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 409000,
+    "countInStock": 46,
+    "rating": 4.7,
+    "numReviews": 33,
+    "description": "Dây Chuyền Bạc S925 Dây Mảnh \"Delicate Chain\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 20,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-10T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c9f9da4dbd8d0b6dd3c35b2f"
+    },
+    "name": "Dây Chuyền Bạc S925 Dây Xích \"Link Chain\"",
+    "slug": "day-chuyen-bac-s925-day-xich-link-chain",
+    "sku": "GD0000W061365",
+    "image": "/images/products/day-chuyen/23_GD0000W061365.png",
+    "images": [
+      "/images/products/day-chuyen/23_GD0000W061365.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 1685000,
+    "countInStock": 51,
+    "rating": 4.5,
+    "numReviews": 48,
+    "description": "Dây Chuyền Bạc S925 Dây Xích \"Link Chain\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 28,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": true,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-11T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "aed948f01f4a3fbd61725c88"
+    },
+    "name": "Dây Chuyền Bạc Nữ Dây Box \"Box Chain\"",
+    "slug": "day-chuyen-bac-nu-day-box-box-chain",
+    "sku": "GD0000W061329",
+    "image": "/images/products/day-chuyen/24_GD0000W061329.png",
+    "images": [
+      "/images/products/day-chuyen/24_GD0000W061329.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 1241000,
+    "countInStock": 49,
+    "rating": 4.5,
+    "numReviews": 24,
+    "description": "Dây Chuyền Bạc Nữ Dây Box \"Box Chain\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 278,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-21T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ffd802549cbc55b0a0fd6d16"
+    },
+    "name": "Dây Chuyền Bạc Nam Đơn Giản \"Man Chain\"",
+    "slug": "day-chuyen-bac-nam-don-gian-man-chain",
+    "sku": "GD0000W001544",
+    "image": "/images/products/day-chuyen/25_GD0000W001544.png",
+    "images": [
+      "/images/products/day-chuyen/25_GD0000W001544.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 1434000,
+    "countInStock": 41,
+    "rating": 4.5,
+    "numReviews": 48,
+    "description": "Dây Chuyền Bạc Nam Đơn Giản \"Man Chain\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 52,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-04T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5ff5f201e143fec53a22bb47"
+    },
+    "name": "Dây Chuyền Bạc S925 Dây Rắn \"Snake Chain\"",
+    "slug": "day-chuyen-bac-s925-day-ran-snake-chain",
+    "sku": "GD0000W001542",
+    "image": "/images/products/day-chuyen/26_GD0000W001542.png",
+    "images": [
+      "/images/products/day-chuyen/26_GD0000W001542.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 596000,
+    "countInStock": 39,
+    "rating": 4.2,
+    "numReviews": 35,
+    "description": "Dây Chuyền Bạc S925 Dây Rắn \"Snake Chain\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 171,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-11-13T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c86da1b1df27445f07882598"
+    },
+    "name": "Dây Chuyền Bạc Mạ Vàng Hồng \"Rose Chain\"",
+    "slug": "day-chuyen-bac-ma-vang-hong-rose-chain",
+    "sku": "GD0000Y013139",
+    "image": "/images/products/day-chuyen/27_GD0000Y013139.png",
+    "images": [
+      "/images/products/day-chuyen/27_GD0000Y013139.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 1359000,
+    "countInStock": 94,
+    "rating": 4,
+    "numReviews": 33,
+    "description": "Dây Chuyền Bạc Mạ Vàng Hồng \"Rose Chain\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 170,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-11-06T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6090d807c5b79703eb8e68e1"
+    },
+    "name": "Dây Chuyền Bạc Nam Mặt Đá \"Man Pendant\"",
+    "slug": "day-chuyen-bac-nam-mat-da-man-pendant",
+    "sku": "GD0000Y013146",
+    "image": "/images/products/day-chuyen/28_GD0000Y013146.png",
+    "images": [
+      "/images/products/day-chuyen/28_GD0000Y013146.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 1214000,
+    "countInStock": 76,
+    "rating": 5,
+    "numReviews": 42,
+    "description": "Dây Chuyền Bạc Nam Mặt Đá \"Man Pendant\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 44,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-04-06T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3ab7d0a1dfd40a271555e0a8"
+    },
+    "name": "Dây Chuyền Bạc Nữ Layer 2 Tầng \"Double Layer\"",
+    "slug": "day-chuyen-bac-nu-layer-2-tang-double-layer",
+    "sku": "GD0000W001562",
+    "image": "/images/products/day-chuyen/29_GD0000W001562.png",
+    "images": [
+      "/images/products/day-chuyen/29_GD0000W001562.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 1719000,
+    "countInStock": 59,
+    "rating": 5,
+    "numReviews": 30,
+    "description": "Dây Chuyền Bạc Nữ Layer 2 Tầng \"Double Layer\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 156,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-15T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b4f1e777b9532bfffd8ed11b"
+    },
+    "name": "Dây Chuyền Đôi Bạc Mặt Xếp Hình \"Puzzle\"",
+    "slug": "day-chuyen-doi-bac-mat-xep-hinh-puzzle",
+    "sku": "GCXMXMY001420",
+    "image": "/images/products/day-chuyen/30_GCXMXMY001420.png",
+    "images": [
+      "/images/products/day-chuyen/30_GCXMXMY001420.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "moissanite"
+    ],
+    "price": 1381000,
+    "countInStock": 14,
+    "rating": 5,
+    "numReviews": 29,
+    "description": "Dây Chuyền Đôi Bạc Mặt Xếp Hình \"Puzzle\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 187,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-16T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fa31d4392a6f1e9347bb9c50"
+    },
+    "name": "Dây Chuyền Bạc Nữ Mặt Khắc Tên \"Custom Name\"",
+    "slug": "day-chuyen-bac-nu-mat-khac-ten-custom-name",
+    "sku": "GMSP00Y000018",
+    "image": "/images/products/day-chuyen/31_GMSP00Y000018.png",
+    "images": [
+      "/images/products/day-chuyen/31_GMSP00Y000018.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 1688000,
+    "countInStock": 53,
+    "rating": 5,
+    "numReviews": 11,
+    "description": "Dây Chuyền Bạc Nữ Mặt Khắc Tên \"Custom Name\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 173,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": true,
+    "flashSalePrice": 1181600,
+    "flashSaleEndTime": {
+      "$date": "2026-04-19T09:12:48.891Z"
+    },
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-10-29T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "813a65bb0fcd40f083a8ff72"
+    },
+    "name": "Dây Chuyền Bạc Nữ Mặt Đá Ruby \"Red Heart\"",
+    "slug": "day-chuyen-bac-nu-mat-da-ruby-red-heart",
+    "sku": "GMSPXMW000224",
+    "image": "/images/products/day-chuyen/32_GMSPXMW000224.png",
+    "images": [
+      "/images/products/day-chuyen/32_GMSPXMW000224.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 372000,
+    "countInStock": 35,
+    "rating": 5,
+    "numReviews": 49,
+    "description": "Dây Chuyền Bạc Nữ Mặt Đá Ruby \"Red Heart\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 92,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-07T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a38ce95eaa84115ebd57b472"
+    },
+    "name": "Dây Chuyền Bạc S925 Mặt Infinity \"Infinity Love\"",
+    "slug": "day-chuyen-bac-s925-mat-infinity-infinity-love",
+    "sku": "GMSPXMW000226",
+    "image": "/images/products/day-chuyen/33_GMSPXMW000226.png",
+    "images": [
+      "/images/products/day-chuyen/33_GMSPXMW000226.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 906000,
+    "countInStock": 73,
+    "rating": 4,
+    "numReviews": 0,
+    "description": "Dây Chuyền Bạc S925 Mặt Infinity \"Infinity Love\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 12,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": true,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-12-25T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c8dc873c85edc470be6c4f0c"
+    },
+    "name": "Dây Chuyền Bạc Nữ Mặt Lông Vũ \"Feather Pendant\"",
+    "slug": "day-chuyen-bac-nu-mat-long-vu-feather-pendant",
+    "sku": "GMSPXMX000004",
+    "image": "/images/products/day-chuyen/34_GMSPXMX000004.png",
+    "images": [
+      "/images/products/day-chuyen/34_GMSPXMX000004.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 1108000,
+    "countInStock": 32,
+    "rating": 4,
+    "numReviews": 9,
+    "description": "Dây Chuyền Bạc Nữ Mặt Lông Vũ \"Feather Pendant\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 74,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": true,
+    "flashSalePrice": 775600,
+    "flashSaleEndTime": {
+      "$date": "2026-04-19T09:12:48.891Z"
+    },
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-10-19T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c5d9f4f5bc4229cc93022b11"
+    },
+    "name": "Dây Chuyền Bạc Nữ Mặt Hình Oval \"Oval Grace\"",
+    "slug": "day-chuyen-bac-nu-mat-hinh-oval-oval-grace",
+    "sku": "GC0000W000394",
+    "image": "/images/products/day-chuyen/35_GC0000W000394.png",
+    "images": [
+      "/images/products/day-chuyen/35_GC0000W000394.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 886000,
+    "countInStock": 9,
+    "rating": 4.2,
+    "numReviews": 21,
+    "description": "Dây Chuyền Bạc Nữ Mặt Hình Oval \"Oval Grace\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 8,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-04-08T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0860d14919427ce2dceabeed"
+    },
+    "name": "Dây Chuyền Bạc Nữ Đính Đá Topaz \"Sky Blue\"",
+    "slug": "day-chuyen-bac-nu-dinh-da-topaz-sky-blue",
+    "sku": "GCXM00W000285",
+    "image": "/images/products/day-chuyen/36_GCXM00W000285.png",
+    "images": [
+      "/images/products/day-chuyen/36_GCXM00W000285.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "bạc s925"
+    ],
+    "price": 1342000,
+    "countInStock": 41,
+    "rating": 4.8,
+    "numReviews": 6,
+    "description": "Dây Chuyền Bạc Nữ Đính Đá Topaz \"Sky Blue\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 67,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-04-10T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d7aeae628c9f6021c9c93a0c"
+    },
+    "name": "Dây Chuyền Bạc Nữ Mặt Micro Pavé \"Pave Diamond\"",
+    "slug": "day-chuyen-bac-nu-mat-micro-pave-pave-diamond",
+    "sku": "GM00DDW000442",
+    "image": "/images/products/day-chuyen/37_GM00DDW000442.png",
+    "images": [
+      "/images/products/day-chuyen/37_GM00DDW000442.png"
+    ],
+    "type": "Dây Chuyền Bạc",
+    "category": "Dây Chuyền Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Dây Chuyền Bạc",
+      "moissanite"
+    ],
+    "price": 1461000,
+    "countInStock": 100,
+    "rating": 4.2,
+    "numReviews": 19,
+    "description": "Dây Chuyền Bạc Nữ Mặt Micro Pavé \"Pave Diamond\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 15,
+    "selled": 48,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-04-11T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "139c6b84f0d810f53a3ffa71"
+    },
+    "name": "Set Vòng Cổ + Bông Tai Bạc \"Classic Set\"",
+    "slug": "set-vong-co-bong-tai-bac-classic-set",
+    "sku": "GV0000W001038_GI0000W000177",
+    "image": "/images/products/khac/01_GV0000W001038_GI0000W000177.png",
+    "images": [
+      "/images/products/khac/01_GV0000W001038_GI0000W000177.png"
+    ],
+    "type": "Set Trang Sức",
+    "category": "Cặp Đôi",
+    "material": "Bạc S925",
+    "tags": [
+      "Set Trang Sức",
+      "bạc s925"
+    ],
+    "price": 407000,
+    "countInStock": 71,
+    "rating": 4.5,
+    "numReviews": 3,
+    "description": "Set Vòng Cổ + Bông Tai Bạc \"Classic Set\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 74,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-05T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "942a34a9b549ad87c4cefb42"
+    },
+    "name": "Set Trang Sức Bạc Mạ Vàng \"Golden Set\"",
+    "slug": "set-trang-suc-bac-ma-vang-golden-set",
+    "sku": "GV0000Y001626_GI0000Y000800",
+    "image": "/images/products/khac/02_GV0000Y001626_GI0000Y000800.png",
+    "images": [
+      "/images/products/khac/02_GV0000Y001626_GI0000Y000800.png"
+    ],
+    "type": "Set Trang Sức",
+    "category": "Cặp Đôi",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Set Trang Sức",
+      "moissanite"
+    ],
+    "price": 1347000,
+    "countInStock": 68,
+    "rating": 4.8,
+    "numReviews": 27,
+    "description": "Set Trang Sức Bạc Mạ Vàng \"Golden Set\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 20,
+    "selled": 88,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-07T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0c11c10cda0e757b0326ae00"
+    },
+    "name": "Set Lắc Tay Đôi Bạc \"Couple Set\"",
+    "slug": "set-lac-tay-doi-bac-couple-set",
+    "sku": "GL0000W001744_GL0000W001745",
+    "image": "/images/products/khac/03_GL0000W001744_GL0000W001745.png",
+    "images": [
+      "/images/products/khac/03_GL0000W001744_GL0000W001745.png"
+    ],
+    "type": "Set Trang Sức",
+    "category": "Cặp Đôi",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Set Trang Sức",
+      "moissanite"
+    ],
+    "price": 603000,
+    "countInStock": 96,
+    "rating": 5,
+    "numReviews": 4,
+    "description": "Set Lắc Tay Đôi Bạc \"Couple Set\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 170,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-10-17T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "972674b85a2f72d073a37e17"
+    },
+    "name": "Set Dây Chuyền Đôi Bạc \"Matching Set\"",
+    "slug": "set-day-chuyen-doi-bac-matching-set",
+    "sku": "GC0000W000416_GC0000W000417",
+    "image": "/images/products/khac/04_GC0000W000416_GC0000W000417.png",
+    "images": [
+      "/images/products/khac/04_GC0000W000416_GC0000W000417.png"
+    ],
+    "type": "Set Trang Sức",
+    "category": "Cặp Đôi",
+    "material": "Bạc S925",
+    "tags": [
+      "Set Trang Sức",
+      "bạc s925"
+    ],
+    "price": 385000,
+    "countInStock": 17,
+    "rating": 4.8,
+    "numReviews": 3,
+    "description": "Set Dây Chuyền Đôi Bạc \"Matching Set\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 39,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-11-04T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66f878127b818aee05e05e50"
+    },
+    "name": "Lắc Tay Bạc Đính Moissanite 7 Ly Xi Bạch Kim \"Frosted Aura\"",
+    "slug": "lac-tay-bac-dinh-moissanite-7-ly-xi-bach-kim-frosted-aura",
+    "sku": "GLXM00W060088",
+    "image": "/images/products/lac-vong-tay/01_GLXM00W060088.png",
+    "images": [
+      "/images/products/lac-vong-tay/01_GLXM00W060088.png"
+    ],
+    "type": "Lắc Tay Bạc",
+    "category": "Lắc Tay Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Lắc Tay Bạc",
+      "bạc s925"
+    ],
+    "price": 1654000,
+    "countInStock": 95,
+    "rating": 4.5,
+    "numReviews": 28,
+    "description": "Lắc Tay Bạc Đính Moissanite 7 Ly Xi Bạch Kim \"Frosted Aura\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 231,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-24T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "541396b00b874b3e65f98b0f"
+    },
+    "name": "Lắc Tay Bạc S925 Kiểu Dáng Mảnh \"Slim Bracelet\"",
+    "slug": "lac-tay-bac-s925-kieu-dang-manh-slim-bracelet",
+    "sku": "GLXM00W000578",
+    "image": "/images/products/lac-vong-tay/02_GLXM00W000578.png",
+    "images": [
+      "/images/products/lac-vong-tay/02_GLXM00W000578.png"
+    ],
+    "type": "Lắc Tay Bạc",
+    "category": "Lắc Tay Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Lắc Tay Bạc",
+      "moissanite"
+    ],
+    "price": 1238000,
+    "countInStock": 58,
+    "rating": 4.5,
+    "numReviews": 28,
+    "description": "Lắc Tay Bạc S925 Kiểu Dáng Mảnh \"Slim Bracelet\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 15,
+    "selled": 162,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-19T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7427494093de8c6bf983d8e8"
+    },
+    "name": "Lắc Tay Bạc Đính Charm Hình Tim \"Heart Charm\"",
+    "slug": "lac-tay-bac-dinh-charm-hinh-tim-heart-charm",
+    "sku": "GLXMXMH000051",
+    "image": "/images/products/lac-vong-tay/03_GLXMXMH000051.png",
+    "images": [
+      "/images/products/lac-vong-tay/03_GLXMXMH000051.png"
+    ],
+    "type": "Lắc Tay Bạc",
+    "category": "Lắc Tay Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Lắc Tay Bạc",
+      "moissanite"
+    ],
+    "price": 728000,
+    "countInStock": 24,
+    "rating": 4.5,
+    "numReviews": 7,
+    "description": "Lắc Tay Bạc Đính Charm Hình Tim \"Heart Charm\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 158,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": true,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-24T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "71130552293494ee31c820b0"
+    },
+    "name": "Lắc Tay Bạc Xi Bạch Kim Đính CZ \"Crystal Band\"",
+    "slug": "lac-tay-bac-xi-bach-kim-dinh-cz-crystal-band",
+    "sku": "GLXM00W000601",
+    "image": "/images/products/lac-vong-tay/04_GLXM00W000601.png",
+    "images": [
+      "/images/products/lac-vong-tay/04_GLXM00W000601.png"
+    ],
+    "type": "Lắc Tay Bạc",
+    "category": "Lắc Tay Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Lắc Tay Bạc",
+      "bạc s925"
+    ],
+    "price": 1296000,
+    "countInStock": 38,
+    "rating": 4,
+    "numReviews": 27,
+    "description": "Lắc Tay Bạc Xi Bạch Kim Đính CZ \"Crystal Band\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 120,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": true,
+    "flashSalePrice": 907200,
+    "flashSaleEndTime": {
+      "$date": "2026-04-19T09:12:48.891Z"
+    },
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-22T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e07d493ad37b35513ff16bcd"
+    },
+    "name": "Vòng Tay Bạc S925 Kiểu Cứng \"Silver Bangle\"",
+    "slug": "vong-tay-bac-s925-kieu-cung-silver-bangle",
+    "sku": "GL0000W001780",
+    "image": "/images/products/lac-vong-tay/05_GL0000W001780.png",
+    "images": [
+      "/images/products/lac-vong-tay/05_GL0000W001780.png"
+    ],
+    "type": "Lắc Tay Bạc",
+    "category": "Lắc Tay Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Lắc Tay Bạc",
+      "bạc s925"
+    ],
+    "price": 1517000,
+    "countInStock": 31,
+    "rating": 4,
+    "numReviews": 8,
+    "description": "Vòng Tay Bạc S925 Kiểu Cứng \"Silver Bangle\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 17,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-24T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "23dcbb74cb8ce1a85c98092a"
+    },
+    "name": "Lắc Tay Bạc Mạ Vàng 18K \"Golden Bracelet\"",
+    "slug": "lac-tay-bac-ma-vang-18k-golden-bracelet",
+    "sku": "GLXM00Y000908",
+    "image": "/images/products/lac-vong-tay/06_GLXM00Y000908.png",
+    "images": [
+      "/images/products/lac-vong-tay/06_GLXM00Y000908.png"
+    ],
+    "type": "Lắc Tay Bạc",
+    "category": "Lắc Tay Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Lắc Tay Bạc",
+      "bạc s925"
+    ],
+    "price": 1526000,
+    "countInStock": 87,
+    "rating": 4.2,
+    "numReviews": 0,
+    "description": "Lắc Tay Bạc Mạ Vàng 18K \"Golden Bracelet\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 15,
+    "selled": 81,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": true,
+    "flashSalePrice": 1068200,
+    "flashSaleEndTime": {
+      "$date": "2026-04-19T09:12:48.891Z"
+    },
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-11-20T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9e9471cbdfc3118689ed3f0f"
+    },
+    "name": "Vòng Tay Bạc Đính Ngọc Trai \"Pearl String\"",
+    "slug": "vong-tay-bac-dinh-ngoc-trai-pearl-string",
+    "sku": "GL0000W001781",
+    "image": "/images/products/lac-vong-tay/07_GL0000W001781.png",
+    "images": [
+      "/images/products/lac-vong-tay/07_GL0000W001781.png"
+    ],
+    "type": "Lắc Tay Bạc",
+    "category": "Lắc Tay Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Lắc Tay Bạc",
+      "bạc s925"
+    ],
+    "price": 1799000,
+    "countInStock": 44,
+    "rating": 4.2,
+    "numReviews": 29,
+    "description": "Vòng Tay Bạc Đính Ngọc Trai \"Pearl String\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 91,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-12-24T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "df2c68ac067308d75d909b5b"
+    },
+    "name": "Lắc Tay Bạc Đính Kim Cương Moissanite \"Luxe Band\"",
+    "slug": "lac-tay-bac-dinh-kim-cuong-moissanite-luxe-band",
+    "sku": "GLDD00W000608",
+    "image": "/images/products/lac-vong-tay/08_GLDD00W000608.png",
+    "images": [
+      "/images/products/lac-vong-tay/08_GLDD00W000608.png"
+    ],
+    "type": "Lắc Tay Bạc",
+    "category": "Lắc Tay Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Lắc Tay Bạc",
+      "moissanite"
+    ],
+    "price": 1102000,
+    "countInStock": 85,
+    "rating": 4.7,
+    "numReviews": 47,
+    "description": "Lắc Tay Bạc Đính Kim Cương Moissanite \"Luxe Band\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 15,
+    "selled": 198,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-12-11T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "111560763c80a5f274f261d5"
+    },
+    "name": "Lắc Tay Bạc Kiểu Dây Xích \"Chain Link\"",
+    "slug": "lac-tay-bac-kieu-day-xich-chain-link",
+    "sku": "GLDDDDW001108",
+    "image": "/images/products/lac-vong-tay/09_GLDDDDW001108.png",
+    "images": [
+      "/images/products/lac-vong-tay/09_GLDDDDW001108.png"
+    ],
+    "type": "Lắc Tay Bạc",
+    "category": "Lắc Tay Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Lắc Tay Bạc",
+      "moissanite"
+    ],
+    "price": 708000,
+    "countInStock": 76,
+    "rating": 4.2,
+    "numReviews": 31,
+    "description": "Lắc Tay Bạc Kiểu Dây Xích \"Chain Link\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 15,
+    "selled": 243,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-24T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "43d2ff1d8b119abde4dddc3b"
+    },
+    "name": "Vòng Tay Bạc Phong Cách Hàn \"Korean Style\"",
+    "slug": "vong-tay-bac-phong-cach-han-korean-style",
+    "sku": "GLPFXMW000081",
+    "image": "/images/products/lac-vong-tay/10_GLPFXMW000081.png",
+    "images": [
+      "/images/products/lac-vong-tay/10_GLPFXMW000081.png"
+    ],
+    "type": "Lắc Tay Bạc",
+    "category": "Lắc Tay Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Lắc Tay Bạc",
+      "bạc s925"
+    ],
+    "price": 1246000,
+    "countInStock": 27,
+    "rating": 5,
+    "numReviews": 42,
+    "description": "Vòng Tay Bạc Phong Cách Hàn \"Korean Style\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 91,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": true,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-09T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f749ee3d62d7a6c026857549"
+    },
+    "name": "Lắc Tay Bạc S925 Khắc Tên \"Personalized\"",
+    "slug": "lac-tay-bac-s925-khac-ten-personalized",
+    "sku": "GLPA00Y060000",
+    "image": "/images/products/lac-vong-tay/11_GLPA00Y060000.png",
+    "images": [
+      "/images/products/lac-vong-tay/11_GLPA00Y060000.png"
+    ],
+    "type": "Lắc Tay Bạc",
+    "category": "Lắc Tay Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Lắc Tay Bạc",
+      "bạc s925"
+    ],
+    "price": 1590000,
+    "countInStock": 70,
+    "rating": 4.2,
+    "numReviews": 11,
+    "description": "Lắc Tay Bạc S925 Khắc Tên \"Personalized\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 133,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": true,
+    "flashSalePrice": 1113000,
+    "flashSaleEndTime": {
+      "$date": "2026-04-19T09:12:48.891Z"
+    },
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-11-04T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e892b007ea8d29ec629755be"
+    },
+    "name": "Lắc Tay Bạc Nữ Charm Ngôi Sao \"Star Charm\"",
+    "slug": "lac-tay-bac-nu-charm-ngoi-sao-star-charm",
+    "sku": "GLXMXMC000145",
+    "image": "/images/products/lac-vong-tay/12_GLXMXMC000145.png",
+    "images": [
+      "/images/products/lac-vong-tay/12_GLXMXMC000145.png"
+    ],
+    "type": "Lắc Tay Bạc",
+    "category": "Lắc Tay Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Lắc Tay Bạc",
+      "bạc s925"
+    ],
+    "price": 1163000,
+    "countInStock": 52,
+    "rating": 5,
+    "numReviews": 19,
+    "description": "Lắc Tay Bạc Nữ Charm Ngôi Sao \"Star Charm\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 210,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-04-07T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "29f4a990925f74aba9b7c8b6"
+    },
+    "name": "Vòng Tay Bạc Phong Cách Vintage \"Retro\"",
+    "slug": "vong-tay-bac-phong-cach-vintage-retro",
+    "sku": "GLXMXMW000942",
+    "image": "/images/products/lac-vong-tay/13_GLXMXMW000942.png",
+    "images": [
+      "/images/products/lac-vong-tay/13_GLXMXMW000942.png"
+    ],
+    "type": "Lắc Tay Bạc",
+    "category": "Lắc Tay Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Lắc Tay Bạc",
+      "bạc s925"
+    ],
+    "price": 865000,
+    "countInStock": 20,
+    "rating": 4.7,
+    "numReviews": 24,
+    "description": "Vòng Tay Bạc Phong Cách Vintage \"Retro\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 289,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-11-27T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0127a1d82794ffd3cac163de"
+    },
+    "name": "Lắc Tay Bạc Nữ Dáng Tennis \"Tennis Bracelet\"",
+    "slug": "lac-tay-bac-nu-dang-tennis-tennis-bracelet",
+    "sku": "GLXMXMW000900",
+    "image": "/images/products/lac-vong-tay/14_GLXMXMW000900.png",
+    "images": [
+      "/images/products/lac-vong-tay/14_GLXMXMW000900.png"
+    ],
+    "type": "Lắc Tay Bạc",
+    "category": "Lắc Tay Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Lắc Tay Bạc",
+      "bạc s925"
+    ],
+    "price": 1591000,
+    "countInStock": 87,
+    "rating": 4,
+    "numReviews": 18,
+    "description": "Lắc Tay Bạc Nữ Dáng Tennis \"Tennis Bracelet\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 246,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": true,
+    "flashSalePrice": 1113700,
+    "flashSaleEndTime": {
+      "$date": "2026-04-19T09:12:48.891Z"
+    },
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-11-09T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "279e4fc9bb8ec71050b866c3"
+    },
+    "name": "Lắc Tay Bạc Đôi Cặp \"Couple Bracelet\"",
+    "slug": "lac-tay-bac-doi-cap-couple-bracelet",
+    "sku": "GLXMXMY001419",
+    "image": "/images/products/lac-vong-tay/15_GLXMXMY001419.png",
+    "images": [
+      "/images/products/lac-vong-tay/15_GLXMXMY001419.png"
+    ],
+    "type": "Lắc Tay Bạc",
+    "category": "Lắc Tay Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Lắc Tay Bạc",
+      "bạc s925"
+    ],
+    "price": 1698000,
+    "countInStock": 44,
+    "rating": 4.5,
+    "numReviews": 25,
+    "description": "Lắc Tay Bạc Đôi Cặp \"Couple Bracelet\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 228,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-15T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cbba45ce3bae5601cbb5e529"
+    },
+    "name": "Vòng Tay Bạc Đính Đá Xanh \"Emerald Touch\"",
+    "slug": "vong-tay-bac-dinh-da-xanh-emerald-touch",
+    "sku": "GLXMXMY001922",
+    "image": "/images/products/lac-vong-tay/16_GLXMXMY001922.png",
+    "images": [
+      "/images/products/lac-vong-tay/16_GLXMXMY001922.png"
+    ],
+    "type": "Lắc Tay Bạc",
+    "category": "Lắc Tay Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Lắc Tay Bạc",
+      "bạc s925"
+    ],
+    "price": 1396000,
+    "countInStock": 26,
+    "rating": 4.8,
+    "numReviews": 6,
+    "description": "Vòng Tay Bạc Đính Đá Xanh \"Emerald Touch\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 51,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": true,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-16T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "26bb8b8c0a18c3251e65e368"
+    },
+    "name": "Lắc Tay Bạc S925 Kiểu Lá \"Leaf Bracelet\"",
+    "slug": "lac-tay-bac-s925-kieu-la-leaf-bracelet",
+    "sku": "SLAT00H000003",
+    "image": "/images/products/lac-vong-tay/17_SLAT00H000003.png",
+    "images": [
+      "/images/products/lac-vong-tay/17_SLAT00H000003.png"
+    ],
+    "type": "Lắc Tay Bạc",
+    "category": "Lắc Tay Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Lắc Tay Bạc",
+      "bạc s925"
+    ],
+    "price": 1225000,
+    "countInStock": 100,
+    "rating": 5,
+    "numReviews": 36,
+    "description": "Lắc Tay Bạc S925 Kiểu Lá \"Leaf Bracelet\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 20,
+    "selled": 3,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-21T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "748507c600726629556561a7"
+    },
+    "name": "Lắc Tay Bạc Nữ Layer 2 Lớp \"Double Chain\"",
+    "slug": "lac-tay-bac-nu-layer-2-lop-double-chain",
+    "sku": "SLXMXMW060446",
+    "image": "/images/products/lac-vong-tay/18_SLXMXMW060446.png",
+    "images": [
+      "/images/products/lac-vong-tay/18_SLXMXMW060446.png"
+    ],
+    "type": "Lắc Tay Bạc",
+    "category": "Lắc Tay Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Lắc Tay Bạc",
+      "bạc s925"
+    ],
+    "price": 469000,
+    "countInStock": 92,
+    "rating": 4.2,
+    "numReviews": 7,
+    "description": "Lắc Tay Bạc Nữ Layer 2 Lớp \"Double Chain\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 253,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": true,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-11-17T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "af1f01750d0d4eefa8c60681"
+    },
+    "name": "Vòng Tay Bạc Nam Đơn Giản \"Man Bangle\"",
+    "slug": "vong-tay-bac-nam-don-gian-man-bangle",
+    "sku": "SVXMXMW060036",
+    "image": "/images/products/lac-vong-tay/19_SVXMXMW060036.png",
+    "images": [
+      "/images/products/lac-vong-tay/19_SVXMXMW060036.png"
+    ],
+    "type": "Lắc Tay Bạc",
+    "category": "Lắc Tay Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Lắc Tay Bạc",
+      "bạc s925"
+    ],
+    "price": 533000,
+    "countInStock": 100,
+    "rating": 4,
+    "numReviews": 12,
+    "description": "Vòng Tay Bạc Nam Đơn Giản \"Man Bangle\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 217,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-07T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a06d01a60ac43e7008153674"
+    },
+    "name": "Lắc Tay Bạc Nữ Charm Bướm \"Butterfly Charm\"",
+    "slug": "lac-tay-bac-nu-charm-buom-butterfly-charm",
+    "sku": "GL0000W001673",
+    "image": "/images/products/lac-vong-tay/20_GL0000W001673.png",
+    "images": [
+      "/images/products/lac-vong-tay/20_GL0000W001673.png"
+    ],
+    "type": "Lắc Tay Bạc",
+    "category": "Lắc Tay Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Lắc Tay Bạc",
+      "bạc s925"
+    ],
+    "price": 683000,
+    "countInStock": 35,
+    "rating": 5,
+    "numReviews": 1,
+    "description": "Lắc Tay Bạc Nữ Charm Bướm \"Butterfly Charm\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 251,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-12-31T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "79186bc4c236998282b4ee4f"
+    },
+    "name": "Vòng Tay Set Bạc Nữ \"Stack Set\"",
+    "slug": "vong-tay-set-bac-nu-stack-set",
+    "sku": "GV0000W001034",
+    "image": "/images/products/lac-vong-tay/21_GV0000W001034.png",
+    "images": [
+      "/images/products/lac-vong-tay/21_GV0000W001034.png"
+    ],
+    "type": "Lắc Tay Bạc",
+    "category": "Lắc Tay Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Lắc Tay Bạc",
+      "bạc s925"
+    ],
+    "price": 352000,
+    "countInStock": 69,
+    "rating": 4.7,
+    "numReviews": 31,
+    "description": "Vòng Tay Set Bạc Nữ \"Stack Set\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 97,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": true,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-27T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8991d4605a0fa00bd16f9cf5"
+    },
+    "name": "Lắc Tay Bạc Mạ Vàng Hồng \"Rose Bracelet\"",
+    "slug": "lac-tay-bac-ma-vang-hong-rose-bracelet",
+    "sku": "GV0000Y001604",
+    "image": "/images/products/lac-vong-tay/22_GV0000Y001604.png",
+    "images": [
+      "/images/products/lac-vong-tay/22_GV0000Y001604.png"
+    ],
+    "type": "Lắc Tay Bạc",
+    "category": "Lắc Tay Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Lắc Tay Bạc",
+      "bạc s925"
+    ],
+    "price": 563000,
+    "countInStock": 39,
+    "rating": 4,
+    "numReviews": 40,
+    "description": "Lắc Tay Bạc Mạ Vàng Hồng \"Rose Bracelet\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 97,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-10-25T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "267e8d88c10388df05d764a5"
+    },
+    "name": "Nhẫn Bạc Đính Kim Cương Moissanite Xi Bạch Kim \"Starlight\"",
+    "slug": "nhan-bac-dinh-kim-cuong-moissanite-xi-bach-kim-starlight",
+    "sku": "GNDD00W006416",
+    "image": "/images/products/nhan/01_GNDD00W006416.png",
+    "images": [
+      "/images/products/nhan/01_GNDD00W006416.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 1774000,
+    "countInStock": 85,
+    "rating": 4.8,
+    "numReviews": 36,
+    "description": "Nhẫn Bạc Đính Kim Cương Moissanite Xi Bạch Kim \"Starlight\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 200,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": true,
+    "flashSalePrice": 1241800,
+    "flashSaleEndTime": {
+      "$date": "2026-04-19T09:12:48.891Z"
+    },
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-20T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "afcd63bac362e295ad81fd54"
+    },
+    "name": "Nhẫn Bạc Nữ Đính Đá CZ Cao Cấp \"Elegance\"",
+    "slug": "nhan-bac-nu-dinh-da-cz-cao-cap-elegance",
+    "sku": "GNXM00Y006062",
+    "image": "/images/products/nhan/02_GNXM00Y006062.png",
+    "images": [
+      "/images/products/nhan/02_GNXM00Y006062.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 744000,
+    "countInStock": 98,
+    "rating": 4,
+    "numReviews": 32,
+    "description": "Nhẫn Bạc Nữ Đính Đá CZ Cao Cấp \"Elegance\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 122,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-07T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7efabe0acd3d11a1112e000e"
+    },
+    "name": "Nhẫn Bạc Mạ Vàng 18K Đính Kim Cương Moissanite \"Royal\"",
+    "slug": "nhan-bac-ma-vang-18k-dinh-kim-cuong-moissanite-royal",
+    "sku": "GN00DDW064110",
+    "image": "/images/products/nhan/03_GN00DDW064110.png",
+    "images": [
+      "/images/products/nhan/03_GN00DDW064110.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Nhẫn Bạc",
+      "moissanite"
+    ],
+    "price": 668000,
+    "countInStock": 93,
+    "rating": 4.8,
+    "numReviews": 29,
+    "description": "Nhẫn Bạc Mạ Vàng 18K Đính Kim Cương Moissanite \"Royal\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 84,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": true,
+    "flashSalePrice": 467599,
+    "flashSaleEndTime": {
+      "$date": "2026-04-19T09:12:48.891Z"
+    },
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-04-02T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7ba04e25e09e038d84fa43bd"
+    },
+    "name": "Nhẫn Đôi Bạc S925 Khắc Tên \"Forever Love\"",
+    "slug": "nhan-doi-bac-s925-khac-ten-forever-love",
+    "sku": "GNDD00Y001009_GN0000Y000363",
+    "image": "/images/products/nhan/04_GNDD00Y001009_GN0000Y000363.png",
+    "images": [
+      "/images/products/nhan/04_GNDD00Y001009_GN0000Y000363.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 500000,
+    "countInStock": 65,
+    "rating": 5,
+    "numReviews": 49,
+    "description": "Nhẫn Đôi Bạc S925 Khắc Tên \"Forever Love\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 1,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": true,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-24T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "24c3f136dc7f48b7cfee6795"
+    },
+    "name": "Nhẫn Bạc Nữ Phong Cách Hàn Quốc \"Blossom\"",
+    "slug": "nhan-bac-nu-phong-cach-han-quoc-blossom",
+    "sku": "GNXM00W000105",
+    "image": "/images/products/nhan/05_GNXM00W000105.png",
+    "images": [
+      "/images/products/nhan/05_GNXM00W000105.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 349000,
+    "countInStock": 28,
+    "rating": 5,
+    "numReviews": 30,
+    "description": "Nhẫn Bạc Nữ Phong Cách Hàn Quốc \"Blossom\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 38,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-08T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "deb5a0ca446cbbf0cf714736"
+    },
+    "name": "Nhẫn Bạc Đính Kim Cương Moissanite 1 Carat \"Diamond Queen\"",
+    "slug": "nhan-bac-dinh-kim-cuong-moissanite-1-carat-diamond-queen",
+    "sku": "GNDDDDW001071",
+    "image": "/images/products/nhan/06_GNDDDDW001071.png",
+    "images": [
+      "/images/products/nhan/06_GNDDDDW001071.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 1580000,
+    "countInStock": 48,
+    "rating": 4.5,
+    "numReviews": 26,
+    "description": "Nhẫn Bạc Đính Kim Cương Moissanite 1 Carat \"Diamond Queen\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 273,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-03T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bd6b5eeefa8efc1b83b639d2"
+    },
+    "name": "Nhẫn Bạc Nữ Mặt Vuông Đính Đá \"Modern\"",
+    "slug": "nhan-bac-nu-mat-vuong-dinh-da-modern",
+    "sku": "GNDDDDC000052",
+    "image": "/images/products/nhan/07_GNDDDDC000052.png",
+    "images": [
+      "/images/products/nhan/07_GNDDDDC000052.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 873000,
+    "countInStock": 38,
+    "rating": 4.7,
+    "numReviews": 28,
+    "description": "Nhẫn Bạc Nữ Mặt Vuông Đính Đá \"Modern\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 152,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-12-06T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1769c833b483d782d429608a"
+    },
+    "name": "Nhẫn Bạc Xi Bạch Kim Đính Ngọc Trai \"Pearl Dream\"",
+    "slug": "nhan-bac-xi-bach-kim-dinh-ngoc-trai-pearl-dream",
+    "sku": "GNXMXMW007053",
+    "image": "/images/products/nhan/08_GNXMXMW007053.png",
+    "images": [
+      "/images/products/nhan/08_GNXMXMW007053.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 306000,
+    "countInStock": 72,
+    "rating": 4.2,
+    "numReviews": 0,
+    "description": "Nhẫn Bạc Xi Bạch Kim Đính Ngọc Trai \"Pearl Dream\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 162,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-27T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5075b9426d3c5a8b1b993be2"
+    },
+    "name": "Nhẫn Bạc Nữ Thiết Kế Xoắn \"Twisted Grace\"",
+    "slug": "nhan-bac-nu-thiet-ke-xoan-twisted-grace",
+    "sku": "GNZTXMW000262",
+    "image": "/images/products/nhan/09_GNZTXMW000262.png",
+    "images": [
+      "/images/products/nhan/09_GNZTXMW000262.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 1031000,
+    "countInStock": 27,
+    "rating": 5,
+    "numReviews": 42,
+    "description": "Nhẫn Bạc Nữ Thiết Kế Xoắn \"Twisted Grace\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 237,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-03T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4fedefc4ec0b54caad702131"
+    },
+    "name": "Nhẫn Bạc Đính Đá Tourmaline Hồng \"Pink Aura\"",
+    "slug": "nhan-bac-dinh-da-tourmaline-hong-pink-aura",
+    "sku": "GNZTMXW000035",
+    "image": "/images/products/nhan/10_GNZTMXW000035.png",
+    "images": [
+      "/images/products/nhan/10_GNZTMXW000035.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 1275000,
+    "countInStock": 75,
+    "rating": 4.5,
+    "numReviews": 37,
+    "description": "Nhẫn Bạc Đính Đá Tourmaline Hồng \"Pink Aura\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 217,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-12-15T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "511f14b63b05cb95cca7d325"
+    },
+    "name": "Nhẫn Bạc Nam Đơn Giản \"Minimal Man\"",
+    "slug": "nhan-bac-nam-don-gian-minimal-man",
+    "sku": "GNXM00W002270",
+    "image": "/images/products/nhan/11_GNXM00W002270.png",
+    "images": [
+      "/images/products/nhan/11_GNXM00W002270.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Nhẫn Bạc",
+      "moissanite"
+    ],
+    "price": 490000,
+    "countInStock": 63,
+    "rating": 4.7,
+    "numReviews": 9,
+    "description": "Nhẫn Bạc Nam Đơn Giản \"Minimal Man\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 15,
+    "selled": 31,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": true,
+    "flashSalePrice": 343000,
+    "flashSaleEndTime": {
+      "$date": "2026-04-19T09:12:48.891Z"
+    },
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-13T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "09e6808d9be2ce3b15e12b83"
+    },
+    "name": "Nhẫn Bạc Nữ Hoa Hồng \"Rose Garden\"",
+    "slug": "nhan-bac-nu-hoa-hong-rose-garden",
+    "sku": "GNXM00W002271",
+    "image": "/images/products/nhan/12_GNXM00W002271.png",
+    "images": [
+      "/images/products/nhan/12_GNXM00W002271.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 1555000,
+    "countInStock": 15,
+    "rating": 4.2,
+    "numReviews": 41,
+    "description": "Nhẫn Bạc Nữ Hoa Hồng \"Rose Garden\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 285,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-25T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "903774f28bf04015656cf87b"
+    },
+    "name": "Nhẫn Bạc S925 Đính Sapphire \"Blue Ocean\"",
+    "slug": "nhan-bac-s925-dinh-sapphire-blue-ocean",
+    "sku": "GN0000Y003818",
+    "image": "/images/products/nhan/13_GN0000Y003818.png",
+    "images": [
+      "/images/products/nhan/13_GN0000Y003818.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Nhẫn Bạc",
+      "moissanite"
+    ],
+    "price": 915000,
+    "countInStock": 28,
+    "rating": 4.2,
+    "numReviews": 39,
+    "description": "Nhẫn Bạc S925 Đính Sapphire \"Blue Ocean\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 87,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": true,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-12-10T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d0560a8fcfed1a8f8be76bc3"
+    },
+    "name": "Nhẫn Bạc Nữ Vintage \"Antique Charm\"",
+    "slug": "nhan-bac-nu-vintage-antique-charm",
+    "sku": "GN0000Y003819",
+    "image": "/images/products/nhan/14_GN0000Y003819.png",
+    "images": [
+      "/images/products/nhan/14_GN0000Y003819.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 1517000,
+    "countInStock": 56,
+    "rating": 4,
+    "numReviews": 32,
+    "description": "Nhẫn Bạc Nữ Vintage \"Antique Charm\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 43,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-27T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "170bc8ae9289bd9896d2a4ef"
+    },
+    "name": "Nhẫn Bạc Đính Kim Cương Moissanite \"Infinity\"",
+    "slug": "nhan-bac-dinh-kim-cuong-moissanite-infinity",
+    "sku": "GN0000Y003821",
+    "image": "/images/products/nhan/15_GN0000Y003821.png",
+    "images": [
+      "/images/products/nhan/15_GN0000Y003821.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 370000,
+    "countInStock": 45,
+    "rating": 4.5,
+    "numReviews": 10,
+    "description": "Nhẫn Bạc Đính Kim Cương Moissanite \"Infinity\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 90,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-31T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3c58ebe48541ec4bda616e3c"
+    },
+    "name": "Nhẫn Bạc Nữ Mặt Tròn \"Full Moon\"",
+    "slug": "nhan-bac-nu-mat-tron-full-moon",
+    "sku": "GN0000Y003822",
+    "image": "/images/products/nhan/16_GN0000Y003822.png",
+    "images": [
+      "/images/products/nhan/16_GN0000Y003822.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 424000,
+    "countInStock": 97,
+    "rating": 4.2,
+    "numReviews": 33,
+    "description": "Nhẫn Bạc Nữ Mặt Tròn \"Full Moon\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 157,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-30T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f9f6161101bc6875020493d9"
+    },
+    "name": "Nhẫn Đôi Bạc Tình Yêu \"Eternal Bond\"",
+    "slug": "nhan-doi-bac-tinh-yeu-eternal-bond",
+    "sku": "GNXM00W002211",
+    "image": "/images/products/nhan/17_GNXM00W002211.png",
+    "images": [
+      "/images/products/nhan/17_GNXM00W002211.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Nhẫn Bạc",
+      "moissanite"
+    ],
+    "price": 472000,
+    "countInStock": 81,
+    "rating": 4.2,
+    "numReviews": 29,
+    "description": "Nhẫn Đôi Bạc Tình Yêu \"Eternal Bond\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 293,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": true,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-10-27T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ef0725af15cdb2b759c494c"
+    },
+    "name": "Nhẫn Bạc Nữ Lá Nguyệt Quế \"Laurel\"",
+    "slug": "nhan-bac-nu-la-nguyet-que-laurel",
+    "sku": "GNXMXMW006987",
+    "image": "/images/products/nhan/18_GNXMXMW006987.png",
+    "images": [
+      "/images/products/nhan/18_GNXMXMW006987.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Nhẫn Bạc",
+      "moissanite"
+    ],
+    "price": 932000,
+    "countInStock": 21,
+    "rating": 4.8,
+    "numReviews": 15,
+    "description": "Nhẫn Bạc Nữ Lá Nguyệt Quế \"Laurel\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 80,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-24T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e7a9e828ada5d2d93547b2fa"
+    },
+    "name": "Nhẫn Bạc Đính Đá Opal \"Rainbow Glow\"",
+    "slug": "nhan-bac-dinh-da-opal-rainbow-glow",
+    "sku": "GNXMXMW006988",
+    "image": "/images/products/nhan/19_GNXMXMW006988.png",
+    "images": [
+      "/images/products/nhan/19_GNXMXMW006988.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 1236000,
+    "countInStock": 98,
+    "rating": 5,
+    "numReviews": 5,
+    "description": "Nhẫn Bạc Đính Đá Opal \"Rainbow Glow\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 232,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-12-27T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f3e5fdaebe4fa2eb76121800"
+    },
+    "name": "Nhẫn Bạc Nữ Freesize \"Flexible Beauty\"",
+    "slug": "nhan-bac-nu-freesize-flexible-beauty",
+    "sku": "GNXMXMY017786",
+    "image": "/images/products/nhan/20_GNXMXMY017786.png",
+    "images": [
+      "/images/products/nhan/20_GNXMXMY017786.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 1529000,
+    "countInStock": 20,
+    "rating": 5,
+    "numReviews": 13,
+    "description": "Nhẫn Bạc Nữ Freesize \"Flexible Beauty\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 83,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-14T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9aa368da9796370574f35140"
+    },
+    "name": "Nhẫn Bạc Mạ Vàng Hồng \"Rose Gold Dream\"",
+    "slug": "nhan-bac-ma-vang-hong-rose-gold-dream",
+    "sku": "GNXMXMY017787",
+    "image": "/images/products/nhan/21_GNXMXMY017787.png",
+    "images": [
+      "/images/products/nhan/21_GNXMXMY017787.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 847000,
+    "countInStock": 75,
+    "rating": 4.7,
+    "numReviews": 42,
+    "description": "Nhẫn Bạc Mạ Vàng Hồng \"Rose Gold Dream\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 40,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-21T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "053c55c8305ace317360c7cb"
+    },
+    "name": "Nhẫn Bạc Nữ Thiết Kế Mở \"Open Heart\"",
+    "slug": "nhan-bac-nu-thiet-ke-mo-open-heart",
+    "sku": "GNXMXMW006989",
+    "image": "/images/products/nhan/22_GNXMXMW006989.png",
+    "images": [
+      "/images/products/nhan/22_GNXMXMW006989.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 1454000,
+    "countInStock": 32,
+    "rating": 4.5,
+    "numReviews": 20,
+    "description": "Nhẫn Bạc Nữ Thiết Kế Mở \"Open Heart\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 15,
+    "selled": 41,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-24T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "58fb4d2ad171be48f4289b8c"
+    },
+    "name": "Nhẫn Bạc Nam Mặt Đá Đen \"Dark Knight\"",
+    "slug": "nhan-bac-nam-mat-da-den-dark-knight",
+    "sku": "GNXM00W002212",
+    "image": "/images/products/nhan/23_GNXM00W002212.png",
+    "images": [
+      "/images/products/nhan/23_GNXM00W002212.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 655000,
+    "countInStock": 49,
+    "rating": 4.2,
+    "numReviews": 5,
+    "description": "Nhẫn Bạc Nam Mặt Đá Đen \"Dark Knight\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 280,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-23T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "96da59ed508d89ab7f2abd40"
+    },
+    "name": "Nhẫn Bạc Nữ Đính Kim Cương 3 Viên \"Trinity\"",
+    "slug": "nhan-bac-nu-dinh-kim-cuong-3-vien-trinity",
+    "sku": "GN0000W003710",
+    "image": "/images/products/nhan/24_GN0000W003710.png",
+    "images": [
+      "/images/products/nhan/24_GN0000W003710.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 1495000,
+    "countInStock": 81,
+    "rating": 4.2,
+    "numReviews": 30,
+    "description": "Nhẫn Bạc Nữ Đính Kim Cương 3 Viên \"Trinity\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 20,
+    "selled": 217,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-17T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b110bf1bafa3e7615fbbf950"
+    },
+    "name": "Nhẫn Bạc S925 Kiểu Dáng Crown \"Princess\"",
+    "slug": "nhan-bac-s925-kieu-dang-crown-princess",
+    "sku": "GNDDDDH000617",
+    "image": "/images/products/nhan/25_GNDDDDH000617.png",
+    "images": [
+      "/images/products/nhan/25_GNDDDDH000617.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Nhẫn Bạc",
+      "moissanite"
+    ],
+    "price": 574000,
+    "countInStock": 96,
+    "rating": 4,
+    "numReviews": 44,
+    "description": "Nhẫn Bạc S925 Kiểu Dáng Crown \"Princess\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 15,
+    "selled": 180,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": true,
+    "flashSalePrice": 401800,
+    "flashSaleEndTime": {
+      "$date": "2026-04-19T09:12:48.891Z"
+    },
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-03T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "aca60b56ecb854807c89428d"
+    },
+    "name": "Nhẫn Bạc Nữ Đính Hạt Đá Nhỏ \"Sparkling Ring\"",
+    "slug": "nhan-bac-nu-dinh-hat-da-nho-sparkling-ring",
+    "sku": "GNDDDDW015384",
+    "image": "/images/products/nhan/26_GNDDDDW015384.png",
+    "images": [
+      "/images/products/nhan/26_GNDDDDW015384.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Nhẫn Bạc",
+      "moissanite"
+    ],
+    "price": 825000,
+    "countInStock": 53,
+    "rating": 4.7,
+    "numReviews": 28,
+    "description": "Nhẫn Bạc Nữ Đính Hạt Đá Nhỏ \"Sparkling Ring\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 280,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-27T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "251466295c710d127ec93f4f"
+    },
+    "name": "Nhẫn Bạc Freesize Cánh Bướm \"Butterfly\"",
+    "slug": "nhan-bac-freesize-canh-buom-butterfly",
+    "sku": "GNDD00W005976",
+    "image": "/images/products/nhan/27_GNDD00W005976.png",
+    "images": [
+      "/images/products/nhan/27_GNDD00W005976.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 1548000,
+    "countInStock": 32,
+    "rating": 5,
+    "numReviews": 36,
+    "description": "Nhẫn Bạc Freesize Cánh Bướm \"Butterfly\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 20,
+    "selled": 284,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": true,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-04-11T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b607fe3c9f94f78ea6be14df"
+    },
+    "name": "Nhẫn Bạc Nữ Thiết Kế Sóng \"Wave\"",
+    "slug": "nhan-bac-nu-thiet-ke-song-wave",
+    "sku": "GNPFXMW000354",
+    "image": "/images/products/nhan/28_GNPFXMW000354.png",
+    "images": [
+      "/images/products/nhan/28_GNPFXMW000354.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 987000,
+    "countInStock": 95,
+    "rating": 4.5,
+    "numReviews": 31,
+    "description": "Nhẫn Bạc Nữ Thiết Kế Sóng \"Wave\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 144,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": true,
+    "flashSalePrice": 690900,
+    "flashSaleEndTime": {
+      "$date": "2026-04-19T09:12:48.891Z"
+    },
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-26T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b004f9ff2628aafe1b9943ca"
+    },
+    "name": "Nhẫn Bạc Xi Bạch Kim Đính CZ \"Crystal Clear\"",
+    "slug": "nhan-bac-xi-bach-kim-dinh-cz-crystal-clear",
+    "sku": "GNPFXMW000355",
+    "image": "/images/products/nhan/29_GNPFXMW000355.png",
+    "images": [
+      "/images/products/nhan/29_GNPFXMW000355.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Nhẫn Bạc",
+      "moissanite"
+    ],
+    "price": 587000,
+    "countInStock": 94,
+    "rating": 5,
+    "numReviews": 46,
+    "description": "Nhẫn Bạc Xi Bạch Kim Đính CZ \"Crystal Clear\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 15,
+    "selled": 267,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-03T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65847e3cbe5826129988d1b2"
+    },
+    "name": "Nhẫn Bạc Đôi Cặp Khắc Tên \"Soulmate\"",
+    "slug": "nhan-bac-doi-cap-khac-ten-soulmate",
+    "sku": "GNXMXMW007147",
+    "image": "/images/products/nhan/30_GNXMXMW007147.png",
+    "images": [
+      "/images/products/nhan/30_GNXMXMW007147.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Nhẫn Bạc",
+      "moissanite"
+    ],
+    "price": 1202000,
+    "countInStock": 85,
+    "rating": 4.8,
+    "numReviews": 2,
+    "description": "Nhẫn Bạc Đôi Cặp Khắc Tên \"Soulmate\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 108,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": true,
+    "flashSalePrice": 841400,
+    "flashSaleEndTime": {
+      "$date": "2026-04-19T09:12:48.891Z"
+    },
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-23T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c0ef81ea160b4b45cb6eaa3e"
+    },
+    "name": "Nhẫn Bạc Nữ Phong Cách Minimalist \"Simply\"",
+    "slug": "nhan-bac-nu-phong-cach-minimalist-simply",
+    "sku": "GNXM00W002266",
+    "image": "/images/products/nhan/31_GNXM00W002266.png",
+    "images": [
+      "/images/products/nhan/31_GNXM00W002266.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Nhẫn Bạc",
+      "moissanite"
+    ],
+    "price": 611000,
+    "countInStock": 51,
+    "rating": 5,
+    "numReviews": 9,
+    "description": "Nhẫn Bạc Nữ Phong Cách Minimalist \"Simply\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 20,
+    "selled": 70,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-07T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "438eb1bce7365a5882ea240c"
+    },
+    "name": "Nhẫn Bạc Nữ Đính Emerald \"Green Fantasy\"",
+    "slug": "nhan-bac-nu-dinh-emerald-green-fantasy",
+    "sku": "GNXMXMY017035",
+    "image": "/images/products/nhan/32_GNXMXMY017035.png",
+    "images": [
+      "/images/products/nhan/32_GNXMXMY017035.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 348000,
+    "countInStock": 33,
+    "rating": 4.8,
+    "numReviews": 46,
+    "description": "Nhẫn Bạc Nữ Đính Emerald \"Green Fantasy\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 176,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-12-25T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "362da13f803050465d666653"
+    },
+    "name": "Nhẫn Bạc Nữ Kiểu Nhẫn Xoàn \"Solitaire\"",
+    "slug": "nhan-bac-nu-kieu-nhan-xoan-solitaire",
+    "sku": "GNXMXMY017500",
+    "image": "/images/products/nhan/33_GNXMXMY017500.png",
+    "images": [
+      "/images/products/nhan/33_GNXMXMY017500.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 1765000,
+    "countInStock": 76,
+    "rating": 4.8,
+    "numReviews": 6,
+    "description": "Nhẫn Bạc Nữ Kiểu Nhẫn Xoàn \"Solitaire\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 15,
+    "selled": 255,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-14T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "08a6973b1aff7675622cf180"
+    },
+    "name": "Nhẫn Bạc S925 Mặt Ngôi Sao \"Lucky Star\"",
+    "slug": "nhan-bac-s925-mat-ngoi-sao-lucky-star",
+    "sku": "SNPF00W000004",
+    "image": "/images/products/nhan/34_SNPF00W000004.png",
+    "images": [
+      "/images/products/nhan/34_SNPF00W000004.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 979000,
+    "countInStock": 52,
+    "rating": 5,
+    "numReviews": 48,
+    "description": "Nhẫn Bạc S925 Mặt Ngôi Sao \"Lucky Star\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 5,
+    "selled": 201,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": true,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-24T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0d30b07dd4112509e5325be8"
+    },
+    "name": "Nhẫn Bạc Nữ Thiết Kế Lông Vũ \"Feather\"",
+    "slug": "nhan-bac-nu-thiet-ke-long-vu-feather",
+    "sku": "SN0000W060067",
+    "image": "/images/products/nhan/35_SN0000W060067.png",
+    "images": [
+      "/images/products/nhan/35_SN0000W060067.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 839000,
+    "countInStock": 34,
+    "rating": 5,
+    "numReviews": 30,
+    "description": "Nhẫn Bạc Nữ Thiết Kế Lông Vũ \"Feather\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 124,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-10-27T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3d9ea9cfe977fca5bc0566be"
+    },
+    "name": "Nhẫn Bạc Nữ Phong Cách Boho \"Bohemian\"",
+    "slug": "nhan-bac-nu-phong-cach-boho-bohemian",
+    "sku": "GNXM00W002165",
+    "image": "/images/products/nhan/36_GNXM00W002165.png",
+    "images": [
+      "/images/products/nhan/36_GNXM00W002165.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 678000,
+    "countInStock": 64,
+    "rating": 5,
+    "numReviews": 14,
+    "description": "Nhẫn Bạc Nữ Phong Cách Boho \"Bohemian\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 267,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-01T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "14887f744e82711d43338573"
+    },
+    "name": "Nhẫn Bạc Nữ Đính Đá Zircon Xanh \"Aqua Blue\"",
+    "slug": "nhan-bac-nu-dinh-da-zircon-xanh-aqua-blue",
+    "sku": "GNXM00W002166",
+    "image": "/images/products/nhan/37_GNXM00W002166.png",
+    "images": [
+      "/images/products/nhan/37_GNXM00W002166.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 905000,
+    "countInStock": 36,
+    "rating": 4,
+    "numReviews": 28,
+    "description": "Nhẫn Bạc Nữ Đính Đá Zircon Xanh \"Aqua Blue\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 125,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-10T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2ad1bdb5df76e5bbda8a2ce9"
+    },
+    "name": "Nhẫn Bạc S925 Hình Tim \"Sweet Heart\"",
+    "slug": "nhan-bac-s925-hinh-tim-sweet-heart",
+    "sku": "GN00DDW000357",
+    "image": "/images/products/nhan/38_GN00DDW000357.png",
+    "images": [
+      "/images/products/nhan/38_GN00DDW000357.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 897000,
+    "countInStock": 16,
+    "rating": 4.8,
+    "numReviews": 14,
+    "description": "Nhẫn Bạc S925 Hình Tim \"Sweet Heart\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 189,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": true,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-15T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3bcf82ba23d3ac3ee97c3c9f"
+    },
+    "name": "Nhẫn Bạc Nữ Thiết Kế Ruy Băng \"Ribbon\"",
+    "slug": "nhan-bac-nu-thiet-ke-ruy-bang-ribbon",
+    "sku": "GN00DDW000366",
+    "image": "/images/products/nhan/39_GN00DDW000366.png",
+    "images": [
+      "/images/products/nhan/39_GN00DDW000366.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 1459000,
+    "countInStock": 7,
+    "rating": 4,
+    "numReviews": 39,
+    "description": "Nhẫn Bạc Nữ Thiết Kế Ruy Băng \"Ribbon\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 183,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-12-14T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f8dcb6c4fa0cb6b90aac769a"
+    },
+    "name": "Nhẫn Bạc Nữ Đính Kim Cương Lab \"Lab Diamond\"",
+    "slug": "nhan-bac-nu-dinh-kim-cuong-lab-lab-diamond",
+    "sku": "GN00DDW007747",
+    "image": "/images/products/nhan/40_GN00DDW007747.png",
+    "images": [
+      "/images/products/nhan/40_GN00DDW007747.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 389000,
+    "countInStock": 18,
+    "rating": 5,
+    "numReviews": 30,
+    "description": "Nhẫn Bạc Nữ Đính Kim Cương Lab \"Lab Diamond\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 246,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": true,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-10-26T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d1c9995a24ccdc4200ebd812"
+    },
+    "name": "Nhẫn Bạc Nữ Kiểu Xoắn Đôi \"Double Twist\"",
+    "slug": "nhan-bac-nu-kieu-xoan-doi-double-twist",
+    "sku": "GN00DDW007873",
+    "image": "/images/products/nhan/41_GN00DDW007873.png",
+    "images": [
+      "/images/products/nhan/41_GN00DDW007873.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 1725000,
+    "countInStock": 88,
+    "rating": 4.7,
+    "numReviews": 32,
+    "description": "Nhẫn Bạc Nữ Kiểu Xoắn Đôi \"Double Twist\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 15,
+    "selled": 117,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-02-07T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "021c234eca356a8b7054a517"
+    },
+    "name": "Nhẫn Bạc S925 Đính Đá Garnet Đỏ \"Red Flame\"",
+    "slug": "nhan-bac-s925-dinh-da-garnet-do-red-flame",
+    "sku": "GN00DDW007889",
+    "image": "/images/products/nhan/42_GN00DDW007889.png",
+    "images": [
+      "/images/products/nhan/42_GN00DDW007889.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc S925",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 620000,
+    "countInStock": 96,
+    "rating": 4,
+    "numReviews": 38,
+    "description": "Nhẫn Bạc S925 Đính Đá Garnet Đỏ \"Red Flame\" - Chất liệu Bạc S925. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 271,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-10-26T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6c9a9d1c6a91a6e3e6674172"
+    },
+    "name": "Nhẫn Bạc Nữ Thiết Kế Lá \"Leaf\"",
+    "slug": "nhan-bac-nu-thiet-ke-la-leaf",
+    "sku": "GN00DDW007890",
+    "image": "/images/products/nhan/43_GN00DDW007890.png",
+    "images": [
+      "/images/products/nhan/43_GN00DDW007890.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 1246000,
+    "countInStock": 23,
+    "rating": 4.8,
+    "numReviews": 28,
+    "description": "Nhẫn Bạc Nữ Thiết Kế Lá \"Leaf\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 287,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": true,
+    "flashSalePrice": 872200,
+    "flashSaleEndTime": {
+      "$date": "2026-04-19T09:12:48.891Z"
+    },
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-03-14T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "977ee924aea0c632ed77cc86"
+    },
+    "name": "Nhẫn Bạc Đôi Tình Nhân \"Lover\"",
+    "slug": "nhan-bac-doi-tinh-nhan-lover",
+    "sku": "GN0000Y003995",
+    "image": "/images/products/nhan/44_GN0000Y003995.png",
+    "images": [
+      "/images/products/nhan/44_GN0000Y003995.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Mạ Vàng 18K",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 691000,
+    "countInStock": 57,
+    "rating": 4.8,
+    "numReviews": 23,
+    "description": "Nhẫn Bạc Đôi Tình Nhân \"Lover\" - Chất liệu Bạc Mạ Vàng 18K. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 177,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-02T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e1abf287a05f4d2edff9fcfb"
+    },
+    "name": "Nhẫn Bạc S925 Đơn Giản \"Pure Silver\"",
+    "slug": "nhan-bac-s925-don-gian-pure-silver",
+    "sku": "GN0000W003765",
+    "image": "/images/products/nhan/45_GN0000W003765.png",
+    "images": [
+      "/images/products/nhan/45_GN0000W003765.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Xi Bạch Kim, Moissanite",
+    "tags": [
+      "Nhẫn Bạc",
+      "moissanite"
+    ],
+    "price": 1380000,
+    "countInStock": 25,
+    "rating": 4,
+    "numReviews": 37,
+    "description": "Nhẫn Bạc S925 Đơn Giản \"Pure Silver\" - Chất liệu Bạc Xi Bạch Kim, Moissanite. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 0,
+    "selled": 250,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2026-01-25T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "97a8a1763f3d95ff6cc2b3b5"
+    },
+    "name": "Nhẫn Bạc Nữ Mặt Đá Mắt Mèo \"Cat Eye\"",
+    "slug": "nhan-bac-nu-mat-da-mat-meo-cat-eye",
+    "sku": "GN0000W003766",
+    "image": "/images/products/nhan/46_GN0000W003766.png",
+    "images": [
+      "/images/products/nhan/46_GN0000W003766.png"
+    ],
+    "type": "Nhẫn Bạc",
+    "category": "Nhẫn Bạc",
+    "material": "Bạc Xi Bạch Kim",
+    "tags": [
+      "Nhẫn Bạc",
+      "bạc s925"
+    ],
+    "price": 1015000,
+    "countInStock": 47,
+    "rating": 4.5,
+    "numReviews": 5,
+    "description": "Nhẫn Bạc Nữ Mặt Đá Mắt Mèo \"Cat Eye\" - Chất liệu Bạc Xi Bạch Kim. Thiết kế sang trọng, tinh tế. Phù hợp làm quà tặng.",
+    "discount": 10,
+    "selled": 120,
+    "variants": [
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Thường",
+        "additionalPrice": 0
+      },
+      {
+        "size": "Free Size",
+        "packagingType": "Hộp Quà",
+        "additionalPrice": 30000
+      }
+    ],
+    "isFlashSale": false,
+    "flashSalePrice": null,
+    "flashSaleEndTime": null,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "isActive": true,
+    "createdAt": {
+      "$date": "2025-10-24T09:12:48.891Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-12T09:12:48.891Z"
+    }
+  }
+]

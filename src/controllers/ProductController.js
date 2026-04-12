@@ -114,6 +114,87 @@ const getAllType = async (req, res) => {
     }
 }
 
+const getAllCategory = async (req, res) => {
+    try {
+        const response = await ProductService.getAllCategory()
+        return res.status(200).json(response)
+    } catch (e) {
+        return res.status(404).json({
+            message: e
+        })
+    }
+}
+
+const searchProduct = async (req, res) => {
+    try {
+        const { q, category, minPrice, maxPrice, material, sort, page, limit } = req.query
+        const response = await ProductService.searchProduct({ q, category, minPrice, maxPrice, material, sort, page: Number(page) || 0, limit: Number(limit) || 20 })
+        return res.status(200).json(response)
+    } catch (e) {
+        return res.status(500).json({ message: e })
+    }
+}
+
+const getFlashSaleProducts = async (req, res) => {
+    try {
+        const response = await ProductService.getFlashSaleProducts()
+        return res.status(200).json(response)
+    } catch (e) {
+        return res.status(500).json({ message: e })
+    }
+}
+
+const getNewProducts = async (req, res) => {
+    try {
+        const { limit } = req.query
+        const response = await ProductService.getNewProducts(Number(limit) || 12)
+        return res.status(200).json(response)
+    } catch (e) {
+        return res.status(500).json({ message: e })
+    }
+}
+
+const getBestSellerProducts = async (req, res) => {
+    try {
+        const { limit } = req.query
+        const response = await ProductService.getBestSellerProducts(Number(limit) || 12)
+        return res.status(200).json(response)
+    } catch (e) {
+        return res.status(500).json({ message: e })
+    }
+}
+
+const getProductsByCategory = async (req, res) => {
+    try {
+        const { slug } = req.params
+        const { page, limit, sort } = req.query
+        const response = await ProductService.getProductsByCategory(slug, Number(page) || 0, Number(limit) || 20, sort)
+        return res.status(200).json(response)
+    } catch (e) {
+        return res.status(500).json({ message: e })
+    }
+}
+
+const getRelatedProducts = async (req, res) => {
+    try {
+        const { id } = req.params
+        const response = await ProductService.getRelatedProducts(id)
+        return res.status(200).json(response)
+    } catch (e) {
+        return res.status(500).json({ message: e })
+    }
+}
+
+const getProductBySlug = async (req, res) => {
+    try {
+        const { slug } = req.params
+        const response = await ProductService.getProductBySlug(slug)
+        return res.status(200).json(response)
+    } catch (e) {
+        return res.status(500).json({ message: e })
+    }
+}
+
 module.exports = {
     createProduct,
     updateProduct,
@@ -121,5 +202,13 @@ module.exports = {
     deleteProduct,
     getAllProduct,
     deleteMany,
-    getAllType
+    getAllType,
+    getAllCategory,
+    searchProduct,
+    getFlashSaleProducts,
+    getNewProducts,
+    getBestSellerProducts,
+    getProductsByCategory,
+    getRelatedProducts,
+    getProductBySlug
 }

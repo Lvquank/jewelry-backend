@@ -1,0 +1,81 @@
+[
+  {
+    "_id": {
+      "$oid": "0af44a9903921f86b0169b31"
+    },
+    "name": "Jensy Admin",
+    "email": "admin@jensy.vn",
+    "password": "$2b$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy",
+    "isAdmin": true,
+    "phone": "0982463691",
+    "address": "159 Lý Thường Kiệt, Hà Đông",
+    "city": "Hà Nội",
+    "provider": "local",
+    "addresses": [],
+    "wishlist": [],
+    "loyaltyPoints": 0,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "53d67ea967c4e7d900501169"
+    },
+    "name": "Nguyễn Văn A",
+    "email": "khachhang1@gmail.com",
+    "password": "$2b$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy",
+    "isAdmin": false,
+    "phone": "0912345678",
+    "address": "Quận 1",
+    "city": "TP HCM",
+    "provider": "local",
+    "addresses": [
+      {
+        "_id": {
+          "$oid": "4db3b25230a9c3aed4dad2e7"
+        },
+        "fullName": "Nguyễn Văn A",
+        "phone": "0912345678",
+        "address": "123 Nguyễn Huệ, Quận 1",
+        "ward": "Phường Bến Nghé",
+        "district": "Quận 1",
+        "city": "TP Hồ Chí Minh",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [],
+    "loyaltyPoints": 150,
+    "createdAt": {
+      "$date": "2024-06-15T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-06-15T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7785aab72a63a7921edacc29"
+    },
+    "name": "Trần Thị B",
+    "email": "khachhang2@gmail.com",
+    "password": "$2b$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy",
+    "isAdmin": false,
+    "phone": "0987654321",
+    "address": "456 Trần Hưng Đạo",
+    "city": "Hà Nội",
+    "provider": "local",
+    "addresses": [],
+    "wishlist": [],
+    "loyaltyPoints": 50,
+    "createdAt": {
+      "$date": "2024-09-20T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-09-20T00:00:00.000Z"
+    }
+  }
+]

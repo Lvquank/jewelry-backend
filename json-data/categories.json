@@ -1,0 +1,110 @@
+[
+  {
+    "_id": {
+      "$oid": "354648477e153b54c69d056d"
+    },
+    "name": "Nhẫn Bạc",
+    "slug": "nhan-bac",
+    "image": "/images/products/nhan/01_GNDD00W006416.png",
+    "description": "Nhẫn bạc nữ cao cấp",
+    "order": 1,
+    "isActive": true,
+    "parentCategory": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e5d9e3094ebd1bc49e7f3617"
+    },
+    "name": "Dây Chuyền Bạc",
+    "slug": "day-chuyen-bac",
+    "image": "/images/products/day-chuyen/01_GMXM00W000953.png",
+    "description": "Dây chuyền bạc nữ sang trọng",
+    "order": 2,
+    "isActive": true,
+    "parentCategory": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cd87a66e7054b114cddc8854"
+    },
+    "name": "Lắc Tay Bạc",
+    "slug": "lac-tay-bac",
+    "image": "/images/products/lac-vong-tay/01_GLXM00W060088.png",
+    "description": "Lắc tay vòng tay bạc nữ",
+    "order": 3,
+    "isActive": true,
+    "parentCategory": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8a4009e06bd805572e76a968"
+    },
+    "name": "Bông Tai Bạc",
+    "slug": "bong-tai-bac",
+    "image": "/images/products/bong-tai/01_GEDD00W001128.png",
+    "description": "Bông tai khuyên tai bạc nữ",
+    "order": 4,
+    "isActive": true,
+    "parentCategory": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "290be115a40b7e30d5868f15"
+    },
+    "name": "Charm Bạc",
+    "slug": "charm-bac",
+    "image": "/images/products/charm/01_SIXM00W060049.png",
+    "description": "Charm bạc phụ kiện",
+    "order": 5,
+    "isActive": true,
+    "parentCategory": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "614499e7ff0a4d7ea0953668"
+    },
+    "name": "Cặp Đôi",
+    "slug": "cap-doi",
+    "image": "/images/products/khac/01_GV0000W001038_GI0000W000177.png",
+    "description": "Trang sức đôi cho cặp tình nhân",
+    "order": 6,
+    "isActive": true,
+    "parentCategory": null,
+    "createdAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-01T00:00:00.000Z"
+    }
+  }
+]

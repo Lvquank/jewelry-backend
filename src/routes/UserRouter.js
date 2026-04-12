@@ -1,16 +1,22 @@
 const express = require("express");
 const router = express.Router()
-const userController = require('../controllers/UserController');
+const UserController = require('../controllers/UserController');
 const { authMiddleWare, authUserMiddleWare } = require("../middleware/authMiddleware");
 
-router.post('/sign-up', userController.createUser)
-router.post('/sign-in', userController.loginUser)
-router.post('/log-out', userController.logoutUser)
-router.put('/update-user/:id', authUserMiddleWare, userController.updateUser)
-router.delete('/delete-user/:id', authMiddleWare, userController.deleteUser)
-router.get('/getAll', authMiddleWare, userController.getAllUser)
-router.get('/get-details/:id', authUserMiddleWare, userController.getDetailsUser)
-router.post('/refresh-token', userController.refreshToken)
-router.post('/delete-many', authMiddleWare, userController.deleteMany)
+// Auth routes
+router.post('/sign-up', UserController.createUser)
+router.post('/sign-in', UserController.loginUser)
+router.post('/sign-out', UserController.logoutUser)
+router.post('/refresh-token', UserController.refreshToken)
+router.post('/google-login', UserController.googleLogin)   // Đăng nhập Google
+
+// User profile routes
+router.get('/get-details/:id', authUserMiddleWare, UserController.getDetailsUser)
+router.put('/update-user/:id', authUserMiddleWare, UserController.updateUser)
+
+// Admin routes
+router.get('/get-all', authMiddleWare, UserController.getAllUser)
+router.delete('/delete-user/:id', authMiddleWare, UserController.deleteUser)
+router.post('/delete-many', authMiddleWare, UserController.deleteMany)
 
 module.exports = router

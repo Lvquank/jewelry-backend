@@ -1,0 +1,106 @@
+[
+  {
+    "_id": {
+      "$oid": "193a418af31b174466dda697"
+    },
+    "orderItems": [
+      {
+        "name": "Bông Tai Bạc Đính Moissanite Xi Bạch Kim \"Bowtie\"",
+        "amount": 1,
+        "image": "/images/products/bong-tai/01_GBDDDDW060487.png",
+        "price": 700000,
+        "discount": 15,
+        "product": {
+          "$oid": "94892ad4b32e3cf06655106d"
+        }
+      },
+      {
+        "name": "Bông Tai Bạc Nữ Đính CZ Kiểu Giọt Nước \"Teardrop\"",
+        "amount": 2,
+        "image": "/images/products/bong-tai/02_GBXMXMW003716.png",
+        "price": 1038000,
+        "discount": 0,
+        "product": {
+          "$oid": "fbe3a51922273f92b3ee3526"
+        }
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Nguyễn Văn A",
+      "address": "123 Nguyễn Huệ, Quận 1",
+      "ward": "Phường Bến Nghé",
+      "district": "Quận 1",
+      "city": "TP Hồ Chí Minh",
+      "phone": "0912345678"
+    },
+    "paymentMethod": "COD",
+    "deliveryType": "delivery",
+    "itemsPrice": 2776000,
+    "shippingPrice": 30000,
+    "discountAmount": 0,
+    "totalPrice": 2806000,
+    "note": "Giao giờ hành chính",
+    "user": {
+      "$oid": "53d67ea967c4e7d900501169"
+    },
+    "status": "delivered",
+    "isPaid": true,
+    "paidAt": {
+      "$date": "2025-03-15T00:00:00.000Z"
+    },
+    "isDelivered": true,
+    "deliveredAt": {
+      "$date": "2025-03-17T00:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-03-13T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-17T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "211ecbc90d97e060771a3bf7"
+    },
+    "orderItems": [
+      {
+        "name": "Bông Tai Bạc Nữ Hình Tim \"Heart Earring\"",
+        "amount": 1,
+        "image": "/images/products/bong-tai/11_GBXMXMW003817.png",
+        "price": 655000,
+        "discount": 5,
+        "product": {
+          "$oid": "5e74f7b8079df5c8ebe30c8f"
+        }
+      }
+    ],
+    "shippingAddress": {
+      "fullName": "Nguyễn Văn A",
+      "address": "123 Nguyễn Huệ, Quận 1",
+      "ward": "Phường Bến Nghé",
+      "district": "Quận 1",
+      "city": "TP Hồ Chí Minh",
+      "phone": "0912345678"
+    },
+    "paymentMethod": "VNPay",
+    "deliveryType": "delivery",
+    "itemsPrice": 655000,
+    "shippingPrice": 0,
+    "discountAmount": 0,
+    "totalPrice": 655000,
+    "note": "",
+    "user": {
+      "$oid": "53d67ea967c4e7d900501169"
+    },
+    "status": "pending",
+    "isPaid": false,
+    "isDelivered": false,
+    "createdAt": {
+      "$date": "2026-04-10T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-10T00:00:00.000Z"
+    }
+  }
+]
