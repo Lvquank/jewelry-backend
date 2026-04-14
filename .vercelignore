@@ -1,0 +1,11 @@
+.env
+.env.local
+.env.*.local
+node_modules
+.git
+.gitignore
+README.md
+DEPLOY_VERCEL.md
+*.md
+.vscode
+.DS_Store
