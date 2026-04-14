@@ -1,0 +1,1217 @@
+[
+  {
+    "name": "Nhẫn Kim cương Vàng trắng 58,5% (14K) PNJ DD00W006416",
+    "sku": "GNDD00W006416",
+    "price": 12690000,
+    "brand": "PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/291/sp-gndd00w006416-nhan-kim-cuong-vang-trang-585-14k-pnj-1.png",
+    "localImage": "products/nhan/sp-gndd00w006416-nhan-kim-cuong-vang-trang-585-14k-pnj-1.png"
+  },
+  {
+    "name": "Bông tai Kim cương Vàng trắng 58,5% (14K) PNJ DDDDW060487",
+    "sku": "GBDDDDW060487",
+    "price": 30460000,
+    "brand": "PNJ",
+    "category": "bong-tai",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/290/sp-gbddddw060487-bong-tai-kim-cuong-vang-trang-58-5-14k-pnj-1.png",
+    "localImage": "products/bong-tai/sp-gbddddw060487-bong-tai-kim-cuong-vang-trang-58-5-14k-pnj-1.png"
+  },
+  {
+    "name": "Mặt dây chuyền Vàng Trắng 41,6% (10K) Đính đá ECZ PNJ XM00W000953",
+    "sku": "GMXM00W000953",
+    "price": 2059000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/290/sp-gmxm00w000953-mat-day-chuyen-vang-trang-y-10k-dinh-da-ecz-pnj-1.png",
+    "localImage": "products/day-chuyen/sp-gmxm00w000953-mat-day-chuyen-vang-trang-y-10k-dinh-da-ecz-pnj-1.png"
+  },
+  {
+    "name": "Dây cổ Kim cương Vàng trắng 58,5% (14K) PNJ DD00W000502",
+    "sku": "GCDD00W000502",
+    "price": 14686000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/291/sp-gcdd00w000502-day-co-kim-cuong-vang-trang-585-14k-pnj-1.png",
+    "localImage": "products/day-chuyen/sp-gcdd00w000502-day-co-kim-cuong-vang-trang-585-14k-pnj-1.png"
+  },
+  {
+    "name": "Bông tai Vàng trắng 41,6% (10K) Đính đá ECZ PNJ XMXMW003716",
+    "sku": "GBXMXMW003716",
+    "price": 7421000,
+    "brand": "PNJ",
+    "category": "bong-tai",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/287/sp-gbxmxmw003716-bong-tai-vang-trang-41-6-10k-dinh-da-ecz-pnj-1.png",
+    "localImage": "products/bong-tai/sp-gbxmxmw003716-bong-tai-vang-trang-41-6-10k-dinh-da-ecz-pnj-1.png"
+  },
+  {
+    "name": "Mặt dây chuyền Vàng Trắng 41,6% (10K) Đính đá ECZ PNJ XM00W000952",
+    "sku": "GMXM00W000952",
+    "price": 2048000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/290/sp-gmxm00w000952-mat-day-chuyen-vang-trang-y-10k-dinh-da-ecz-pnj-1.png",
+    "localImage": "products/day-chuyen/sp-gmxm00w000952-mat-day-chuyen-vang-trang-y-10k-dinh-da-ecz-pnj-1.png"
+  },
+  {
+    "name": "Nhẫn Vàng 58,5% (14K) Đính đá CZ PNJ XM00Y006062",
+    "sku": "GNXM00Y006062",
+    "price": 5139000,
+    "brand": "PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/289/sp-gnxm00y006062-nhan-vang-58-5-14k-dinh-da-ecz-pnj-1.png",
+    "localImage": "products/nhan/sp-gnxm00y006062-nhan-vang-58-5-14k-dinh-da-ecz-pnj-1.png"
+  },
+  {
+    "name": "Vỏ Nhẫn Kim cương Vàng Trắng 75% (18K) PNJ 00DDW064110",
+    "sku": "GN00DDW064110",
+    "price": 178500000,
+    "brand": "PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/290/sp-gn00ddw064110-vo-nhan-kim-cuong-vang-trang-75-18k-pnj-1.png",
+    "localImage": "products/nhan/sp-gn00ddw064110-vo-nhan-kim-cuong-vang-trang-75-18k-pnj-1.png"
+  },
+  {
+    "name": "Cặp nhẫn cưới Kim cương Vàng 75% (18K) PNJ Vàng Son 01009-00363",
+    "sku": "GNDD00Y001009-GN0000Y000363",
+    "price": 43895000,
+    "brand": "PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/191/sp-cap-nhan-cuoi-kim-cuong-vang-18k-pnj-vang-son-01009-00363-1.png",
+    "localImage": "products/nhan/sp-cap-nhan-cuoi-kim-cuong-vang-18k-pnj-vang-son-01009-00363-1.png"
+  },
+  {
+    "name": "Lắc tay Vàng trắng 41,6% (10K) đính đá ECZ PNJ XM00W060088",
+    "sku": "GLXM00W060088",
+    "price": 23700000,
+    "brand": "PNJ",
+    "category": "lac-vong-tay",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/209/sp-glxm00w060088-lac-tay-vang-trang-10k-dinh-da-ecz-pnj-1.png",
+    "localImage": "products/lac-vong-tay/sp-glxm00w060088-lac-tay-vang-trang-10k-dinh-da-ecz-pnj-1.png"
+  },
+  {
+    "name": "Mặt dây chuyền Vàng trắng 41,6% (10K) đính đá ECZ PNJ XMXMW000429",
+    "sku": "GMXMXMW000429",
+    "price": 2435000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/207/sp-gmxmxmw000429-mat-day-chuyen-vang-trang-10k-dinh-da-ecz-pnj-1.png",
+    "localImage": "products/day-chuyen/sp-gmxmxmw000429-mat-day-chuyen-vang-trang-10k-dinh-da-ecz-pnj-1.png"
+  },
+  {
+    "name": "Nhẫn Vàng trắng 41,6% (10K) đính đá ECZ PNJ XM00W000105",
+    "sku": "GNXM00W000105",
+    "price": 3833000,
+    "brand": "PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/184/sp-GNXM00W000105-nhan-vang-trang-10k-dinh-da-ecz-pnj-1.png",
+    "localImage": "products/nhan/sp-GNXM00W000105-nhan-vang-trang-10k-dinh-da-ecz-pnj-1.png"
+  },
+  {
+    "name": "Nhẫn Kim cương Vàng trắng 58,5% (14K) PNJ DDDDW001071",
+    "sku": "GNDDDDW001071",
+    "price": 17353000,
+    "brand": "PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/125/gnddddw001071-nhan-kim-cuong-vang-trang-14k-pnj-1.png",
+    "localImage": "products/nhan/gnddddw001071-nhan-kim-cuong-vang-trang-14k-pnj-1.png"
+  },
+  {
+    "name": "Bông tai Kim cương Vàng trắng 58,5% (14K) PNJ DD00W060182",
+    "sku": "GBDD00W060182",
+    "price": 10040000,
+    "brand": "PNJ",
+    "category": "bong-tai",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/200/SP-GBDD00W060182-1.png",
+    "localImage": "products/bong-tai/SP-GBDD00W060182-1.png"
+  },
+  {
+    "name": "Mặt dây chuyền Kim cương Vàng trắng 58,5% (14K) PNJ DDDDW000636",
+    "sku": "GMDDDDW000636",
+    "price": 16107000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/222/sp-gmddddw000636-mat-day-chuyen-kim-cuong-vang-trang-14k-pnj-1.png",
+    "localImage": "products/day-chuyen/sp-gmddddw000636-mat-day-chuyen-kim-cuong-vang-trang-14k-pnj-1.png"
+  },
+  {
+    "name": "Nhẫn nam Kim cương Vàng 75% (18K) MANCODE by PNJ DDDDC000052",
+    "sku": "GNDDDDC000052",
+    "price": 63935000,
+    "brand": "MANCODE by PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/190/sp-gnddddc000052-nhan-nam-kim-cuong-vang-18k-pnj-1.png",
+    "localImage": "products/nhan/sp-gnddddc000052-nhan-nam-kim-cuong-vang-18k-pnj-1.png"
+  },
+  {
+    "name": "Lắc tay Vàng trắng 58,5% (14K) Đính đá ECZ PNJ Audax Rosa XM00W000578",
+    "sku": "GLXM00W000578",
+    "price": 17429000,
+    "brand": "PNJ",
+    "category": "lac-vong-tay",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/289/sp-glxm00w000578-lac-tay-vang-trang-58-5-14k-dinh-da-ecz-pnj-audax-rosa-1.png",
+    "localImage": "products/lac-vong-tay/sp-glxm00w000578-lac-tay-vang-trang-58-5-14k-dinh-da-ecz-pnj-audax-rosa-1.png"
+  },
+  {
+    "name": "Dây cổ Vàng trắng 58,5% (14K) Đính đá ECZ PNJ Audax Rosa XMXMW000705",
+    "sku": "GCXMXMW000705",
+    "price": 33151000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/292/sp-gcxmxmw000705-day-co-vang-trang-585-14k-dinh-da-ecz-pnj-audax-rosa-1.png",
+    "localImage": "products/day-chuyen/sp-gcxmxmw000705-day-co-vang-trang-585-14k-dinh-da-ecz-pnj-audax-rosa-1.png"
+  },
+  {
+    "name": "Bông tai Vàng trắng 58,5% (14K) Đính đá ECZ PNJ Audax Rosa XMXMW003837",
+    "sku": "GBXMXMW003837",
+    "price": 17833000,
+    "brand": "PNJ",
+    "category": "bong-tai",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/290/sp-gbxmxmw003837-bong-tai-vang-trang-58-5-14k-dinh-da-ecz-pnj-audax-rosa-1.png",
+    "localImage": "products/bong-tai/sp-gbxmxmw003837-bong-tai-vang-trang-58-5-14k-dinh-da-ecz-pnj-audax-rosa-1.png"
+  },
+  {
+    "name": "Dây cổ Vàng trắng 58,5% (14K) Đính đá ECZ PNJ Audax Rosa XMXMW000706",
+    "sku": "GCXMXMW000706",
+    "price": 21472000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/292/sp-gcxmxmw000706-day-co-vang-trang-585-14k-dinh-da-ecz-pnj-audax-rosa-1.png",
+    "localImage": "products/day-chuyen/sp-gcxmxmw000706-day-co-vang-trang-585-14k-dinh-da-ecz-pnj-audax-rosa-1.png"
+  },
+  {
+    "name": "Nhẫn Vàng trắng 58,5% (14K) Đính đá ECZ PNJ Audax Rosa XMXMW007053",
+    "sku": "GNXMXMW007053",
+    "price": 17479000,
+    "brand": "PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/286/sp-gnxmxmw007053-nhan-vang-trang-58-5-14k-dinh-da-ecz-pnj-audax-rosa-11.png",
+    "localImage": "products/nhan/sp-gnxmxmw007053-nhan-vang-trang-58-5-14k-dinh-da-ecz-pnj-audax-rosa-11.png"
+  },
+  {
+    "name": "Bông tai Vàng 58,5% (14K) Đính đá ECZ PNJ Audax Rosa XMXMH000170",
+    "sku": "GBXMXMH000170",
+    "price": 18327000,
+    "brand": "PNJ",
+    "category": "bong-tai",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/290/sp-gbxmxmh000170-bong-tai-vang-58-5-14k-dinh-da-ecz-pnj-audax-rosa-1.png",
+    "localImage": "products/bong-tai/sp-gbxmxmh000170-bong-tai-vang-58-5-14k-dinh-da-ecz-pnj-audax-rosa-1.png"
+  },
+  {
+    "name": "Lắc tay Vàng 58,5% (14K) Đính đá ECZ PNJ Audax Rosa XMXMH000051",
+    "sku": "GLXMXMH000051",
+    "price": 48380000,
+    "brand": "PNJ",
+    "category": "lac-vong-tay",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/285/sp-glxmxmh000051-lac-tay-vang-58-5-14k-dinh-da-ecz-pnj-audax-rosa-01.png",
+    "localImage": "products/lac-vong-tay/sp-glxmxmh000051-lac-tay-vang-58-5-14k-dinh-da-ecz-pnj-audax-rosa-01.png"
+  },
+  {
+    "name": "Dây cổ Vàng 58,5% (14K) Đính đá ECZ PNJ Audax Rosa XMXMH000076",
+    "sku": "GCXMXMH000076",
+    "price": 87150000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/292/sp-gcxmxmh000076-day-co-vang-585-14k-dinh-da-ecz-pnj-audax-rosa-1.png",
+    "localImage": "products/day-chuyen/sp-gcxmxmh000076-day-co-vang-585-14k-dinh-da-ecz-pnj-audax-rosa-1.png"
+  },
+  {
+    "name": "Nhẫn Vàng Trắng 33,3% (8K) Đính đá Synthetic STYLE By PNJ ZTXMW000262",
+    "sku": "GNZTXMW000262",
+    "price": 3526000,
+    "brand": "STYLE BY PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/287/sp-gnztxmw000262-nhan-vang-trang-33-3-8k-dinh-da-synthetic-style-by-pnj-1.png",
+    "localImage": "products/nhan/sp-gnztxmw000262-nhan-vang-trang-33-3-8k-dinh-da-synthetic-style-by-pnj-1.png"
+  },
+  {
+    "name": "Bông tai Vàng Trắng 33,3% (8K) Đính đá ECZ STYLE By PNJ XMXMW003899",
+    "sku": "GBXMXMW003899",
+    "price": 5548000,
+    "brand": "STYLE BY PNJ",
+    "category": "bong-tai",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/287/sp-gbxmxmw003899-bong-tai-vang-trang-33-3-8k-dinh-da-ecz-style-by-pnj-1.png",
+    "localImage": "products/bong-tai/sp-gbxmxmw003899-bong-tai-vang-trang-33-3-8k-dinh-da-ecz-style-by-pnj-1.png"
+  },
+  {
+    "name": "Nhẫn Vàng Trắng 33,3% (8K) Đính đá Synthetic STYLE By PNJ ZTMXW000035",
+    "sku": "GNZTMXW000035",
+    "price": 4175000,
+    "brand": "STYLE BY PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/287/sp-gnztmxw000035-nhan-vang-trang-33-3-8k-dinh-da-synthetic-style-by-pnj-1.png",
+    "localImage": "products/nhan/sp-gnztmxw000035-nhan-vang-trang-33-3-8k-dinh-da-synthetic-style-by-pnj-1.png"
+  },
+  {
+    "name": "Dây cổ Vàng Trắng 33,3% (8K) Đính đá ECZ STYLE By PNJ XM00W000307",
+    "sku": "GCXM00W000307",
+    "price": 5161000,
+    "brand": "STYLE BY PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/290/sp-gcxm00w000307-day-co-vang-trang-33-3-8k-dinh-da-ecz-style-by-pnj-1.png",
+    "localImage": "products/day-chuyen/sp-gcxm00w000307-day-co-vang-trang-33-3-8k-dinh-da-ecz-style-by-pnj-1.png"
+  },
+  {
+    "name": "Lắc tay Vàng Trắng 33,3% (8K) Đính đá ECZ STYLE By PNJ XM00W000601",
+    "sku": "GLXM00W000601",
+    "price": 4042000,
+    "brand": "STYLE BY PNJ",
+    "category": "lac-vong-tay",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/290/sp-glxm00w000601-lac-tay-vang-trang-33-3-8k-dinh-da-ecz-style-by-pnj-1.png",
+    "localImage": "products/lac-vong-tay/sp-glxm00w000601-lac-tay-vang-trang-33-3-8k-dinh-da-ecz-style-by-pnj-1.png"
+  },
+  {
+    "name": "Nhẫn Vàng Trắng 33,3% (8K) Đính đá ECZ STYLE By PNJ XM00W002270",
+    "sku": "GNXM00W002270",
+    "price": 3853000,
+    "brand": "STYLE BY PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/290/sp-gnxm00w002270-nhan-vang-trang-33-3-8k-dinh-da-ecz-style-by-pnj-1.png",
+    "localImage": "products/nhan/sp-gnxm00w002270-nhan-vang-trang-33-3-8k-dinh-da-ecz-style-by-pnj-1.png"
+  },
+  {
+    "name": "Nhẫn Vàng Trắng 33,3% (8K) Đính đá ECZ STYLE By PNJ XM00W002271",
+    "sku": "GNXM00W002271",
+    "price": 4953000,
+    "brand": "STYLE BY PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/290/sp-gnxm00w002271-nhan-vang-trang-33-3-8k-dinh-da-ecz-style-by-pnj-1.png",
+    "localImage": "products/nhan/sp-gnxm00w002271-nhan-vang-trang-33-3-8k-dinh-da-ecz-style-by-pnj-1.png"
+  },
+  {
+    "name": "Lắc tay Vàng Trắng 33,3% (8K) STYLE By PNJ 0000W001780",
+    "sku": "GL0000W001780",
+    "price": 4228000,
+    "brand": "STYLE BY PNJ",
+    "category": "lac-vong-tay",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/287/sp-gl0000w001780-lac-tay-vang-trang-33-3-8k-style-by-pnj-1.png",
+    "localImage": "products/lac-vong-tay/sp-gl0000w001780-lac-tay-vang-trang-33-3-8k-style-by-pnj-1.png"
+  },
+  {
+    "name": "Lắc tay Vàng 33,3% (8K) Đính đá ECZ STYLE By PNJ XM00Y000908",
+    "sku": "GLXM00Y000908",
+    "price": 5166000,
+    "brand": "STYLE BY PNJ",
+    "category": "lac-vong-tay",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/287/sp-glxm00y000908-lac-tay-vang-33-3-8k-dinh-da-ecz-style-by-pnj-1.png",
+    "localImage": "products/lac-vong-tay/sp-glxm00y000908-lac-tay-vang-33-3-8k-dinh-da-ecz-style-by-pnj-1.png"
+  },
+  {
+    "name": "Lắc tay Vàng Trắng 33,3% (8K) STYLE By PNJ 0000W001781",
+    "sku": "GL0000W001781",
+    "price": 3706000,
+    "brand": "STYLE BY PNJ",
+    "category": "lac-vong-tay",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/287/sp-gl0000w001781-lac-tay-vang-trang-33-3-8k-style-by-pnj-1.png",
+    "localImage": "products/lac-vong-tay/sp-gl0000w001781-lac-tay-vang-trang-33-3-8k-style-by-pnj-1.png"
+  },
+  {
+    "name": "Nhẫn Vàng 99,9% (24K) PNJ ❤️ HELLO KITTY 0000Y003818",
+    "sku": "GN0000Y003818",
+    "price": 14863000,
+    "brand": "SANRIO",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/283/sp-gn0000y003818-nhan-vang-24k-pnj-hello-kitty-1.png",
+    "localImage": "products/nhan/sp-gn0000y003818-nhan-vang-24k-pnj-hello-kitty-1.png"
+  },
+  {
+    "name": "Nhẫn Vàng 99,9% (24K) PNJ ❤️ HELLO KITTY 0000Y003819",
+    "sku": "GN0000Y003819",
+    "price": 14419000,
+    "brand": "SANRIO",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/283/sp-gn0000y003819-nhan-vang-24k-pnj-hello-kitty-1.png",
+    "localImage": "products/nhan/sp-gn0000y003819-nhan-vang-24k-pnj-hello-kitty-1.png"
+  },
+  {
+    "name": "Nhẫn Vàng 99,9% (24K) PNJ ❤️ HELLO KITTY 0000Y003821",
+    "sku": "GN0000Y003821",
+    "price": 17123000,
+    "brand": "SANRIO",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/285/sp-gn0000y003821-nhan-vang-24k-pnj-hello-kitty-10.png",
+    "localImage": "products/nhan/sp-gn0000y003821-nhan-vang-24k-pnj-hello-kitty-10.png"
+  },
+  {
+    "name": "Nhẫn Vàng 99,9% (24K) PNJ ❤️ HELLO KITTY 0000Y003822",
+    "sku": "GN0000Y003822",
+    "price": 15361000,
+    "brand": "SANRIO",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/285/sp-gn0000y003822-nhan-vang-24k-pnj-hello-kitty-10.png",
+    "localImage": "products/nhan/sp-gn0000y003822-nhan-vang-24k-pnj-hello-kitty-10.png"
+  },
+  {
+    "name": "Hạt Charm Vàng 41,6% (10K) PNJ INLOVE 0000Y000801",
+    "sku": "GI0000Y000801",
+    "price": 3571000,
+    "brand": "PNJ",
+    "category": "charm",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/290/sp-gi0000y000801-hat-charm-vang-416-10k-pnj-inlove-1.png",
+    "localImage": "products/charm/sp-gi0000y000801-hat-charm-vang-416-10k-pnj-inlove-1.png"
+  },
+  {
+    "name": "Hạt Charm Vàng trắng 41,6% (10K) PNJ INLOVE 0000W000180",
+    "sku": "GI0000W000180",
+    "price": 2691000,
+    "brand": "PNJ",
+    "category": "charm",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/290/sp-gi0000w000180-hat-charm-vang-trang-416-10k-pnj-inlove-1.png",
+    "localImage": "products/charm/sp-gi0000w000180-hat-charm-vang-trang-416-10k-pnj-inlove-1.png"
+  },
+  {
+    "name": "Hạt Charm Vàng trắng 41,6% (10K) Đính đá ECZ PNJ INLOVE XM00W000154",
+    "sku": "GIXM00W000154",
+    "price": 4476000,
+    "brand": "PNJ",
+    "category": "charm",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/290/sp-gixm00w000154-hat-charm-vang-trang-416-10k-dinh-da-ecz-pnj-inlove-1.png",
+    "localImage": "products/charm/sp-gixm00w000154-hat-charm-vang-trang-416-10k-dinh-da-ecz-pnj-inlove-1.png"
+  },
+  {
+    "name": "Bộ trang sức Vàng trắng 41,6% (10K) PNJ INLOVE 01038-00177",
+    "sku": "GV0000W001038-GI0000W000177",
+    "price": 25633000,
+    "brand": "PNJ",
+    "category": "khac",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/284/sp-gv0000w001038-gi0000w000177-bo-trang-suc-vang-trang-pnj-inlove-01.png",
+    "localImage": "products/khac/sp-gv0000w001038-gi0000w000177-bo-trang-suc-vang-trang-pnj-inlove-01.png"
+  },
+  {
+    "name": "Bộ trang sức Vàng 41,6% (10K) PNJ INLOVE 01626-00800",
+    "sku": "GV0000Y001626-GI0000Y000800",
+    "price": 25654000,
+    "brand": "PNJ",
+    "category": "khac",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/284/sp-gv0000y001626-gi0000y000800-bo-trang-suc-vang-pnj-inlove-01.png",
+    "localImage": "products/khac/sp-gv0000y001626-gi0000y000800-bo-trang-suc-vang-pnj-inlove-01.png"
+  },
+  {
+    "name": "Bộ trang sức Vàng trắng 41,6% (10K) PNJ INLOVE 01744-01745",
+    "sku": "GL0000W001744-GL0000W001745",
+    "price": 17091000,
+    "brand": "PNJ",
+    "category": "khac",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/284/sp-gl0000w001744-gl0000w001745-bo-trang-suc-vang-trang-pnj-inlove-01.png",
+    "localImage": "products/khac/sp-gl0000w001744-gl0000w001745-bo-trang-suc-vang-trang-pnj-inlove-01.png"
+  },
+  {
+    "name": "Bộ trang sức Vàng trắng 41,6% (10K) PNJ INLOVE 00416-00417",
+    "sku": "GC0000W000416-GC0000W000417",
+    "price": 42386000,
+    "brand": "PNJ",
+    "category": "khac",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/286/sp-gc0000w000416-gc0000w000417-bo-trang-suc-vang-trang-pnj-inlove-04.png",
+    "localImage": "products/khac/sp-gc0000w000416-gc0000w000417-bo-trang-suc-vang-trang-pnj-inlove-04.png"
+  },
+  {
+    "name": "Nhẫn cưới nam Vàng trắng 41,6% (10K) Đính đá ECZ Disney|PNJ Cinderella XM00W002211",
+    "sku": "GNXM00W002211",
+    "price": 9114000,
+    "brand": "Disney|PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/285/sp-gnxm00w002211-nhan-nam-vang-41-6-10k-dinh-da-ecz-pnj-cinderella-1.png",
+    "localImage": "products/nhan/sp-gnxm00w002211-nhan-nam-vang-41-6-10k-dinh-da-ecz-pnj-cinderella-1.png"
+  },
+  {
+    "name": "Nhẫn Cưới Vàng 41,6% (10K) Đính đá ECZ Disney|PNJ Rapunzel XMXMW006987",
+    "sku": "GNXMXMW006987",
+    "price": 7255000,
+    "brand": "Disney|PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/286/sp-gnxmxmw006987-nhan-vang-41-6-10k-dinh-da-ecz-pnj-rapunzel-1.png",
+    "localImage": "products/nhan/sp-gnxmxmw006987-nhan-vang-41-6-10k-dinh-da-ecz-pnj-rapunzel-1.png"
+  },
+  {
+    "name": "Nhẫn nam Vàng 41,6% (10K) Đính đá ECZ Disney|PNJ Rapunzel XMXMW006988",
+    "sku": "GNXMXMW006988",
+    "price": 8179000,
+    "brand": "Disney|PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/285/sp-gnxmxmw006988-nhan-nam-vang-41-6-10k-dinh-da-ecz-pnj-rapunzel-1.png",
+    "localImage": "products/nhan/sp-gnxmxmw006988-nhan-nam-vang-41-6-10k-dinh-da-ecz-pnj-rapunzel-1.png"
+  },
+  {
+    "name": "Nhẫn cưới Vàng 41,6% (10K) Đính đá ECZ Disney|PNJ Rapunzel XMXMY017786",
+    "sku": "GNXMXMY017786",
+    "price": 6244000,
+    "brand": "Disney|PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/286/sp-gnxmxmy017786-nhan-vang-41-6-10k-dinh-da-ecz-pnj-rapunzel-1.png",
+    "localImage": "products/nhan/sp-gnxmxmy017786-nhan-vang-41-6-10k-dinh-da-ecz-pnj-rapunzel-1.png"
+  },
+  {
+    "name": "Nhẫn cưới nam Vàng 41,6% (10K) Đính đá ECZ Disney|PNJ Rapunzel XMXMY017787",
+    "sku": "GNXMXMY017787",
+    "price": 7167000,
+    "brand": "Disney|PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/285/sp-gnxmxmy017787-nhan-nam-vang-41-6-10k-dinh-da-ecz-pnj-rapunzel-1.png",
+    "localImage": "products/nhan/sp-gnxmxmy017787-nhan-nam-vang-41-6-10k-dinh-da-ecz-pnj-rapunzel-1.png"
+  },
+  {
+    "name": "Nhẫn Cưới Vàng trắng 41,6% (10K) Đính đá ECZ Disney|PNJ The Little Mermaid XMXMW006989",
+    "sku": "GNXMXMW006989",
+    "price": 7579000,
+    "brand": "Disney|PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/286/sp-gnxmxmw006989-nhan-vang-41-6-10k-dinh-da-ecz-pnj-the-little-mermaid-1.png",
+    "localImage": "products/nhan/sp-gnxmxmw006989-nhan-vang-41-6-10k-dinh-da-ecz-pnj-the-little-mermaid-1.png"
+  },
+  {
+    "name": "Nhẫn Cưới nam Vàng trắng 41,6% (10K) Đính đá ECZ Disney|PNJ The Little Mermaid XM00W002212",
+    "sku": "GNXM00W002212",
+    "price": 9796000,
+    "brand": "Disney|PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/282/sp-gnxm00w002212-nhan-nam-vang-10k-dinh-da-ecz-pnj-the-little-mermaid-1.png",
+    "localImage": "products/nhan/sp-gnxm00w002212-nhan-nam-vang-10k-dinh-da-ecz-pnj-the-little-mermaid-1.png"
+  },
+  {
+    "name": "Nhẫn nam Vàng trắng 41,6% (10K) Disney|PNJ Cinderella 0000W003710",
+    "sku": "GN0000W003710",
+    "price": 6029000,
+    "brand": "Disney|PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/282/sp-gn0000w003710-nhan-nam-vang-10k-pnj-cinderella-1.png",
+    "localImage": "products/nhan/sp-gn0000w003710-nhan-nam-vang-10k-pnj-cinderella-1.png"
+  },
+  {
+    "name": "Dây cổ Kim cương Vàng trắng 58,5% (14K) Disney|PNJ Tinker Bell DDDDW000836",
+    "sku": "GCDDDDW000836",
+    "price": 24563000,
+    "brand": "Disney|PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/241/sp-gcddddw000836-day-co-kim-cuong-vang-trang-14k-disney-pnj-tinker-bell-1.png",
+    "localImage": "products/day-chuyen/sp-gcddddw000836-day-co-kim-cuong-vang-trang-14k-disney-pnj-tinker-bell-1.png"
+  },
+  {
+    "name": "Bông tai Kim cương Vàng trắng 58,5% (14K) Disney|PNJ Tinker Bell DDDDW004497",
+    "sku": "GBDDDDW004497",
+    "price": 18599000,
+    "brand": "Disney|PNJ",
+    "category": "bong-tai",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/241/sp-gbddddw004497-bong-tai-kim-cuong-vang-trang-14k-pnj-tinker-bell-001.png",
+    "localImage": "products/bong-tai/sp-gbddddw004497-bong-tai-kim-cuong-vang-trang-14k-pnj-tinker-bell-001.png"
+  },
+  {
+    "name": "Nhẫn Kim cương Vàng 58,5% (14K) Disney|PNJ Rapunzel DDDDH000617",
+    "sku": "GNDDDDH000617",
+    "price": 21778000,
+    "brand": "Disney|PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/241/sp-gnddddh000617-nhan-kim-cuong-vang-14k-disney-pnj-rapunzel-0.png",
+    "localImage": "products/nhan/sp-gnddddh000617-nhan-kim-cuong-vang-14k-disney-pnj-rapunzel-0.png"
+  },
+  {
+    "name": "Bông tai Kim cương Vàng trắng 58,5% (14K) Disney|PNJ The shining princess DDDDW004634",
+    "sku": "GBDDDDW004634",
+    "price": 25559000,
+    "brand": "Disney|PNJ",
+    "category": "bong-tai",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/273/sp-gbddddw004634-bong-tai-kim-cuong-vang-trang-14k-pnj-rapunzel-1.png",
+    "localImage": "products/bong-tai/sp-gbddddw004634-bong-tai-kim-cuong-vang-trang-14k-pnj-rapunzel-1.png"
+  },
+  {
+    "name": "Bông tai Kim cương Vàng trắng 58,5% (14K) Disney|PNJ The shining princess DDDDW004636",
+    "sku": "GBDDDDW004636",
+    "price": 20815000,
+    "brand": "Disney|PNJ",
+    "category": "bong-tai",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/283/sp-gbddddw004636-bong-tai-kim-cuong-vang-trang-14k-pnj-rapunzel-1.png",
+    "localImage": "products/bong-tai/sp-gbddddw004636-bong-tai-kim-cuong-vang-trang-14k-pnj-rapunzel-1.png"
+  },
+  {
+    "name": "Dây cổ Vàng trắng 58,5% (14K) Đính đá Sapphire Disney|PNJ The shining princess SPDDW000027",
+    "sku": "GCSPDDW000027",
+    "price": 23905000,
+    "brand": "Disney|PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/274/sp-gcspddw000027-day-co-vang-14k-dinh-da-sapphire-pnj-sleeping-beauty-1.png",
+    "localImage": "products/day-chuyen/sp-gcspddw000027-day-co-vang-14k-dinh-da-sapphire-pnj-sleeping-beauty-1.png"
+  },
+  {
+    "name": "Dây cổ Vàng trắng 58,5% (14K) Đính đá Sapphire Disney|PNJ The shining princess SPDDW000028",
+    "sku": "GCSPDDW000028",
+    "price": 20797000,
+    "brand": "Disney|PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/274/sp-gcspddw000028-day-co-vang-14k-dinh-da-sapphire-pnj-cinderella-1.png",
+    "localImage": "products/day-chuyen/sp-gcspddw000028-day-co-vang-14k-dinh-da-sapphire-pnj-cinderella-1.png"
+  },
+  {
+    "name": "Dây cổ Kim cương Vàng trắng 58,5% (14K) Disney|PNJ The shining princess DDDDW001056",
+    "sku": "GCDDDDW001056",
+    "price": 25107000,
+    "brand": "Disney|PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/274/sp-gcddddw001056-day-co-kim-cuong-vang-trang-14k-pnj-beauty-the-beast-1.png",
+    "localImage": "products/day-chuyen/sp-gcddddw001056-day-co-kim-cuong-vang-trang-14k-pnj-beauty-the-beast-1.png"
+  },
+  {
+    "name": "Nhẫn Kim cương Vàng trắng 58,5% (14K) Disney|PNJ The shining princess DDDDW015384",
+    "sku": "GNDDDDW015384",
+    "price": 24675000,
+    "brand": "Disney|PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/275/sp-gnddddw015384-nhan-kim-cuong-vang-trang-14k-pnj-beauty-the-beast-1.png",
+    "localImage": "products/nhan/sp-gnddddw015384-nhan-kim-cuong-vang-trang-14k-pnj-beauty-the-beast-1.png"
+  },
+  {
+    "name": "Nhẫn Kim cương Vàng trắng 58,5% (14K) PNJ DD00W005976",
+    "sku": "GNDD00W005976",
+    "price": 17692000,
+    "brand": "PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/282/sp-gndd00w005976-nhan-kim-cuong-vang-trang-14k-pnj-10.png",
+    "localImage": "products/nhan/sp-gndd00w005976-nhan-kim-cuong-vang-trang-14k-pnj-10.png"
+  },
+  {
+    "name": "Dây cổ Kim cương Vàng trắng 58,5% (14K) Disney|PNJ The shining princess DDDDW001039",
+    "sku": "GCDDDDW001039",
+    "price": 20747000,
+    "brand": "Disney|PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/273/sp-gcddddw001039-day-co-kim-cuong-vang-trang-14k-pnj-aladin-1.png",
+    "localImage": "products/day-chuyen/sp-gcddddw001039-day-co-kim-cuong-vang-trang-14k-pnj-aladin-1.png"
+  },
+  {
+    "name": "Lắc tay Kim cương Vàng trắng 58,5% (14K) Disney|PNJ The shining princess DD00W000608",
+    "sku": "GLDD00W000608",
+    "price": 36747000,
+    "brand": "Disney|PNJ",
+    "category": "lac-vong-tay",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/274/sp-gldd00w000608-lac-tay-kim-cuong-vang-trang-14k-pnj-aladin-1.png",
+    "localImage": "products/lac-vong-tay/sp-gldd00w000608-lac-tay-kim-cuong-vang-trang-14k-pnj-aladin-1.png"
+  },
+  {
+    "name": "Bông tai Kim cương Vàng trắng 58,5% (14K) PNJ DDDDW004666",
+    "sku": "GBDDDDW004666",
+    "price": 14497000,
+    "brand": "PNJ",
+    "category": "bong-tai",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/277/sp-gbddddw004666-bong-tai-kim-cuong-vang-trang-14k-pnj-1.png",
+    "localImage": "products/bong-tai/sp-gbddddw004666-bong-tai-kim-cuong-vang-trang-14k-pnj-1.png"
+  },
+  {
+    "name": "Mặt dây chuyền Kim cương Vàng trắng 58,5% (14K) PNJ DDDDW002972",
+    "sku": "GMDDDDW002972",
+    "price": 26824000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/277/sp-gmddddw002972-mat-day-chuyen-kim-cuong-vang-trang-14k-pnj-1.png",
+    "localImage": "products/day-chuyen/sp-gmddddw002972-mat-day-chuyen-kim-cuong-vang-trang-14k-pnj-1.png"
+  },
+  {
+    "name": "Mặt dây chuyền Kim cương Vàng trắng 58,5% (14K) PNJ DDDDW002970",
+    "sku": "GMDDDDW002970",
+    "price": 14525000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/278/sp-gmddddw002970-mat-day-chuyen-kim-cuong-vang-trang-14k-pnj-1.png",
+    "localImage": "products/day-chuyen/sp-gmddddw002970-mat-day-chuyen-kim-cuong-vang-trang-14k-pnj-1.png"
+  },
+  {
+    "name": "Lắc tay Kim cương Vàng Trắng 58,5% (14K) PNJ Kind Heart DDDDW001108",
+    "sku": "GLDDDDW001108",
+    "price": 15339000,
+    "brand": "PNJ",
+    "category": "lac-vong-tay",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/291/sp-glddddw001108-lac-tay-kim-cuong-vang-trang-585-14k-pnj-kind-heart-1.png",
+    "localImage": "products/lac-vong-tay/sp-glddddw001108-lac-tay-kim-cuong-vang-trang-585-14k-pnj-kind-heart-1.png"
+  },
+  {
+    "name": "Mặt dây chuyền Vàng 75% (18K) đính Ngọc trai Southsea PNJ PSDDC060001",
+    "sku": "GMPSDDC060001",
+    "price": 23640000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/239/sp-gmpsddc060001-mat-day-chuyen-vang-dinh-ngoc-trai-southsea-pnj-1.png",
+    "localImage": "products/day-chuyen/sp-gmpsddc060001-mat-day-chuyen-vang-dinh-ngoc-trai-southsea-pnj-1.png"
+  },
+  {
+    "name": "Dây cổ Vàng 75% (18K) Đính ngọc trai Akoya PNJ PA00Y060018",
+    "sku": "GCPA00Y060018",
+    "price": 27320000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/258/sp-gcpa00y060018-day-co-vang-18k-dinh-ngoc-trai-akoya-pnj-1.png",
+    "localImage": "products/day-chuyen/sp-gcpa00y060018-day-co-vang-18k-dinh-ngoc-trai-akoya-pnj-1.png"
+  },
+  {
+    "name": "Dây cổ Vàng trắng 41,6% (10K) Đính Ngọc trai Freshwater PNJ PFXMW000097",
+    "sku": "GCPFXMW000097",
+    "price": 10273000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/277/sp-gcpfxmw000097-day-co-vang-trang-10k-dinh-ngoc-trai-freshwater-pnj-1.png",
+    "localImage": "products/day-chuyen/sp-gcpfxmw000097-day-co-vang-trang-10k-dinh-ngoc-trai-freshwater-pnj-1.png"
+  },
+  {
+    "name": "Lắc tay Vàng trắng 41,6% (10K) Đính Ngọc trai Freshwater PNJ PFXMW000081",
+    "sku": "GLPFXMW000081",
+    "price": 7673000,
+    "brand": "PNJ",
+    "category": "lac-vong-tay",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/278/sp-glpfxmw000081-lac-tay-vang-trang-10k-dinh-ngoc-trai-freshwater-pnj-1.png",
+    "localImage": "products/lac-vong-tay/sp-glpfxmw000081-lac-tay-vang-trang-10k-dinh-ngoc-trai-freshwater-pnj-1.png"
+  },
+  {
+    "name": "Nhẫn Vàng trắng 41,6% (10K) Đính Ngọc trai Freshwater PNJ PFXMW000354",
+    "sku": "GNPFXMW000354",
+    "price": 6327000,
+    "brand": "PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/280/sp-gnpfxmw000354-nhan-vang-trang-10k-dinh-ngoc-trai-freshwater-pnj-1.png",
+    "localImage": "products/nhan/sp-gnpfxmw000354-nhan-vang-trang-10k-dinh-ngoc-trai-freshwater-pnj-1.png"
+  },
+  {
+    "name": "Nhẫn Vàng trắng 58,5% (14K) Đính Ngọc trai Freshwater PNJ PFXMW000355",
+    "sku": "GNPFXMW000355",
+    "price": 12030000,
+    "brand": "PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/280/sp-gnpfxmw000355-nhan-vang-trang-14k-dinh-ngoc-trai-freshwater-pnj-1.png",
+    "localImage": "products/nhan/sp-gnpfxmw000355-nhan-vang-trang-14k-dinh-ngoc-trai-freshwater-pnj-1.png"
+  },
+  {
+    "name": "Lắc tay Vàng 75% (18K) Đính ngọc trai Akoya PNJ PA00Y060000",
+    "sku": "GLPA00Y060000",
+    "price": 27070000,
+    "brand": "PNJ",
+    "category": "lac-vong-tay",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/280/sp-glpa00y060000-lac-tay-vang-18k-dinh-ngoc-trai-akoya-pnj-1.png",
+    "localImage": "products/lac-vong-tay/sp-glpa00y060000-lac-tay-vang-18k-dinh-ngoc-trai-akoya-pnj-1.png"
+  },
+  {
+    "name": "Lắc tay Vàng 41,6% (10K) Đính đá ECZ Doraemon | PNJ XMXMC000145",
+    "sku": "GLXMXMC000145",
+    "price": 16617000,
+    "brand": "Doraemon | PNJ",
+    "category": "lac-vong-tay",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/290/sp-glxmxmc000145-lac-tay-vang-416-10k-dinh-da-ecz-doraemon-pnj-1.png",
+    "localImage": "products/lac-vong-tay/sp-glxmxmc000145-lac-tay-vang-416-10k-dinh-da-ecz-doraemon-pnj-1.png"
+  },
+  {
+    "name": "Bông tai Vàng trắng 41,6% (10K) Đính đá ECZ PNJ XMXMW003817",
+    "sku": "GBXMXMW003817",
+    "price": 5057000,
+    "brand": "PNJ",
+    "category": "bong-tai",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/283/sp-gbxmxmw003817-bong-tai-vang-trang-14k-dinh-da-ecz-pnj-1.png",
+    "localImage": "products/bong-tai/sp-gbxmxmw003817-bong-tai-vang-trang-14k-dinh-da-ecz-pnj-1.png"
+  },
+  {
+    "name": "Dây cổ Vàng trắng 41,6% (10K) Đính đá ECZ PNJ XMXMW000689",
+    "sku": "GCXMXMW000689",
+    "price": 13978000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/283/sp-gcxmxmw000689-day-co-vang-trang-14k-dinh-da-ecz-pnj-1.png",
+    "localImage": "products/day-chuyen/sp-gcxmxmw000689-day-co-vang-trang-14k-dinh-da-ecz-pnj-1.png"
+  },
+  {
+    "name": "Lắc tay Vàng Trắng 33,3% (8K) Đính đá ECZ STYLE By PNJ XMXMW000942",
+    "sku": "GLXMXMW000942",
+    "price": 4368000,
+    "brand": "STYLE BY PNJ",
+    "category": "lac-vong-tay",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/287/sp-glxmxmw000942-lac-tay-vang-trang-33-3-8k-dinh-da-ecz-style-by-pnj-1.png",
+    "localImage": "products/lac-vong-tay/sp-glxmxmw000942-lac-tay-vang-trang-33-3-8k-dinh-da-ecz-style-by-pnj-1.png"
+  },
+  {
+    "name": "Nhẫn Vàng Trắng 33,3% (8K) Đính đá ECZ STYLE By PNJ XMXMW007147",
+    "sku": "GNXMXMW007147",
+    "price": 3876000,
+    "brand": "STYLE BY PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/287/sp-gnxmxmw007147-nhan-vang-trang-33-3-8k-dinh-da-ecz-style-by-pnj-1.png",
+    "localImage": "products/nhan/sp-gnxmxmw007147-nhan-vang-trang-33-3-8k-dinh-da-ecz-style-by-pnj-1.png"
+  },
+  {
+    "name": "Nhẫn Vàng Trắng 33,3% (8K) Đính đá ECZ STYLE By PNJ XM00W002266",
+    "sku": "GNXM00W002266",
+    "price": 3560000,
+    "brand": "STYLE BY PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/287/sp-gnxm00w002266-nhan-vang-trang-33-3-8k-dinh-da-ecz-style-by-pnj-1.png",
+    "localImage": "products/nhan/sp-gnxm00w002266-nhan-vang-trang-33-3-8k-dinh-da-ecz-style-by-pnj-1.png"
+  },
+  {
+    "name": "Mặt dây chuyền Vàng Trắng 58,5% (14K) Đính đá ECZ PNJ Kind Heart XMXMW003711",
+    "sku": "GMXMXMW003711",
+    "price": 10461000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/291/sp-gmxmxmw003711-mat-day-chuyen-vang-trang-585-14k-dinh-da-ecz-pnj-kind-heart-1.png",
+    "localImage": "products/day-chuyen/sp-gmxmxmw003711-mat-day-chuyen-vang-trang-585-14k-dinh-da-ecz-pnj-kind-heart-1.png"
+  },
+  {
+    "name": "Lắc tay Vàng Trắng 58,5% (14K) Đính đá ECZ PNJ Kind Heart XMXMW000900",
+    "sku": "GLXMXMW000900",
+    "price": 16584000,
+    "brand": "PNJ",
+    "category": "lac-vong-tay",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/292/sp-glxmxmw000900-lac-tay-vang-trang-585-14k-dinh-da-ecz-pnj-kind-heart-1.png",
+    "localImage": "products/lac-vong-tay/sp-glxmxmw000900-lac-tay-vang-trang-585-14k-dinh-da-ecz-pnj-kind-heart-1.png"
+  },
+  {
+    "name": "Dây chuyền Vàng trắng Ý 75% (18K) PNJ 0000W061363",
+    "sku": "GD0000W061363",
+    "price": 30150000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/246/sp-gd0000w061363-day-chuyen-vang-trang-y-18k-pnj-1.png",
+    "localImage": "products/day-chuyen/sp-gd0000w061363-day-chuyen-vang-trang-y-18k-pnj-1.png"
+  },
+  {
+    "name": "Dây chuyền Vàng trắng Ý 75% (18K) PNJ 0000W061365",
+    "sku": "GD0000W061365",
+    "price": 14370000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/244/sp-gd0000w061365-day-chuyen-vang-trang-y-18k-pnj-1.png",
+    "localImage": "products/day-chuyen/sp-gd0000w061365-day-chuyen-vang-trang-y-18k-pnj-1.png"
+  },
+  {
+    "name": "Dây chuyền Vàng trắng Ý 75% (18K) PNJ 0000W061329",
+    "sku": "GD0000W061329",
+    "price": 16040000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/247/sp-gd0000w061329-day-chuyen-vang-trang-y-18k-pnj.png",
+    "localImage": "products/day-chuyen/sp-gd0000w061329-day-chuyen-vang-trang-y-18k-pnj.png"
+  },
+  {
+    "name": "Dây chuyền Vàng trắng 41,6% (10K) PNJ 0000W001544",
+    "sku": "GD0000W001544",
+    "price": 4125000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/276/sp-gd0000w001544-day-chuyen-kim-cuong-vang-trang-10k-pnj-1.png",
+    "localImage": "products/day-chuyen/sp-gd0000w001544-day-chuyen-kim-cuong-vang-trang-10k-pnj-1.png"
+  },
+  {
+    "name": "Dây chuyền Vàng trắng 41,6% (10K) PNJ 0000W001542",
+    "sku": "GD0000W001542",
+    "price": 6764000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/284/sp-gd0000w001542-day-chuyen-kim-cuong-vang-trang-416-10k-pnj-100.png",
+    "localImage": "products/day-chuyen/sp-gd0000w001542-day-chuyen-kim-cuong-vang-trang-416-10k-pnj-100.png"
+  },
+  {
+    "name": "Dây chuyền Vàng 41,6% (10K) PNJ 0000Y013139",
+    "sku": "GD0000Y013139",
+    "price": 5372000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/284/sp-gd0000y013139-day-chuyen-kim-cuong-vang-416-10k-pnj-100.png",
+    "localImage": "products/day-chuyen/sp-gd0000y013139-day-chuyen-kim-cuong-vang-416-10k-pnj-100.png"
+  },
+  {
+    "name": "Dây chuyền Nam Vàng 99% MANCODE by PNJ Uy Mã Kim Lĩnh 0000Y013146",
+    "sku": "GD0000Y013146",
+    "price": 36207000,
+    "brand": "MANCODE by PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/282/sp-gd0000y013146-day-chuyen-nam-vang-24k-mancode-by-pnj-uy-ma-kim-linh-1.png",
+    "localImage": "products/day-chuyen/sp-gd0000y013146-day-chuyen-nam-vang-24k-mancode-by-pnj-uy-ma-kim-linh-1.png"
+  },
+  {
+    "name": "Dây chuyền nam Vàng Trắng 41,6% (10K) MANCODE by PNJ 0000W001562",
+    "sku": "GD0000W001562",
+    "price": 12227000,
+    "brand": "MANCODE by PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/288/sp-gd0000w001562-day-chuyen-vang-trang-416-10k-pnj-01.png",
+    "localImage": "products/day-chuyen/sp-gd0000w001562-day-chuyen-vang-trang-416-10k-pnj-01.png"
+  },
+  {
+    "name": "Bông tai Vàng 58,5% (14K) Đính đá CZ PNJ XMXMY009514",
+    "sku": "GBXMXMY009514",
+    "price": 11183000,
+    "brand": "PNJ",
+    "category": "bong-tai",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/248/sp-gbxmxmy009514-bong-tai-vang-14k-dinh-da-ecz-pnj-1.png",
+    "localImage": "products/bong-tai/sp-gbxmxmy009514-bong-tai-vang-14k-dinh-da-ecz-pnj-1.png"
+  },
+  {
+    "name": "Bông tai Vàng 58,5% (14K) Đính đá CZ PNJ XMXMY009516",
+    "sku": "GBXMXMY009516",
+    "price": 12995000,
+    "brand": "PNJ",
+    "category": "bong-tai",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/248/sp-gbxmxmy009516-bong-tai-vang-14k-dinh-da-ecz-pnj-1.png",
+    "localImage": "products/bong-tai/sp-gbxmxmy009516-bong-tai-vang-14k-dinh-da-ecz-pnj-1.png"
+  },
+  {
+    "name": "Lắc tay Vàng 58,5% (14K) Đính đá CZ PNJ XMXMY001419",
+    "sku": "GLXMXMY001419",
+    "price": 29248000,
+    "brand": "PNJ",
+    "category": "lac-vong-tay",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/249/sp-glxmxmy001419-lac-tay-vang-14k-dinh-da-ecz-pnj-1.png",
+    "localImage": "products/lac-vong-tay/sp-glxmxmy001419-lac-tay-vang-14k-dinh-da-ecz-pnj-1.png"
+  },
+  {
+    "name": "Dây cổ Vàng 58,5% (14K) Đính đá CZ PNJ XMXMY001420",
+    "sku": "GCXMXMY001420",
+    "price": 13352000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/277/sp-gcxmxmy001420-day-co-vang-14k-dinh-da-ecz-pnj-1.png",
+    "localImage": "products/day-chuyen/sp-gcxmxmy001420-day-co-vang-14k-dinh-da-ecz-pnj-1.png"
+  },
+  {
+    "name": "Nhẫn Vàng 58,5% (14K) Đính đá CZ PNJ XMXMY017035",
+    "sku": "GNXMXMY017035",
+    "price": 13927000,
+    "brand": "PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/278/sp-gnxmxmy017035-nhan-vang-14k-dinh-da-ecz-pnj-1.png",
+    "localImage": "products/nhan/sp-gnxmxmy017035-nhan-vang-14k-dinh-da-ecz-pnj-1.png"
+  },
+  {
+    "name": "Lắc tay Vàng 75% (18K) Đính đá CZ PNJ XMXMY001922",
+    "sku": "GLXMXMY001922",
+    "price": 18773000,
+    "brand": "PNJ",
+    "category": "lac-vong-tay",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/282/sp-glxmxmy001922-lac-tay-vang-18k-dinh-da-ecz-pnj-1.png",
+    "localImage": "products/lac-vong-tay/sp-glxmxmy001922-lac-tay-vang-18k-dinh-da-ecz-pnj-1.png"
+  },
+  {
+    "name": "Nhẫn Vàng 75% (18K) Đính đá CZ PNJ XMXMY017500",
+    "sku": "GNXMXMY017500",
+    "price": 14506000,
+    "brand": "PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/286/sp-gnxmxmy017500-nhan-vang-75-18k-dinh-da-ecz-pnj-1.png",
+    "localImage": "products/nhan/sp-gnxmxmy017500-nhan-vang-75-18k-dinh-da-ecz-pnj-1.png"
+  },
+  {
+    "name": "Mặt dây chuyền Vàng 41,6% (10K) Đính đá Sapphire PNJ hình vương miện SP00Y000018",
+    "sku": "GMSP00Y000018",
+    "price": 4309000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/249/sp-gmsp00y000018-mat-day-chuyen-vang-10k-dinh-da-sapphire-pnj-peter-pan-1.png",
+    "localImage": "products/day-chuyen/sp-gmsp00y000018-mat-day-chuyen-vang-10k-dinh-da-sapphire-pnj-peter-pan-1.png"
+  },
+  {
+    "name": "Mặt dây chuyền Vàng trắng 41,6% (10K) Đính đá Sapphire PNJ SPXMW000224",
+    "sku": "GMSPXMW000224",
+    "price": 5444000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/249/sp-gmspxmw000224-mat-day-chuyen-vang-10k-dinh-da-sapphire-pnj-peter-pan-1.png",
+    "localImage": "products/day-chuyen/sp-gmspxmw000224-mat-day-chuyen-vang-10k-dinh-da-sapphire-pnj-peter-pan-1.png"
+  },
+  {
+    "name": "Mặt dây chuyền Vàng trắng 41,6% (10K) Đính đá Sapphire PNJ SPXMW000226",
+    "sku": "GMSPXMW000226",
+    "price": 7189000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/260/sp-gmspxmw000226-mat-day-chuyen-vang-10k-dinh-da-sapphire-pnj-1.png",
+    "localImage": "products/day-chuyen/sp-gmspxmw000226-mat-day-chuyen-vang-10k-dinh-da-sapphire-pnj-1.png"
+  },
+  {
+    "name": "Mặt dây chuyền Vàng 41,6% (10K) Đính đá Sapphire PNJ SPXMX000004",
+    "sku": "GMSPXMX000004",
+    "price": 10481000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/262/sp-gmspxmx000004-mat-day-chuyen-vang-10k-dinh-da-sapphire-pnj-peter-pan-1.png",
+    "localImage": "products/day-chuyen/sp-gmspxmx000004-mat-day-chuyen-vang-10k-dinh-da-sapphire-pnj-peter-pan-1.png"
+  },
+  {
+    "name": "Hạt Charm Bạc đính đá STYLE By PNJ Energy Stone QT00W000002",
+    "sku": "SIQT00W000002",
+    "price": 855000,
+    "brand": "STYLE BY PNJ",
+    "category": "charm",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/262/sp-siqt00w000002-hat-charm-bac-dinh-da-style-by-pnj-10.png",
+    "localImage": "products/charm/sp-siqt00w000002-hat-charm-bac-dinh-da-style-by-pnj-10.png"
+  },
+  {
+    "name": "Lắc tay Bạc đính đá STYLE By PNJ Energy Stone AT00H000003",
+    "sku": "SLAT00H000003",
+    "price": 1655000,
+    "brand": "STYLE BY PNJ",
+    "category": "lac-vong-tay",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/271/sp-slat00h000003-lac-tay-bac-dinh-da-style-by-pnj-energy-stone-1.png",
+    "localImage": "products/lac-vong-tay/sp-slat00h000003-lac-tay-bac-dinh-da-style-by-pnj-energy-stone-1.png"
+  },
+  {
+    "name": "Hạt Charm Bạc đính đá PNJSilver XMXMW060488",
+    "sku": "SIXMXMW060488",
+    "price": 555000,
+    "brand": "PNJSilver",
+    "category": "charm",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/260/sp-sixmxmw060488-hat-charm-bac-dinh-da-pnjsilver-1.png",
+    "localImage": "products/charm/sp-sixmxmw060488-hat-charm-bac-dinh-da-pnjsilver-1.png"
+  },
+  {
+    "name": "Hạt Charm Bạc đính đá PNJSilver ZTZTW060061",
+    "sku": "SIZTZTW060061",
+    "price": 455000,
+    "brand": "PNJSilver",
+    "category": "charm",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/260/sp-siztztw060061-hat-charm-bac-dinh-da-pnjsilver-1.png",
+    "localImage": "products/charm/sp-siztztw060061-hat-charm-bac-dinh-da-pnjsilver-1.png"
+  },
+  {
+    "name": "Nhẫn Bạc đính đá PNJSilver PF00W000004",
+    "sku": "SNPF00W000004",
+    "price": 855000,
+    "brand": "PNJSilver",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/281/sp-snpf00w000004-nhan-bac-dinh-da-pnjsilver-1.png",
+    "localImage": "products/nhan/sp-snpf00w000004-nhan-bac-dinh-da-pnjsilver-1.png"
+  },
+  {
+    "name": "Lắc tay Bạc đính đá PNJSilver XMXMW060446",
+    "sku": "SLXMXMW060446",
+    "price": 1655000,
+    "brand": "PNJSilver",
+    "category": "lac-vong-tay",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/287/sp-slxmxmw060446-lac-tay-bac-dinh-da-pnjsilver-1.png",
+    "localImage": "products/lac-vong-tay/sp-slxmxmw060446-lac-tay-bac-dinh-da-pnjsilver-1.png"
+  },
+  {
+    "name": "Vòng tay Bạc đính đá PNJSilver XMXMW060036",
+    "sku": "SVXMXMW060036",
+    "price": 1995000,
+    "brand": "PNJSilver",
+    "category": "lac-vong-tay",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/287/sp-svxmxmw060036-vong-tay-bac-dinh-da-pnjsilver-1.png",
+    "localImage": "products/lac-vong-tay/sp-svxmxmw060036-vong-tay-bac-dinh-da-pnjsilver-1.png"
+  },
+  {
+    "name": "Bông tai Bạc đính đá PNJSilver XM00W060085",
+    "sku": "SBXM00W060085",
+    "price": 395000,
+    "brand": "PNJSilver",
+    "category": "bong-tai",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/286/sp-sbxm00w060085-bong-tai-bac-dinh-da-pnjsilver-1.png",
+    "localImage": "products/bong-tai/sp-sbxm00w060085-bong-tai-bac-dinh-da-pnjsilver-1.png"
+  },
+  {
+    "name": "Bông tai Bạc đính ngọc trai PNJSilver PF00W060005",
+    "sku": "SBPF00W060005",
+    "price": 595000,
+    "brand": "PNJSilver",
+    "category": "bong-tai",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/286/sp-sbpf00w060005-bong-tai-bac-dinh-da-pnjsilver-1.png",
+    "localImage": "products/bong-tai/sp-sbpf00w060005-bong-tai-bac-dinh-da-pnjsilver-1.png"
+  },
+  {
+    "name": "Hạt Charm Bạc đính đá PNJSilver hình trái tim ZTXMW060098",
+    "sku": "SIZTXMW060098",
+    "price": 755000,
+    "brand": "PNJSilver",
+    "category": "charm",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/288/sp-siztxmw060098-hat-charm-bac-dinh-da-pnjsilver-hinh-trai-tim-01.png",
+    "localImage": "products/charm/sp-siztxmw060098-hat-charm-bac-dinh-da-pnjsilver-hinh-trai-tim-01.png"
+  },
+  {
+    "name": "Nhẫn Bạc hình trái tim PNJSilver 0000W060067",
+    "sku": "SN0000W060067",
+    "price": 655000,
+    "brand": "PNJSilver",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/286/sp-sn0000w060067-nhan-bac-dinh-da-pnjsilver-1.png",
+    "localImage": "products/nhan/sp-sn0000w060067-nhan-bac-dinh-da-pnjsilver-1.png"
+  },
+  {
+    "name": "Bông tai Vàng trắng 58,5% (14K) Đính đá ECZ PNJ XM00W001698",
+    "sku": "GBXM00W001698",
+    "price": 6607000,
+    "brand": "PNJ",
+    "category": "bong-tai",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/286/sp-gbxm00w001698-bong-tai-vang-trang-58-5-14k-dinh-da-ecz-pnj-1.png",
+    "localImage": "products/bong-tai/sp-gbxm00w001698-bong-tai-vang-trang-58-5-14k-dinh-da-ecz-pnj-1.png"
+  },
+  {
+    "name": "Dây cổ Vàng Trắng Ý 75% (18K) PNJ 0000W000394",
+    "sku": "GC0000W000394",
+    "price": 8975000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/284/sp-gc0000w000394-day-co-vang-trang-y-18k-pnj-1.png",
+    "localImage": "products/day-chuyen/sp-gc0000w000394-day-co-vang-trang-y-18k-pnj-1.png"
+  },
+  {
+    "name": "Dây cổ Vàng trắng 58,5% (14K) Đính đá ECZ PNJ XM00W000285",
+    "sku": "GCXM00W000285",
+    "price": 7292000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/284/sp-gcxm00w000285-day-co-vang-trang-58-5-14k-dinh-da-ecz-pnj-1.png",
+    "localImage": "products/day-chuyen/sp-gcxm00w000285-day-co-vang-trang-58-5-14k-dinh-da-ecz-pnj-1.png"
+  },
+  {
+    "name": "Lắc tay Vàng Trắng Ý 75% (18K) PNJ 0000W001673",
+    "sku": "GL0000W001673",
+    "price": 13153000,
+    "brand": "PNJ",
+    "category": "lac-vong-tay",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/284/sp-gl0000w001673-lac-tay-vang-trang-y-18k-pnj-1.png",
+    "localImage": "products/lac-vong-tay/sp-gl0000w001673-lac-tay-vang-trang-y-18k-pnj-1.png"
+  },
+  {
+    "name": "Nhẫn Vàng trắng 58,5% (14K) Đính đá ECZ PNJ XM00W002165",
+    "sku": "GNXM00W002165",
+    "price": 7716000,
+    "brand": "PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/285/sp-gnxm00w002165-nhan-vang-trang-58-5-14k-dinh-da-ecz-pnj-1.png",
+    "localImage": "products/nhan/sp-gnxm00w002165-nhan-vang-trang-58-5-14k-dinh-da-ecz-pnj-1.png"
+  },
+  {
+    "name": "Nhẫn Vàng trắng 58,5% (14K) Đính đá ECZ PNJ XM00W002166",
+    "sku": "GNXM00W002166",
+    "price": 7999000,
+    "brand": "PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/285/sp-gnxm00w002166-nhan-vang-trang-58-5-14k-dinh-da-ecz-pnj-1.png",
+    "localImage": "products/nhan/sp-gnxm00w002166-nhan-vang-trang-58-5-14k-dinh-da-ecz-pnj-1.png"
+  },
+  {
+    "name": "Bông tai Vàng Trắng Ý 75% (18K) PNJ 0000W061015",
+    "sku": "GB0000W061015",
+    "price": 8750000,
+    "brand": "PNJ",
+    "category": "bong-tai",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/286/sp-gb0000w061015-bong-tai-vang-trang-y-18k-pnj-1.png",
+    "localImage": "products/bong-tai/sp-gb0000w061015-bong-tai-vang-trang-y-18k-pnj-1.png"
+  },
+  {
+    "name": "Vòng tay Vàng Trắng Ý 75% (18K) PNJ 0000W001034",
+    "sku": "GV0000W001034",
+    "price": 27284000,
+    "brand": "PNJ",
+    "category": "lac-vong-tay",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/288/sp-gv0000w001034-vong-tay-vang-trang-y-75-18k-pnj-01.png",
+    "localImage": "products/lac-vong-tay/sp-gv0000w001034-vong-tay-vang-trang-y-75-18k-pnj-01.png"
+  },
+  {
+    "name": "Vỏ nhẫn Kim cương Vàng trắng 75% (18K) PNJ 00DDW000357",
+    "sku": "GN00DDW000357",
+    "price": 19824000,
+    "brand": "PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/134/gn00ddw000357-vo-nhan-kim-cuong-vang-trang-18k-pnj-01.png",
+    "localImage": "products/nhan/gn00ddw000357-vo-nhan-kim-cuong-vang-trang-18k-pnj-01.png"
+  },
+  {
+    "name": "Vỏ nhẫn Kim cương Vàng trắng 75% (18K) PNJ 00DDW000366",
+    "sku": "GN00DDW000366",
+    "price": 40038000,
+    "brand": "PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/215/sp-gn00ddw000366-vo-nhan-kim-cuong-vang-trang-18k-pnj-1.png",
+    "localImage": "products/nhan/sp-gn00ddw000366-vo-nhan-kim-cuong-vang-trang-18k-pnj-1.png"
+  },
+  {
+    "name": "Vỏ mặt dây chuyền Kim Cương Vàng trắng 75% (18K) PNJ 00DDW000442",
+    "sku": "GM00DDW000442",
+    "price": 39403000,
+    "brand": "PNJ",
+    "category": "day-chuyen",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/249/sp-gm00ddw000442-vo-mat-day-chuyen-kim-cuong-vang-trang-18k-pnj-100.png.png",
+    "localImage": "products/day-chuyen/sp-gm00ddw000442-vo-mat-day-chuyen-kim-cuong-vang-trang-18k-pnj-100.png.png"
+  },
+  {
+    "name": "Vỏ bông tai Kim cương Vàng trắng 75% (18K) PNJ 00DDW060979",
+    "sku": "GB00DDW060979",
+    "price": 41100000,
+    "brand": "PNJ",
+    "category": "bong-tai",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/160/gb00ddw060979-vo-bong-tai-vang-trang-18k-pnj-1.png",
+    "localImage": "products/bong-tai/gb00ddw060979-vo-bong-tai-vang-trang-18k-pnj-1.png"
+  },
+  {
+    "name": "Vỏ Nhẫn Kim cương Vàng trắng 75% (18K) PNJ 00DDW007747",
+    "sku": "GN00DDW007747",
+    "price": 46035000,
+    "brand": "PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/273/sp-gn00ddw007747-vo-nhan-kim-cuong-vang-trang-18k-pnj-1.png",
+    "localImage": "products/nhan/sp-gn00ddw007747-vo-nhan-kim-cuong-vang-trang-18k-pnj-1.png"
+  },
+  {
+    "name": "Vỏ Nhẫn nam Kim cương Vàng Trắng 75% (18K) MANCODE by PNJ 00DDW007873",
+    "sku": "GN00DDW007873",
+    "price": 51958000,
+    "brand": "MANCODE by PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/283/sp-gn00ddw007873-vo-nhan-nam-kim-cuong-vang-trang-18k-pnj-1.png",
+    "localImage": "products/nhan/sp-gn00ddw007873-vo-nhan-nam-kim-cuong-vang-trang-18k-pnj-1.png"
+  },
+  {
+    "name": "Vỏ Nhẫn Kim cương Vàng Trắng 75% (18K) PNJ 00DDW007889",
+    "sku": "GN00DDW007889",
+    "price": 42953000,
+    "brand": "PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/286/sp-gn00ddw007889-vo-nhan-kim-cuong-vang-trang-18k-pnj-1.png",
+    "localImage": "products/nhan/sp-gn00ddw007889-vo-nhan-kim-cuong-vang-trang-18k-pnj-1.png"
+  },
+  {
+    "name": "Vỏ Nhẫn Kim cương Vàng Trắng 75% (18K) PNJ 00DDW007890",
+    "sku": "GN00DDW007890",
+    "price": 26051000,
+    "brand": "PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/286/sp-gn00ddw007890-vo-nhan-kim-cuong-vang-trang-18k-pnj-1.png",
+    "localImage": "products/nhan/sp-gn00ddw007890-vo-nhan-kim-cuong-vang-trang-18k-pnj-1.png"
+  },
+  {
+    "name": "Bông tai Vàng 99,9% (24K) PNJ 0000Y003528",
+    "sku": "GB0000Y003528",
+    "price": 14829000,
+    "brand": "PNJ",
+    "category": "bong-tai",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/286/sp-gb0000y003528-bong-tai-vang-99-9-24k-pnj-1.png",
+    "localImage": "products/bong-tai/sp-gb0000y003528-bong-tai-vang-99-9-24k-pnj-1.png"
+  },
+  {
+    "name": "Nhẫn Vàng 99,9% (24K) PNJ 0000Y003995",
+    "sku": "GN0000Y003995",
+    "price": 5083000,
+    "brand": "PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/284/sp-gn0000y003995-nhan-vang-99-9-24k-pnj-1.png",
+    "localImage": "products/nhan/sp-gn0000y003995-nhan-vang-99-9-24k-pnj-1.png"
+  },
+  {
+    "name": "Vòng tay Vàng 99,9% (24K) PNJ 0000Y001604",
+    "sku": "GV0000Y001604",
+    "price": 18486000,
+    "brand": "PNJ",
+    "category": "lac-vong-tay",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/286/sp-gv0000y001604-vong-tay-vang-99-9-24k-pnj-1.png",
+    "localImage": "products/lac-vong-tay/sp-gv0000y001604-vong-tay-vang-99-9-24k-pnj-1.png"
+  },
+  {
+    "name": "Nhẫn Vàng Trắng 33,3% (8K) STYLE By PNJ 0000W003765",
+    "sku": "GN0000W003765",
+    "price": 2580000,
+    "brand": "STYLE BY PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/287/sp-gn0000w003765-nhan-vang-trang-33-3-8k-style-by-pnj-1.png",
+    "localImage": "products/nhan/sp-gn0000w003765-nhan-vang-trang-33-3-8k-style-by-pnj-1.png"
+  },
+  {
+    "name": "Nhẫn Vàng Trắng 33,3% (8K) STYLE By PNJ 0000W003766",
+    "sku": "GN0000W003766",
+    "price": 3177000,
+    "brand": "STYLE BY PNJ",
+    "category": "nhan",
+    "image": "https://cdn.pnj.io/images/thumbnails/485/485/detailed/287/sp-gn0000w003766-nhan-vang-trang-33-3-8k-style-by-pnj-1.png",
+    "localImage": "products/nhan/sp-gn0000w003766-nhan-vang-trang-33-3-8k-style-by-pnj-1.png"
+  }
+]

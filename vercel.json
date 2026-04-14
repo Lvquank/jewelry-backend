@@ -1,0 +1,22 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "src/index.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "src/index.js"
+        }
+    ],
+    "env": {
+        "MongoDB": "@mongodb_uri",
+        "ACCESS_TOKEN": "@access_token",
+        "REFRESH_TOKEN": "@refresh_token",
+        "CLIENT_ID": "@client_id",
+        "GOOGLE_CLIENT_ID": "@google_client_id"
+    }
+}
