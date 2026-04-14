@@ -18,23 +18,25 @@
 ## Bước 2: Cấu hình Environment Variables trên Vercel
 
 **MỢI LƯỚI:**
+
 1. Trong Vercel Dashboard → Chọn Project
 2. Vào **Settings → Environment Variables**
 3. Thêm từng variable:
 
-| Key | Value |
-|-----|-------|
-| `MongoDB` | `mongodb+srv://quankle:5122004@cluster0.mxwybde.mongodb.net/ecommerce?retryWrites=true&w=majority` |
-| `ACCESS_TOKEN` | `access_token_secret_here` |
-| `REFRESH_TOKEN` | `refresh_token_secret_here` |
-| `CLIENT_ID` | `your_paypal_client_id` |
-| `GOOGLE_CLIENT_ID` | `your_google_client_id` |
-| `VNPAY_TMN_CODE` | `your_vnpay_code` |
-| `VNPAY_HASH_SECRET` | `your_vnpay_secret` |
-| `VNPAY_URL` | `https://sandbox.vnpayment.vn/paymentv2/vpcpay.html` |
-| `FRONTEND_URL` | `https://your-frontend-domain.com` |
+| Key                 | Value                                                                                              |
+| ------------------- | -------------------------------------------------------------------------------------------------- |
+| `MongoDB`           | `mongodb+srv://quankle:5122004@cluster0.mxwybde.mongodb.net/ecommerce?retryWrites=true&w=majority` |
+| `ACCESS_TOKEN`      | `access_token_secret_here`                                                                         |
+| `REFRESH_TOKEN`     | `refresh_token_secret_here`                                                                        |
+| `CLIENT_ID`         | `your_paypal_client_id`                                                                            |
+| `GOOGLE_CLIENT_ID`  | `your_google_client_id`                                                                            |
+| `VNPAY_TMN_CODE`    | `your_vnpay_code`                                                                                  |
+| `VNPAY_HASH_SECRET` | `your_vnpay_secret`                                                                                |
+| `VNPAY_URL`         | `https://sandbox.vnpayment.vn/paymentv2/vpcpay.html`                                               |
+| `FRONTEND_URL`      | `https://your-frontend-domain.com`                                                                 |
 
 **Quan trọng:**
+
 - Chọn **"Decrypted"** để xem giá trị (không hiển thị public)
 - Chỉ Vercel admin mới thấy được
 - Environment variables không được push lên GitHub

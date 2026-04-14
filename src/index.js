@@ -1,44 +1,13 @@
-const express = require("express");
-const dotenv = require('dotenv');
-const mongoose = require("mongoose");
-const routes = require('./routes');
-const cors = require('cors');
-const cookieParser = require('cookie-parser');
+const app = require('./app');
 
-dotenv.config();
-mongoose.set('strictQuery', false);
-const app = express();
 const port = process.env.PORT || 3001;
-const path = require('path')
 
-// Cấu hình CORS
-app.use(cors());
-
-// Cấu hình middleware của express
-app.use(express.json({ limit: '50mb' }));
-app.use(express.urlencoded({ limit: '50mb', extended: true }));
-app.use(cookieParser());
-
-// Serve static files (ảnh upload)
-app.use('/uploads', express.static(path.join(__dirname, '../uploads')))
-
-// Serve static files (ảnh bài viết, banner, sản phẩm)
-app.use('/images', express.static(path.join(__dirname, '../public/images')))
-
-// Định tuyến
-routes(app);
-
-
-// Kết nối MongoDB
-mongoose.connect(`${process.env.MongoDB}`, { useNewUrlParser: true, useUnifiedTopology: true })
-    .then(() => {
-        console.log('Connect Db success!');
-    })
-    .catch((err) => {
-        console.log(err);
+// Chỉ listen khi chạy local (không phải serverless)
+if (require.main === module) {
+    app.listen(port, () => {
+        console.log('🚀 Server is running on port:', port);
     });
+}
 
-// Khởi động server
-app.listen(port, () => {
-    console.log('Server is running on port:', port);
-});
+module.exports = app;
+
