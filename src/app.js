@@ -27,7 +27,16 @@ app.use('/images', express.static(path.join(__dirname, '../public/images')))
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {
-    res.json({ status: 'OK', timestamp: new Date().toISOString() });
+    const mongoStatus = mongoose.connection.readyState === 1 ? 'Connected' : 'Disconnected';
+    const envCheck = process.env.MongoDB ? 'Set' : 'Not Set';
+    
+    res.json({ 
+        status: 'OK',
+        timestamp: new Date().toISOString(),
+        mongodb: mongoStatus,
+        env_mongodb: envCheck,
+        port: process.env.PORT || 3001
+    });
 });
 
 // Định tuyến
