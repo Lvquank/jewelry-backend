@@ -9,3 +9,4 @@ DEPLOY_VERCEL.md
 *.md
 .vscode
 .DS_Store
+public
