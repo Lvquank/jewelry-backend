@@ -2,4 +2,10 @@ node_modules
 package-lock.json
 .vscode
 .env
-public
+cloudinary-urls.json
+upload-to-cloudinary.js
+update-mongo-urls.js
+
+# Skip local images (now served via Cloudinary)
+public/images/
+!public/images/.gitkeep

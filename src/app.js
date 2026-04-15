@@ -20,10 +20,16 @@ app.use(express.urlencoded({ limit: '50mb', extended: true }));
 app.use(cookieParser());
 
 // Serve static files (ảnh upload)
-app.use('/uploads', express.static(path.join(__dirname, '../uploads')))
+// Skip on Vercel - let Vercel handle static files
+if (!process.env.VERCEL) {
+    app.use('/uploads', express.static(path.join(__dirname, '../uploads')))
+}
 
 // Serve static files (ảnh bài viết, banner, sản phẩm)
-app.use('/images', express.static(path.join(__dirname, '../public/images')))
+// Skip on Vercel - let Vercel handle static files
+if (!process.env.VERCEL) {
+    app.use('/images', express.static(path.join(__dirname, '../public/images')))
+}
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {
