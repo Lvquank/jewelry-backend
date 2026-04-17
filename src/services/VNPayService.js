@@ -7,7 +7,7 @@ const VNPAY_URL = process.env.VNPAY_URL || 'https://sandbox.vnpayment.vn/payment
 const VNPAY_RETURN_URL = process.env.VNPAY_RETURN_URL || 'http://localhost:3000/payment/vnpay-return'
 
 /**
- * Format date sang giờ Việt Nam (UTC+7) -> yyyyMMddHHmmss
+ * Format date sang gio Viet Nam (UTC+7) -> yyyyMMddHHmmss
  */
 const formatDateVN = (date) => {
     const vnOffset = 7 * 60 * 60 * 1000
@@ -16,7 +16,7 @@ const formatDateVN = (date) => {
 }
 
 /**
- * Sắp xếp object theo key alphabet
+ * Sap xep object theo key alphabet
  */
 const sortObject = (obj) => {
     const sorted = {}
@@ -25,16 +25,16 @@ const sortObject = (obj) => {
 }
 
 /**
- * Build chuỗi sign: key=value&key=value (KHÔNG encode) theo đúng spec VNPay
+ * Build chuoi sign theo chuan VNPay:
+ * Dung querystring.stringify de encode giong PHP urlencode (space -> +, : -> %3A, / -> %2F)
  */
 const buildSignData = (params) => {
-    return Object.keys(params)
-        .map(key => `${key}=${params[key]}`)
-        .join('&')
+    const qs = require('querystring')
+    return qs.stringify(params)
 }
 
 /**
- * Build query string cho URL: key=value&key=value (có encode value)
+ * Build query string cho URL voi encodeURIComponent
  */
 const buildQueryString = (params) => {
     return Object.keys(params)
@@ -43,7 +43,7 @@ const buildQueryString = (params) => {
 }
 
 /**
- * Tính HMAC-SHA512
+ * Tinh HMAC-SHA512
  */
 const hmacSHA512 = (key, data) => {
     return crypto.createHmac('sha512', key)
@@ -52,21 +52,21 @@ const hmacSHA512 = (key, data) => {
 }
 
 /**
- * Tạo URL thanh toán VNPay
+ * Tao URL thanh toan VNPay
  */
 const createVNPayUrl = (orderId, amount, orderInfo, ipAddr) => {
     return new Promise((resolve, reject) => {
         try {
             const createDate = formatDateVN(new Date())
 
-            // Sanitize orderInfo: chỉ alphanumeric + dấu cách
+            // Sanitize orderInfo: chi alphanumeric + dau cach
             const sanitizedOrderInfo = (orderInfo || `Thanh toan don hang ${orderId}`)
                 .normalize('NFD')
                 .replace(/[\u0300-\u036f]/g, '')
                 .replace(/[^a-zA-Z0-9 ]/g, '')
                 .trim()
 
-            // Xây params đã sort
+            // Xay params da sort
             const vnp_Params = sortObject({
                 vnp_Version: '2.1.0',
                 vnp_Command: 'pay',
@@ -82,11 +82,18 @@ const createVNPayUrl = (orderId, amount, orderInfo, ipAddr) => {
                 vnp_TxnRef: String(orderId),
             })
 
-            // Tính chữ ký từ chuỗi KHÔNG encode
+            // Tinh chu ky (querystring.stringify encode giong PHP urlencode)
             const signData = buildSignData(vnp_Params)
             const secureHash = hmacSHA512(VNPAY_HASH_SECRET, signData)
 
-            // Thêm hash vào params và build URL
+            // Debug log (xem trong Vercel Function Logs)
+            console.log('[VNPay] TmnCode:', VNPAY_TMN_CODE)
+            console.log('[VNPay] SecretLen:', VNPAY_HASH_SECRET.length)
+            console.log('[VNPay] ReturnUrl:', VNPAY_RETURN_URL)
+            console.log('[VNPay] SignData:', signData)
+            console.log('[VNPay] Hash:', secureHash)
+
+            // Them hash vao params va build URL
             vnp_Params['vnp_SecureHash'] = secureHash
             const paymentUrl = `${VNPAY_URL}?${buildQueryString(vnp_Params)}`
 
@@ -96,8 +103,7 @@ const createVNPayUrl = (orderId, amount, orderInfo, ipAddr) => {
 }
 
 /**
- * Verify kết quả VNPay callback
- * (Express tự decode req.query nên nhận được raw values)
+ * Verify ket qua VNPay callback
  */
 const verifyVNPayReturn = (vnpParams) => {
     return new Promise((resolve, reject) => {
@@ -112,7 +118,7 @@ const verifyVNPayReturn = (vnpParams) => {
             const signed = hmacSHA512(VNPAY_HASH_SECRET, signData)
 
             if (secureHash !== signed) {
-                return resolve({ status: 'ERR', message: 'Chữ ký không hợp lệ', rspCode: '97' })
+                return resolve({ status: 'ERR', message: 'Chu ky khong hop le', rspCode: '97' })
             }
 
             const responseCode = vnpParams['vnp_ResponseCode']
@@ -122,7 +128,7 @@ const verifyVNPayReturn = (vnpParams) => {
             if (responseCode === '00') {
                 resolve({
                     status: 'OK',
-                    message: 'Thanh toán thành công',
+                    message: 'Thanh toan thanh cong',
                     orderId, amount,
                     transactionNo: vnpParams['vnp_TransactionNo'],
                     bankCode: vnpParams['vnp_BankCode'],
@@ -131,7 +137,7 @@ const verifyVNPayReturn = (vnpParams) => {
             } else {
                 resolve({
                     status: 'ERR',
-                    message: 'Thanh toán thất bại hoặc bị hủy',
+                    message: 'Thanh toan that bai hoac bi huy',
                     orderId, responseCode,
                     rspCode: responseCode
                 })
@@ -141,7 +147,7 @@ const verifyVNPayReturn = (vnpParams) => {
 }
 
 /**
- * Cập nhật trạng thái đơn hàng sau khi thanh toán VNPay
+ * Cap nhat trang thai don hang sau khi thanh toan VNPay
  */
 const updateOrderAfterPayment = async (orderId, isPaid) => {
     try {
