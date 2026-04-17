@@ -25,12 +25,26 @@ const sortObject = (obj) => {
 }
 
 /**
- * Build chuoi sign theo chuan VNPay:
- * Dung querystring.stringify de encode giong PHP urlencode (space -> +, : -> %3A, / -> %2F)
+ * Encode giong PHP urlencode: space -> +, cac ky tu dac biet -> %XX
+ * Can thiet de khop voi VNPay PHP server verification
+ */
+const phpUrlencode = (str) => {
+    return encodeURIComponent(String(str))
+        .replace(/%20/g, '+')   // space -> + (PHP urlencode)
+        .replace(/!/g, '%21')
+        .replace(/'/g, '%27')
+        .replace(/\(/g, '%28')
+        .replace(/\)/g, '%29')
+        .replace(/\*/g, '%2A')
+}
+
+/**
+ * Build chuoi sign theo chuan VNPay (PHP urlencode cho tung value)
  */
 const buildSignData = (params) => {
-    const qs = require('querystring')
-    return qs.stringify(params)
+    return Object.keys(params)
+        .map(key => `${key}=${phpUrlencode(params[key])}`)
+        .join('&')
 }
 
 /**
