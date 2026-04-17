@@ -1,5 +1,4 @@
 const crypto = require('crypto')
-const querystring = require('querystring')
 const Order = require('../models/OrderProduct')
 
 const VNPAY_TMN_CODE = process.env.VNPAY_TMN_CODE || ''
@@ -8,64 +7,114 @@ const VNPAY_URL = process.env.VNPAY_URL || 'https://sandbox.vnpayment.vn/payment
 const VNPAY_RETURN_URL = process.env.VNPAY_RETURN_URL || 'http://localhost:3000/payment/vnpay-return'
 
 /**
+ * Format date sang giờ Việt Nam (UTC+7) -> yyyyMMddHHmmss
+ */
+const formatDateVN = (date) => {
+    const vnOffset = 7 * 60 * 60 * 1000
+    const vnDate = new Date(date.getTime() + vnOffset)
+    return vnDate.toISOString().replace(/[-T:.Z]/g, '').slice(0, 14)
+}
+
+/**
+ * Sắp xếp object theo key alphabet
+ */
+const sortObject = (obj) => {
+    const sorted = {}
+    Object.keys(obj).sort().forEach(key => { sorted[key] = obj[key] })
+    return sorted
+}
+
+/**
+ * Build chuỗi sign: key=value&key=value (KHÔNG encode) theo đúng spec VNPay
+ */
+const buildSignData = (params) => {
+    return Object.keys(params)
+        .map(key => `${key}=${params[key]}`)
+        .join('&')
+}
+
+/**
+ * Build query string cho URL: key=value&key=value (có encode value)
+ */
+const buildQueryString = (params) => {
+    return Object.keys(params)
+        .map(key => `${key}=${encodeURIComponent(params[key])}`)
+        .join('&')
+}
+
+/**
+ * Tính HMAC-SHA512
+ */
+const hmacSHA512 = (key, data) => {
+    return crypto.createHmac('sha512', key)
+        .update(Buffer.from(data, 'utf-8'))
+        .digest('hex')
+}
+
+/**
  * Tạo URL thanh toán VNPay
  */
 const createVNPayUrl = (orderId, amount, orderInfo, ipAddr) => {
     return new Promise((resolve, reject) => {
         try {
-            const date = new Date()
-            const createDate = date.toISOString().replace(/[-T:.Z]/g, '').slice(0, 14)
-            const expireDate = new Date(date.getTime() + 15 * 60 * 1000)
-                .toISOString().replace(/[-T:.Z]/g, '').slice(0, 14)
+            const createDate = formatDateVN(new Date())
 
-            let vnp_Params = {
+            // Sanitize orderInfo: chỉ alphanumeric + dấu cách
+            const sanitizedOrderInfo = (orderInfo || `Thanh toan don hang ${orderId}`)
+                .normalize('NFD')
+                .replace(/[\u0300-\u036f]/g, '')
+                .replace(/[^a-zA-Z0-9 ]/g, '')
+                .trim()
+
+            // Xây params đã sort
+            const vnp_Params = sortObject({
                 vnp_Version: '2.1.0',
                 vnp_Command: 'pay',
                 vnp_TmnCode: VNPAY_TMN_CODE,
-                vnp_Amount: amount * 100, // VNPay tính bằng đồng * 100
+                vnp_Amount: Math.round(amount) * 100,
                 vnp_CreateDate: createDate,
                 vnp_CurrCode: 'VND',
                 vnp_IpAddr: ipAddr || '127.0.0.1',
                 vnp_Locale: 'vn',
-                vnp_OrderInfo: orderInfo || `Thanh toan don hang ${orderId}`,
+                vnp_OrderInfo: sanitizedOrderInfo,
                 vnp_OrderType: 'other',
                 vnp_ReturnUrl: VNPAY_RETURN_URL,
-                vnp_TxnRef: orderId,
-                vnp_ExpireDate: expireDate,
-            }
+                vnp_TxnRef: String(orderId),
+            })
 
-            vnp_Params = sortObject(vnp_Params)
-            const signData = querystring.stringify(vnp_Params, { encode: false })
-            const hmac = crypto.createHmac('sha512', VNPAY_HASH_SECRET)
-            const signed = hmac.update(Buffer.from(signData, 'utf-8')).digest('hex')
-            vnp_Params['vnp_SecureHash'] = signed
+            // Tính chữ ký từ chuỗi KHÔNG encode
+            const signData = buildSignData(vnp_Params)
+            const secureHash = hmacSHA512(VNPAY_HASH_SECRET, signData)
 
-            const paymentUrl = `${VNPAY_URL}?${querystring.stringify(vnp_Params, { encode: false })}`
+            // Thêm hash vào params và build URL
+            vnp_Params['vnp_SecureHash'] = secureHash
+            const paymentUrl = `${VNPAY_URL}?${buildQueryString(vnp_Params)}`
+
             resolve({ status: 'OK', message: 'Success', data: { paymentUrl } })
         } catch (e) { reject(e) }
     })
 }
 
 /**
- * Verify kết quả từ VNPay callback
+ * Verify kết quả VNPay callback
+ * (Express tự decode req.query nên nhận được raw values)
  */
 const verifyVNPayReturn = (vnpParams) => {
     return new Promise((resolve, reject) => {
         try {
             const secureHash = vnpParams['vnp_SecureHash']
-            delete vnpParams['vnp_SecureHash']
-            delete vnpParams['vnp_SecureHashType']
+            const params = { ...vnpParams }
+            delete params['vnp_SecureHash']
+            delete params['vnp_SecureHashType']
 
-            const sortedParams = sortObject(vnpParams)
-            const signData = querystring.stringify(sortedParams, { encode: false })
-            const hmac = crypto.createHmac('sha512', VNPAY_HASH_SECRET)
-            const signed = hmac.update(Buffer.from(signData, 'utf-8')).digest('hex')
+            const sortedParams = sortObject(params)
+            const signData = buildSignData(sortedParams)
+            const signed = hmacSHA512(VNPAY_HASH_SECRET, signData)
 
             if (secureHash !== signed) {
                 return resolve({ status: 'ERR', message: 'Chữ ký không hợp lệ', rspCode: '97' })
             }
 
-            // Kiểm tra mã trả về từ VNPay
             const responseCode = vnpParams['vnp_ResponseCode']
             const orderId = vnpParams['vnp_TxnRef']
             const amount = parseInt(vnpParams['vnp_Amount']) / 100
@@ -92,7 +141,7 @@ const verifyVNPayReturn = (vnpParams) => {
 }
 
 /**
- * Cập nhật trạng thái thanh toán sau khi verify VNPay
+ * Cập nhật trạng thái đơn hàng sau khi thanh toán VNPay
  */
 const updateOrderAfterPayment = async (orderId, isPaid) => {
     try {
@@ -104,13 +153,6 @@ const updateOrderAfterPayment = async (orderId, isPaid) => {
     } catch (e) {
         console.error('updateOrderAfterPayment error:', e)
     }
-}
-
-const sortObject = (obj) => {
-    const sorted = {}
-    const keys = Object.keys(obj).sort()
-    keys.forEach(key => { sorted[key] = obj[key] })
-    return sorted
 }
 
 module.exports = { createVNPayUrl, verifyVNPayReturn, updateOrderAfterPayment }
