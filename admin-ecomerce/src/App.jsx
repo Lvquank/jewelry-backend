@@ -10,8 +10,7 @@ import Orders from './pages/Orders';
 import Categories from './pages/Categories';
 import Posts from './pages/Posts';
 import Banners from './pages/Banners';
-import Reviews from './pages/Reviews';
-import Contacts from './pages/Contacts';
+import Feedbacks from './pages/Feedbacks';
 
 function PrivateRoute({ children }) {
   const { user, loading } = useAuth();
@@ -37,8 +36,7 @@ function AppRoutes() {
       <Route path="/categories" element={<PrivateRoute><Categories /></PrivateRoute>} />
       <Route path="/posts" element={<PrivateRoute><Posts /></PrivateRoute>} />
       <Route path="/banners" element={<PrivateRoute><Banners /></PrivateRoute>} />
-      <Route path="/reviews" element={<PrivateRoute><Reviews /></PrivateRoute>} />
-      <Route path="/contacts" element={<PrivateRoute><Contacts /></PrivateRoute>} />
+      <Route path="/feedbacks" element={<PrivateRoute><Feedbacks /></PrivateRoute>} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );

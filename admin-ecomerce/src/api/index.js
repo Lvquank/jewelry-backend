@@ -138,27 +138,18 @@ export const updateBanner = (id, data) =>
 export const deleteBanner = (id) =>
   fetch(`${BASE_URL}/api/banner/delete/${id}`, { method: 'DELETE', headers: headers() }).then(handleRes);
 
-// REVIEWS
-export const getAllReviews = () =>
-  fetch(`${BASE_URL}/api/review/get-all`, { headers: headers() }).then(handleRes);
+// FEEDBACK
+export const getAllFeedbacks = () =>
+  fetch(`${BASE_URL}/api/feedback/get-all`, { headers: headers() }).then(handleRes);
 
-export const approveReview = (id) =>
-  fetch(`${BASE_URL}/api/review/approve/${id}`, { method: 'PUT', headers: headers() }).then(handleRes);
+export const getApprovedFeedbacks = (page = 0, limit = 10) =>
+  fetch(`${BASE_URL}/api/feedback/get-approved?page=${page}&limit=${limit}`, { headers: headers() }).then(handleRes);
 
-export const deleteReview = (id) =>
-  fetch(`${BASE_URL}/api/review/delete/${id}`, { method: 'DELETE', headers: headers() }).then(handleRes);
+export const approveFeedback = (id) =>
+  fetch(`${BASE_URL}/api/feedback/approve/${id}`, { method: 'PUT', headers: headers() }).then(handleRes);
 
-// CONTACTS
-export const getAllContacts = () =>
-  fetch(`${BASE_URL}/api/contact/get-all`, { headers: headers() }).then(handleRes);
-
-export const updateContactStatus = (id, status) =>
-  fetch(`${BASE_URL}/api/contact/update-status/${id}`, {
-    method: 'PUT', headers: headers(), body: JSON.stringify({ status }),
-  }).then(handleRes);
-
-export const deleteContact = (id) =>
-  fetch(`${BASE_URL}/api/contact/delete/${id}`, { method: 'DELETE', headers: headers() }).then(handleRes);
+export const deleteFeedback = (id) =>
+  fetch(`${BASE_URL}/api/feedback/delete/${id}`, { method: 'DELETE', headers: headers() }).then(handleRes);
 
 // UPLOAD
 export const uploadImage = (file) => {

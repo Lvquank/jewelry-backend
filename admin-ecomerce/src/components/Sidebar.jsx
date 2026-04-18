@@ -9,8 +9,7 @@ const navItems = [
   { label: 'Người dùng', icon: '👥', path: '/users', section: 'QUẢN LÝ' },
   { label: 'Bài viết', icon: '📝', path: '/posts', section: 'NỘI DUNG' },
   { label: 'Banner', icon: '🖼️', path: '/banners', section: 'NỘI DUNG' },
-  { label: 'Đánh giá', icon: '⭐', path: '/reviews', section: 'NỘI DUNG' },
-  { label: 'Liên hệ', icon: '📞', path: '/contacts', section: 'NỘI DUNG' },
+  { label: 'Feedback', icon: '💬', path: '/feedbacks', section: 'NỘI DUNG' },
 ];
 
 export default function Sidebar() {
