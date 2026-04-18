@@ -151,6 +151,23 @@ export const approveFeedback = (id) =>
 export const deleteFeedback = (id) =>
   fetch(`${BASE_URL}/api/feedback/delete/${id}`, { method: 'DELETE', headers: headers() }).then(handleRes);
 
+// FEEDBACK ALBUM
+export const getAllFeedbackAlbums = () =>
+  fetch(`${BASE_URL}/api/feedback-album/admin/get-all`, { headers: headers() }).then(handleRes);
+
+export const createFeedbackAlbum = (data) =>
+  fetch(`${BASE_URL}/api/feedback-album/create`, {
+    method: 'POST', headers: headers(), body: JSON.stringify(data),
+  }).then(handleRes);
+
+export const updateFeedbackAlbum = (id, data) =>
+  fetch(`${BASE_URL}/api/feedback-album/update/${id}`, {
+    method: 'PUT', headers: headers(), body: JSON.stringify(data),
+  }).then(handleRes);
+
+export const deleteFeedbackAlbum = (id) =>
+  fetch(`${BASE_URL}/api/feedback-album/delete/${id}`, { method: 'DELETE', headers: headers() }).then(handleRes);
+
 // UPLOAD
 export const uploadImage = (file) => {
   const formData = new FormData();

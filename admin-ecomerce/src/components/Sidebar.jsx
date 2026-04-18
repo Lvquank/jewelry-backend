@@ -10,6 +10,7 @@ const navItems = [
   { label: 'Bài viết', icon: '📝', path: '/posts', section: 'NỘI DUNG' },
   { label: 'Banner', icon: '🖼️', path: '/banners', section: 'NỘI DUNG' },
   { label: 'Feedback', icon: '💬', path: '/feedbacks', section: 'NỘI DUNG' },
+  { label: 'Album Feedback', icon: '🖼️', path: '/feedback-albums', section: 'NỘI DUNG' },
 ];
 
 export default function Sidebar() {
