@@ -107,12 +107,12 @@
 | #   | Name                    | Method   | Full URL                                                                  | Auth     | Params / Body                                                                                    |
 | --- | ----------------------- | -------- | ------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------ |
 | 1   | Feedback đã duyệt       | `GET`    | `https://jewelry-backend-xi.vercel.app/api/feedback/get-approved`         | ❌       | **Query:** `?page=0&limit=10`                                                                    |
-| 2   | Gửi feedback            | `POST`   | `https://jewelry-backend-xi.vercel.app/api/feedback/create`               | 🔑 Auth  | **Body:** `{ "userId", "userName", "userAvatar"(opt), "content", "image"(opt) }`              |
+| 2   | Gửi feedback            | `POST`   | `https://jewelry-backend-xi.vercel.app/api/feedback/create`               | 🔑 Auth  | **Body:** `{ "userId", "userName", "userAvatar"(opt), "content", "images"[](opt, tối đa 5) }` |
 | 3   | Tất cả feedback (Admin) | `GET`    | `https://jewelry-backend-xi.vercel.app/api/feedback/get-all`              | 🔒 Admin | **Query:** `?page=0&limit=20`                                                                    |
 | 4   | Duyệt feedback          | `PUT`    | `https://jewelry-backend-xi.vercel.app/api/feedback/approve/:id`          | 🔒 Admin | **Path:** `id`                                                                                   |
 | 5   | Xóa feedback            | `DELETE` | `https://jewelry-backend-xi.vercel.app/api/feedback/delete/:id`           | 🔒 Admin | **Path:** `id`                                                                                   |
 
-> **Lưu ý:** `content` là bắt buộc. `image` là tuỳ chọn — có thể truyền URL ảnh (từ Cloudinary) hoặc bỏ trống.
+> **Lưu ý:** `content` là bắt buộc. `images` là mảng URL ảnh (Cloudinary), tối đa **5 ảnh** mỗi feedback. Tương thích ngược: vẫn có thể truyền `image` (string) thay vì `images` (array).
 
 ---
 

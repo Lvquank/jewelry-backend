@@ -10,7 +10,7 @@ const feedbackSchema = new mongoose.Schema(
         userName: { type: String, required: true },
         userAvatar: { type: String },
         content: { type: String, required: true },
-        image: { type: String, default: null }, // Ảnh kèm theo (tuỳ chọn)
+        images: [{ type: String }],   // Mảng ảnh kèm theo (tuỳ chọn, tối đa 5 ảnh)
         isApproved: { type: Boolean, default: false } // Admin duyệt trước khi hiển thị
     },
     {

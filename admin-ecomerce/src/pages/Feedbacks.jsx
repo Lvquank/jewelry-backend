@@ -131,10 +131,16 @@ export default function Feedbacks() {
                     </span>
                   </td>
                   <td>
-                    {f.image
-                      ? <img src={f.image} alt="feedback" style={{ width: 48, height: 48, objectFit: 'cover', borderRadius: 6 }} />
-                      : <span style={{ color: 'var(--text-muted)', fontSize: 12 }}>Không có</span>
-                    }
+                    {f.images && f.images.length > 0 ? (
+                      <div style={{ display: 'flex', gap: 4, flexWrap: 'wrap' }}>
+                        {f.images.map((url, i) => (
+                          <img key={i} src={url} alt={`img-${i}`}
+                            style={{ width: 40, height: 40, objectFit: 'cover', borderRadius: 4, border: '1px solid rgba(201,168,76,0.2)' }} />
+                        ))}
+                      </div>
+                    ) : (
+                      <span style={{ color: 'var(--text-muted)', fontSize: 12 }}>Không có</span>
+                    )}
                   </td>
                   <td style={{ fontSize: 12 }}>{new Date(f.createdAt).toLocaleDateString('vi-VN')}</td>
                   <td>

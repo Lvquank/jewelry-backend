@@ -4,11 +4,11 @@ const Feedback = require('../models/FeedbackModel')
 const createFeedback = (data) => {
     return new Promise(async (resolve, reject) => {
         try {
-            const { user, userName, userAvatar, content, image } = data
+            const { user, userName, userAvatar, content, images } = data
             if (!user || !userName || !content) {
                 return resolve({ status: 'ERR', message: 'Thiếu thông tin bắt buộc' })
             }
-            const feedback = await Feedback.create({ user, userName, userAvatar, content, image: image || null })
+            const feedback = await Feedback.create({ user, userName, userAvatar, content, images: images || [] })
             resolve({ status: 'OK', message: 'Gửi feedback thành công, đang chờ duyệt', data: feedback })
         } catch (e) { reject(e) }
     })

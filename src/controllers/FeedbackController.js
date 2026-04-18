@@ -6,10 +6,18 @@ const createFeedback = async (req, res) => {
         if (!content) {
             return res.status(200).json({ status: 'ERR', message: 'Nội dung feedback là bắt buộc' })
         }
+        // Hỗ trợ cả 2 format: images (mảng) và image (đơn) — ưu tiên images[]
+        let images = req.body.images
+        if (!images || images.length === 0) {
+            images = req.body.image ? [req.body.image] : []
+        }
+        if (images.length > 5) {
+            return res.status(200).json({ status: 'ERR', message: 'Tối đa 5 ảnh mỗi feedback' })
+        }
         const data = {
             ...req.body,
             user: req.body.userId,
-            image: req.body.image || null
+            images
         }
         const response = await FeedbackService.createFeedback(data)
         return res.status(200).json(response)
