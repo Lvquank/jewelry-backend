@@ -1,8 +1,7 @@
 const Order = require('../models/OrderProduct')
 const Product = require('../models/ProductModel')
 const User = require('../models/UserModel')
-const Review = require('../models/ReviewModel')
-const Contact = require('../models/ContactModel')
+const Feedback = require('../models/FeedbackModel')
 
 /**
  * Lấy thống kê tổng quan cho Dashboard Admin
@@ -26,8 +25,7 @@ const getDashboardStats = () => {
                 totalProducts,
                 totalUsers,
                 newUsersThisMonth,
-                pendingReviews,
-                newContacts
+                pendingFeedbacks
             ] = await Promise.all([
                 Order.countDocuments(),
                 Order.countDocuments({ createdAt: { $gte: startOfMonth } }),
@@ -44,8 +42,7 @@ const getDashboardStats = () => {
                 Product.countDocuments({ isActive: true }),
                 User.countDocuments({ isAdmin: false }),
                 User.countDocuments({ isAdmin: false, createdAt: { $gte: startOfMonth } }),
-                Review.countDocuments({ isApproved: false }),
-                Contact.countDocuments({ status: 'new' }),
+                Feedback.countDocuments({ isApproved: false }),
             ])
 
             resolve({
@@ -71,8 +68,7 @@ const getDashboardStats = () => {
                         newThisMonth: newUsersThisMonth
                     },
                     alerts: {
-                        pendingReviews,
-                        newContacts
+                        pendingFeedbacks
                     }
                 }
             })
