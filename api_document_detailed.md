@@ -116,7 +116,42 @@
 
 ---
 
-## 8. 🛍️ Cart (`/api/cart`)
+## 8. 🖼️ Feedback Album (`/api/feedback-album`)
+
+> **Gallery ảnh feedback** từ khách hàng thực tế — được nhóm thành album. Khác với `/api/feedback` (khách hàng gửi đánh giá văn bản cần đăng nhập).
+
+| #   | Name                      | Method   | Full URL                                                                         | Auth     | Params / Body                                                                                              |
+| --- | ------------------------- | -------- | -------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------- |
+| 1   | Tất cả album (Public)      | `GET`    | `https://jewelry-backend-xi.vercel.app/api/feedback-album/get-all`               | ❌       | **Query:** `?page=0&limit=20`                                                                               |
+| 2   | Chi tiết album theo slug  | `GET`    | `https://jewelry-backend-xi.vercel.app/api/feedback-album/detail/:slug`          | ❌       | **Path:** `slug`                                                                                            |
+| 3   | Tất cả album (Admin)      | `GET`    | `https://jewelry-backend-xi.vercel.app/api/feedback-album/admin/get-all`         | 🔒 Admin | **Query:** `?page=0&limit=20`                                                                               |
+| 4   | Tạo album                 | `POST`   | `https://jewelry-backend-xi.vercel.app/api/feedback-album/create`                | 🔒 Admin | **Body:** `{ "title", "images": [...], "description"(opt), "thumbnail"(opt), "author"(opt), "sortOrder"(opt) }` |
+| 5   | Cập nhật album            | `PUT`    | `https://jewelry-backend-xi.vercel.app/api/feedback-album/update/:id`            | 🔒 Admin | **Path:** `id` · **Body:** các trường cần update                                                       |
+| 6   | Xóa album                 | `DELETE` | `https://jewelry-backend-xi.vercel.app/api/feedback-album/delete/:id`            | 🔒 Admin | **Path:** `id`                                                                                             |
+
+> **Schema fields:** `title`, `slug` (tự tạo), `description`, `thumbnail` (URL Cloudinary), `images[]` (mảng URL), `author`, `isActive`, `sortOrder`
+
+> **Response mẫu** `GET /api/feedback-album/get-all`:
+> ```json
+> {
+>   "status": "OK",
+>   "data": [{
+>     "_id": "69e3cfff91c7b29eaa707b29",
+>     "title": "Feedback của TikToker Vân Anh Vũ - Gần 300K Followers",
+>     "slug": "feedback-cua-tiktoker-van-anh-vu-gan-300k-followers",
+>     "thumbnail": "https://res.cloudinary.com/drxum5uxt/image/upload/v.../jensy/feedback/...",
+>     "images": ["https://res.cloudinary.com/drxum5uxt/..."],
+>     "author": "Uyên",
+>     "isActive": true,
+>     "sortOrder": 1
+>   }],
+>   "total": 3
+> }
+> ```
+
+---
+
+## 9. 🛍️ Cart (`/api/cart`)
 
 | #   | Name                     | Method   | Full URL                                                               | Auth    | Params / Body                                             |
 | --- | ------------------------ | -------- | ---------------------------------------------------------------------- | ------- | --------------------------------------------------------- |
@@ -130,7 +165,7 @@
 
 ---
 
-## 9. ❤️ Wishlist (`/api/wishlist`)
+## 10. ❤️ Wishlist (`/api/wishlist`)
 
 | #   | Name              | Method   | Full URL                                                           | Auth    | Params / Body                         |
 | --- | ----------------- | -------- | ------------------------------------------------------------------ | ------- | ------------------------------------- |
@@ -140,7 +175,7 @@
 
 ---
 
-## 10. 🖼️ Banner (`/api/banner`)
+## 11. 🖼️ Banner (`/api/banner`)
 
 | #   | Name                  | Method   | Full URL                                                           | Auth     | Params / Body                                        |
 | --- | --------------------- | -------- | ------------------------------------------------------------------ | -------- | ---------------------------------------------------- |
@@ -153,7 +188,7 @@
 
 ---
 
-## 11. 📤 Upload (`/api/upload`)
+## 12. 📤 Upload (`/api/upload`)
 
 | #   | Name             | Method   | Full URL                                                  | Auth     | Params / Body                          |
 | --- | ---------------- | -------- | --------------------------------------------------------- | -------- | -------------------------------------- |
@@ -163,7 +198,7 @@
 
 ---
 
-## 12. 📍 Address (`/api/address`)
+## 13. 📍 Address (`/api/address`)
 
 | #   | Name                 | Method | Full URL                                                                    | Auth | Params / Body                                               |
 | --- | -------------------- | ------ | --------------------------------------------------------------------------- | ---- | ----------------------------------------------------------- |
@@ -174,7 +209,7 @@
 
 ---
 
-## 13. 📊 Admin Dashboard (`/api/admin`)
+## 14. 📊 Admin Dashboard (`/api/admin`)
 
 | #   | Name                | Method | Full URL                                                        | Auth     | Params / Body              |
 | --- | ------------------- | ------ | --------------------------------------------------------------- | -------- | -------------------------- |
@@ -187,7 +222,7 @@
 
 ---
 
-## 14. 📁 Static Files & Images
+## 15. 📁 Static Files & Images
 
 | #   | Name                              | Cloudinary Folder                              | Mô tả                                                                                     |
 | --- | --------------------------------- | ---------------------------------------------- | ----------------------------------------------------------------------------------------- |
