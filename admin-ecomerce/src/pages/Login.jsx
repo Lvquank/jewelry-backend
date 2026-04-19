@@ -79,8 +79,8 @@ export default function Login() {
 
       <div className="login-card">
         <div className="login-logo">
-          <div className="login-logo-icon">💎</div>
-          <h1>Jensy Admin</h1>
+          <img src="/logo.png" alt="Jensy Logo" className="login-logo-icon" style={{ width: 72, height: 72, objectFit: 'contain' }} />
+          <h1>Q Dynasty Admin</h1>
           <p>Đăng nhập vào hệ thống quản trị</p>
         </div>
 
@@ -112,7 +112,7 @@ export default function Login() {
             />
           </div>
           <button id="login-submit" type="submit" className="login-btn" disabled={loading}>
-            {loading ? '⏳ Đang đăng nhập...' : '🔑 Đăng nhập'}
+            {loading ? '⏳ Đang đăng nhập...' : 'Đăng nhập'}
           </button>
           {error && (
             <div className="login-error">

@@ -139,7 +139,7 @@ export default function Dashboard() {
 
         {/* Pie Chart */}
         <div className="chart-card">
-          <div className="chart-title">🥧 Trạng thái đơn hàng</div>
+          <div className="chart-title">🧾 Trạng thái đơn hàng</div>
           <div className="chart-subtitle" style={{ marginBottom: 20 }}>Phân bổ theo trạng thái</div>
           {orderStats.length > 0 ? (
             <ResponsiveContainer width="100%" height={260}>
