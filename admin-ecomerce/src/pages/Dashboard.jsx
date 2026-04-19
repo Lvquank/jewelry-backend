@@ -97,7 +97,7 @@ export default function Dashboard() {
         <div className="chart-card">
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 20 }}>
             <div>
-              <div className="chart-title">📈 Doanh thu</div>
+              <div className="chart-title">Doanh thu</div>
               <div className="chart-subtitle">Biểu đồ doanh thu theo thời gian</div>
             </div>
             <select
@@ -139,7 +139,7 @@ export default function Dashboard() {
 
         {/* Pie Chart */}
         <div className="chart-card">
-          <div className="chart-title">🧾 Trạng thái đơn hàng</div>
+          <div className="chart-title">Trạng thái đơn hàng</div>
           <div className="chart-subtitle" style={{ marginBottom: 20 }}>Phân bổ theo trạng thái</div>
           {orderStats.length > 0 ? (
             <ResponsiveContainer width="100%" height={260}>
@@ -167,7 +167,7 @@ export default function Dashboard() {
         {/* Recent Orders */}
         <div className="table-container">
           <div className="table-header">
-            <span className="table-title">🕐 Đơn hàng gần đây</span>
+            <span className="table-title">Đơn hàng gần đây</span>
           </div>
           <table>
             <thead>
@@ -202,7 +202,7 @@ export default function Dashboard() {
         {/* Top Products */}
         <div className="table-container">
           <div className="table-header">
-            <span className="table-title">🔥 Sản phẩm bán chạy</span>
+            <span className="table-title">Sản phẩm bán chạy</span>
           </div>
           <table>
             <thead>

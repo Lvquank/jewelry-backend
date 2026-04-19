@@ -35,10 +35,10 @@
   --shadow-glow: 0 0 24px rgba(201, 168, 76, 0.15);
   --shadow-hover: 0 6px 24px rgba(201, 168, 76, 0.20);
 
-  --radius-sm: 8px;
-  --radius-md: 12px;
-  --radius-lg: 16px;
-  --radius-xl: 24px;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
 
   --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -72,7 +72,7 @@ img { max-width: 100%; display: block; }
 /* ============ SCROLLBAR ============ */
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: rgba(201,168,76,0.35); border-radius: 10px; }
+::-webkit-scrollbar-thumb { background: rgba(201,168,76,0.35); border-radius: 0; }
 ::-webkit-scrollbar-thumb:hover { background: rgba(201,168,76,0.65); }
 
 /* ============ LAYOUT ============ */
@@ -197,7 +197,7 @@ img { max-width: 100%; display: block; }
   width: 3px;
   height: 60%;
   background: linear-gradient(180deg, var(--accent-gold), var(--accent-gold-dark));
-  border-radius: 0 3px 3px 0;
+  border-radius: 0;
 }
 
 .nav-icon { font-size: 18px; flex-shrink: 0; }
@@ -209,7 +209,7 @@ img { max-width: 100%; display: block; }
   font-size: 10px;
   font-weight: 700;
   padding: 2px 6px;
-  border-radius: 20px;
+  border-radius: 0;
   min-width: 18px;
   text-align: center;
 }
@@ -341,7 +341,7 @@ img { max-width: 100%; display: block; }
   color: white;
   font-size: 9px;
   font-weight: 700;
-  border-radius: 50%;
+  border-radius: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -629,7 +629,7 @@ tbody td {
   align-items: center;
   gap: 5px;
   padding: 4px 10px;
-  border-radius: 20px;
+  border-radius: 0;
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 0.3px;
@@ -751,7 +751,7 @@ select.form-control option { background: var(--bg-secondary); }
   border: 3px solid var(--border);
   border-top-color: var(--accent-gold);
   border-radius: 50%;
-  animation: spin 0.8s linear infinite;
+  animation: spin 0.8s linear infinite; /* keep circular for spinner only */
 }
 
 .loading-container {
@@ -930,7 +930,7 @@ select.form-control option { background: var(--bg-secondary); }
 
 .orb {
   position: absolute;
-  border-radius: 50%;
+  border-radius: 50%; /* keep circular for decorative orbs */
   filter: blur(80px);
   opacity: 0.12;
 }
@@ -962,16 +962,16 @@ select.form-control option { background: var(--bg-secondary); }
 }
 
 .login-logo-icon {
-  width: 64px;
-  height: 64px;
-  background: linear-gradient(135deg, var(--accent-gold), var(--accent-gold-dark));
-  border-radius: 20px;
+  width: 72px;
+  height: 72px;
+  background: transparent;
+  border-radius: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 32px;
   margin: 0 auto 16px;
-  box-shadow: 0 8px 32px rgba(201,168,76,0.4);
+  box-shadow: none;
 }
 
 .login-logo h1 { font-size: 24px; font-weight: 800; margin-bottom: 6px; }
@@ -1013,7 +1013,7 @@ select.form-control option { background: var(--bg-secondary); }
 .avatar {
   width: 36px;
   height: 36px;
-  border-radius: 50%;
+  border-radius: 0;
   object-fit: cover;
   background: linear-gradient(135deg, var(--accent-gold), var(--accent-gold-dark));
   display: flex;
@@ -1037,7 +1037,7 @@ select.form-control option { background: var(--bg-secondary); }
   position: absolute;
   inset: 0;
   background: var(--bg-input);
-  border-radius: 24px;
+  border-radius: 0;
   cursor: pointer;
   transition: var(--transition);
   border: 1px solid var(--border);
@@ -1051,7 +1051,7 @@ select.form-control option { background: var(--bg-secondary); }
   top: 50%;
   transform: translateY(-50%);
   background: var(--text-muted);
-  border-radius: 50%;
+  border-radius: 0;
   transition: var(--transition);
 }
 .toggle-switch input:checked + .toggle-slider { background: rgba(67,233,123,0.2); border-color: rgba(67,233,123,0.4); }
