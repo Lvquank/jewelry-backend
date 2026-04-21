@@ -1,6 +1,8 @@
 # API Documentation - Jensy E-Commerce Backend
 
 > **Base URL:** `https://jewelry-backend-xi.vercel.app`
+>
+> **Last Updated:** 2026-04-22
 
 > [!NOTE]
 >
@@ -52,14 +54,17 @@
 
 ## 3. 🛒 Order (`/api/order`)
 
-| #   | Name                | Method   | Full URL                                                                | Auth     | Params / Body                                                                                    |
-| --- | ------------------- | -------- | ----------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------ |
-| 1   | Tạo đơn hàng        | `POST`   | `https://jewelry-backend-xi.vercel.app/api/order/create/:id`            | 🔑 Auth  | **Path:** `id` = User ID · **Body:** `{ "orderItems", "shippingAddress", "paymentMethod", ... }` |
-| 2   | Đơn hàng của user   | `GET`    | `https://jewelry-backend-xi.vercel.app/api/order/get-all-order/:id`     | 🔑 Auth  | **Path:** `id` = User ID                                                                         |
-| 3   | Chi tiết đơn hàng   | `GET`    | `https://jewelry-backend-xi.vercel.app/api/order/get-details-order/:id` | ❌       | **Path:** `id` = Order ID                                                                        |
-| 4   | Hủy đơn hàng        | `DELETE` | `https://jewelry-backend-xi.vercel.app/api/order/cancel-order/:id`      | 🔑 Auth  | **Path:** `id` = Order ID                                                                        |
-| 5   | Tất cả đơn hàng     | `GET`    | `https://jewelry-backend-xi.vercel.app/api/order/get-all-order`         | 🔒 Admin | None                                                                                             |
-| 6   | Cập nhật trạng thái | `PUT`    | `https://jewelry-backend-xi.vercel.app/api/order/update-status/:id`     | 🔒 Admin | **Path:** `id` · **Body:** `{ "status": "delivered" }`                                           |
+| #   | Name                | Method   | Full URL                                                                | Auth     | Params / Body                                                                                                                                                |
+| --- | ------------------- | -------- | ----------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1   | Tạo đơn hàng        | `POST`   | `https://jewelry-backend-xi.vercel.app/api/order/create/:id`            | 🔑 Auth  | **Path:** `id` = User ID · **Body:** `{ "orderItems", "paymentMethod", "itemsPrice", "shippingPrice", "totalPrice", "fullName", "address", "city", "phone", "user", "isPaid", "paidAt" }` |
+| 2   | Đơn hàng của user   | `GET`    | `https://jewelry-backend-xi.vercel.app/api/order/get-all-order/:id`     | 🔑 Auth  | **Path:** `id` = User ID                                                                                                                                     |
+| 3   | Chi tiết đơn hàng   | `GET`    | `https://jewelry-backend-xi.vercel.app/api/order/get-details-order/:id` | ❌       | **Path:** `id` = Order ID                                                                                                                                    |
+| 4   | Hủy đơn hàng        | `DELETE` | `https://jewelry-backend-xi.vercel.app/api/order/cancel-order/:id`      | 🔑 Auth  | **Path:** `id` (không dùng) · **Body:** `{ "orderId": "...", "orderItems": [...] }`                                                                          |
+| 5   | Tất cả đơn hàng     | `GET`    | `https://jewelry-backend-xi.vercel.app/api/order/get-all-order`         | 🔒 Admin | None                                                                                                                                                         |
+| 6   | Cập nhật trạng thái | `PUT`    | `https://jewelry-backend-xi.vercel.app/api/order/update-status/:id`     | 🔒 Admin | **Path:** `id` · **Body:** `{ "status": "pending"|"confirmed"|"shipping"|"delivered"|"cancelled", "cancelReason"(opt) }`                                     |
+
+> [!NOTE]
+> **Email xác nhận đã bị tắt.** Backend không gửi email sau khi tạo đơn. Trường `email` trong body không còn được sử dụng.
 
 ---
 
