@@ -1,9 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import {
   AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
   PieChart, Pie, Cell, Legend
 } from 'recharts';
 import { getDashboard, getRevenueChart, getTopProducts, getRecentOrders } from '../api';
+import { useDataCache } from '../context/DataCacheContext';
 
 const fmt = (n) => new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(n || 0);
 
@@ -17,6 +18,22 @@ const statusMap = {
 
 const PIE_COLORS = ['#C9A84C', '#9B7C2B', '#E8C96A', '#D4B45E', '#a8924a'];
 
+function applyDashData({ dash, rev, top, recent, setStats, setRevenue, setTopProducts, setRecentOrders, setOrderStats }) {
+  setStats(dash.data || dash);
+  const rawRevenue = rev.data || rev.chartData || [];
+  setRevenue(Array.isArray(rawRevenue) ? rawRevenue : []);
+  const topArr = top.data || top.products || top || [];
+  setTopProducts(Array.isArray(topArr) ? topArr.slice(0, 5) : []);
+  const orders = recent.data || recent.orders || recent || [];
+  setRecentOrders(Array.isArray(orders) ? orders.slice(0, 8) : []);
+  const s = dash.data || dash;
+  if (s?.orderStats) {
+    setOrderStats(Object.entries(s.orderStats).map(([k, v]) => ({
+      name: statusMap[k]?.label || k, value: v
+    })));
+  }
+}
+
 export default function Dashboard() {
   const [stats, setStats] = useState(null);
   const [revenue, setRevenue] = useState([]);
@@ -25,37 +42,53 @@ export default function Dashboard() {
   const [orderStats, setOrderStats] = useState([]);
   const [loading, setLoading] = useState(true);
   const [period, setPeriod] = useState('month');
+  const { getCache, getCacheStale, setCache } = useDataCache();
+
+  const CACHE_KEY_MAIN = 'dashboard_main';
+  const CACHE_KEY_REVENUE = `dashboard_revenue_${period}`;
+
+  const loadData = useCallback(async () => {
+    // Thử lấy từ cache trước
+    const cachedMain = getCache(CACHE_KEY_MAIN);
+    const cachedRevenue = getCache(CACHE_KEY_REVENUE);
+
+    if (cachedMain && cachedRevenue) {
+      // Cache còn fresh → dùng ngay, không loading
+      applyDashData({ ...cachedMain, rev: cachedRevenue, setStats, setRevenue, setTopProducts, setRecentOrders, setOrderStats });
+      setLoading(false);
+      return;
+    }
+
+    // Có data cũ → hiện ngay (stale-while-revalidate)
+    const staleMain = getCacheStale(CACHE_KEY_MAIN);
+    const staleRevenue = getCacheStale(CACHE_KEY_REVENUE);
+    if (staleMain && staleRevenue) {
+      applyDashData({ ...staleMain, rev: staleRevenue, setStats, setRevenue, setTopProducts, setRecentOrders, setOrderStats });
+      setLoading(false); // không hiện loading, fetch ngầm
+    }
+
+    // Fetch mới (cả khi đã có stale data)
+    try {
+      const [dash, rev, top, recent] = await Promise.all([
+        getDashboard(),
+        getRevenueChart(period),
+        getTopProducts(),
+        getRecentOrders(),
+      ]);
+      const mainData = { dash, top, recent };
+      setCache(CACHE_KEY_MAIN, mainData);
+      setCache(CACHE_KEY_REVENUE, rev);
+      applyDashData({ dash, rev, top, recent, setStats, setRevenue, setTopProducts, setRecentOrders, setOrderStats });
+    } catch (e) {
+      console.error(e);
+    } finally {
+      setLoading(false);
+    }
+  }, [period]); // eslint-disable-line
 
   useEffect(() => {
-    Promise.all([
-      getDashboard(),
-      getRevenueChart(period),
-      getTopProducts(),
-      getRecentOrders(),
-    ]).then(([dash, rev, top, recent]) => {
-      setStats(dash.data || dash);
-      const rawRevenue = rev.data || rev.chartData || [];
-      setRevenue(Array.isArray(rawRevenue) ? rawRevenue : []);
-      const topArr = top.data || top.products || top || [];
-      setTopProducts(Array.isArray(topArr) ? topArr.slice(0, 5) : []);
-      const orders = recent.data || recent.orders || recent || [];
-      setRecentOrders(Array.isArray(orders) ? orders.slice(0, 8) : []);
-      // Build pie data from dashboard
-      const s = dash.data || dash;
-      if (s?.orderStats) {
-        setOrderStats(Object.entries(s.orderStats).map(([k, v]) => ({
-          name: statusMap[k]?.label || k, value: v
-        })));
-      }
-    }).catch(console.error).finally(() => setLoading(false));
-  }, [period]);
-
-  useEffect(() => {
-    getRevenueChart(period).then(rev => {
-      const rawRevenue = rev.data || rev.chartData || [];
-      setRevenue(Array.isArray(rawRevenue) ? rawRevenue : []);
-    }).catch(console.error);
-  }, [period]);
+    loadData();
+  }, [loadData]);
 
   if (loading) return (
     <div className="loading-container">

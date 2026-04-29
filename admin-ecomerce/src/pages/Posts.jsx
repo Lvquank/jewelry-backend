@@ -1,6 +1,7 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
 import { getAllPosts, createPost, updatePost, deletePost } from '../api';
 import { useToast } from '../context/ToastContext';
+import { useDataCache } from '../context/DataCacheContext';
 import Modal from '../components/Modal';
 import ConfirmDialog from '../components/ConfirmDialog';
 
@@ -11,6 +12,7 @@ const POST_TYPES = [
   { value: 'huong-dan', label: '📖 Hướng dẫn' },
 ];
 const EMPTY = { title: '', image: '', content: '', type: 'tin-tuc', author: '' };
+const CACHE_KEY = 'posts_list';
 
 export default function Posts() {
   const [posts, setPosts] = useState([]);
@@ -25,17 +27,26 @@ export default function Posts() {
   const [deleteId, setDeleteId] = useState(null);
   const [deleting, setDeleting] = useState(false);
   const { addToast } = useToast();
+  const { getCache, getCacheStale, setCache } = useDataCache();
   const PER_PAGE = 10;
 
-  useEffect(() => {
-    getAllPosts(0, 100)
-      .then(res => {
-        const data = res.data || res.posts || res || [];
-        setPosts(Array.isArray(data) ? data : []);
-      })
-      .catch(() => addToast('Không thể tải bài viết', 'error'))
-      .finally(() => setLoading(false));
-  }, []);
+  const fetchPosts = useCallback(async () => {
+    const cached = getCache(CACHE_KEY);
+    if (cached) { setPosts(cached); setLoading(false); return; }
+    const stale = getCacheStale(CACHE_KEY);
+    if (stale) { setPosts(stale); setLoading(false); }
+    else setLoading(true);
+    try {
+      const res = await getAllPosts(0, 100);
+      const data = res.data || res.posts || res || [];
+      const list = Array.isArray(data) ? data : [];
+      setCache(CACHE_KEY, list);
+      setPosts(list);
+    } catch { addToast('Không thể tải bài viết', 'error'); }
+    finally { setLoading(false); }
+  }, []); // eslint-disable-line
+
+  useEffect(() => { fetchPosts(); }, [fetchPosts]);
 
   const filtered = useMemo(() => {
     const q = search.toLowerCase();
@@ -56,13 +67,17 @@ export default function Posts() {
     setSaving(true);
     try {
       if (editing) {
-        const res = await updatePost(editing._id, form);
-        setPosts(prev => prev.map(p => p._id === editing._id ? { ...p, ...form } : p));
+        await updatePost(editing._id, form);
+        const updated = posts.map(p => p._id === editing._id ? { ...p, ...form } : p);
+        setPosts(updated);
+        setCache(CACHE_KEY, updated);
         addToast('Cập nhật bài viết thành công', 'success');
       } else {
         const res = await createPost(form);
         const newPost = res.data || res;
-        setPosts(prev => [newPost, ...prev]);
+        const updated = [newPost, ...posts];
+        setPosts(updated);
+        setCache(CACHE_KEY, updated);
         addToast('Tạo bài viết thành công', 'success');
       }
       setModalOpen(false);
@@ -77,7 +92,9 @@ export default function Posts() {
     setDeleting(true);
     try {
       await deletePost(deleteId);
-      setPosts(prev => prev.filter(p => p._id !== deleteId));
+      const updated = posts.filter(p => p._id !== deleteId);
+      setPosts(updated);
+      setCache(CACHE_KEY, updated);
       addToast('Đã xóa bài viết', 'success');
       setDeleteId(null);
     } catch (e) {

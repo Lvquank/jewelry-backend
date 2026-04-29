@@ -1,6 +1,7 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
 import { getAllOrders, updateOrderStatus, getOrderDetails } from '../api';
 import { useToast } from '../context/ToastContext';
+import { useDataCache } from '../context/DataCacheContext';
 import Modal from '../components/Modal';
 
 const fmt = (n) => new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(n || 0);
@@ -14,6 +15,7 @@ const statusMap = {
   cancelled: { label: 'Đã hủy', cls: 'badge-red', icon: '❌' },
 };
 const paymentMap = { COD: '💵 COD', VNPay: '💳 VNPay', PayPal: '🅿️ PayPal' };
+const CACHE_KEY = 'orders_list';
 
 export default function Orders() {
   const [orders, setOrders] = useState([]);
@@ -24,17 +26,34 @@ export default function Orders() {
   const [detailOrder, setDetailOrder] = useState(null);
   const [updatingId, setUpdatingId] = useState(null);
   const { addToast } = useToast();
+  const { getCache, getCacheStale, setCache } = useDataCache();
   const PER_PAGE = 10;
 
-  useEffect(() => {
-    getAllOrders()
-      .then(res => {
-        const data = res.data || res.orders || res || [];
-        setOrders(Array.isArray(data) ? data : []);
-      })
-      .catch(() => addToast('Không thể tải đơn hàng', 'error'))
-      .finally(() => setLoading(false));
-  }, []);
+  const fetchOrders = useCallback(async () => {
+    // Thử cache fresh
+    const cached = getCache(CACHE_KEY);
+    if (cached) { setOrders(cached); setLoading(false); return; }
+
+    // Hiện stale nếu có
+    const stale = getCacheStale(CACHE_KEY);
+    if (stale) { setOrders(stale); setLoading(false); }
+    else setLoading(true);
+
+    try {
+      const res = await getAllOrders();
+      const data = res.data || res.orders || res || [];
+      const list = Array.isArray(data) ? data : [];
+      setCache(CACHE_KEY, list);
+      setOrders(list);
+    } catch {
+      addToast('Không thể tải đơn hàng', 'error');
+    } finally {
+      setLoading(false);
+    }
+  }, []); // eslint-disable-line
+
+  useEffect(() => { fetchOrders(); }, [fetchOrders]);
+
 
   const filtered = useMemo(() => {
     const q = search.toLowerCase();
@@ -53,7 +72,9 @@ export default function Orders() {
     setUpdatingId(id);
     try {
       await updateOrderStatus(id, status);
-      setOrders(prev => prev.map(o => o._id === id ? { ...o, status } : o));
+      const updated = orders.map(o => o._id === id ? { ...o, status } : o);
+      setOrders(updated);
+      setCache(CACHE_KEY, updated); // cập nhật cache
       addToast('Cập nhật trạng thái thành công', 'success');
     } catch (e) {
       addToast(e.message || 'Cập nhật thất bại', 'error');

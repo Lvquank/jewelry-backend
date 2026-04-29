@@ -1,7 +1,10 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
 import { getAllFeedbacks, approveFeedback, deleteFeedback } from '../api';
 import { useToast } from '../context/ToastContext';
+import { useDataCache } from '../context/DataCacheContext';
 import ConfirmDialog from '../components/ConfirmDialog';
+
+const CACHE_KEY = 'feedbacks_list';
 
 export default function Feedbacks() {
   const [feedbacks, setFeedbacks] = useState([]);
@@ -12,13 +15,24 @@ export default function Feedbacks() {
   const [deleting, setDeleting] = useState(false);
   const [approvingId, setApprovingId] = useState(null);
   const { addToast } = useToast();
+  const { getCache, getCacheStale, setCache } = useDataCache();
 
-  useEffect(() => {
-    getAllFeedbacks()
-      .then(res => setFeedbacks(res.data || []))
-      .catch(() => addToast('Không thể tải feedback', 'error'))
-      .finally(() => setLoading(false));
-  }, []);
+  const fetchFeedbacks = useCallback(async () => {
+    const cached = getCache(CACHE_KEY);
+    if (cached) { setFeedbacks(cached); setLoading(false); return; }
+    const stale = getCacheStale(CACHE_KEY);
+    if (stale) { setFeedbacks(stale); setLoading(false); }
+    else setLoading(true);
+    try {
+      const res = await getAllFeedbacks();
+      const list = res.data || [];
+      setCache(CACHE_KEY, list);
+      setFeedbacks(list);
+    } catch { addToast('Không thể tải feedback', 'error'); }
+    finally { setLoading(false); }
+  }, []); // eslint-disable-line
+
+  useEffect(() => { fetchFeedbacks(); }, [fetchFeedbacks]);
 
   const filtered = useMemo(() => {
     const q = search.toLowerCase();
@@ -32,7 +46,9 @@ export default function Feedbacks() {
     setApprovingId(id);
     try {
       await approveFeedback(id);
-      setFeedbacks(prev => prev.map(f => f._id === id ? { ...f, isApproved: true } : f));
+      const updated = feedbacks.map(f => f._id === id ? { ...f, isApproved: true } : f);
+      setFeedbacks(updated);
+      setCache(CACHE_KEY, updated);
       addToast('Đã duyệt feedback', 'success');
     } catch (e) {
       addToast(e.message || 'Lỗi xảy ra', 'error');
@@ -45,7 +61,9 @@ export default function Feedbacks() {
     setDeleting(true);
     try {
       await deleteFeedback(deleteId);
-      setFeedbacks(prev => prev.filter(f => f._id !== deleteId));
+      const updated = feedbacks.filter(f => f._id !== deleteId);
+      setFeedbacks(updated);
+      setCache(CACHE_KEY, updated);
       addToast('Đã xóa feedback', 'success');
       setDeleteId(null);
     } catch (e) {

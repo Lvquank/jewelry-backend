@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { ToastProvider } from './context/ToastContext';
+import { DataCacheProvider } from './context/DataCacheContext';
 import Layout from './components/Layout';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
@@ -48,9 +49,11 @@ export default function App() {
   return (
     <BrowserRouter>
       <AuthProvider>
-        <ToastProvider>
-          <AppRoutes />
-        </ToastProvider>
+        <DataCacheProvider>
+          <ToastProvider>
+            <AppRoutes />
+          </ToastProvider>
+        </DataCacheProvider>
       </AuthProvider>
     </BrowserRouter>
   );

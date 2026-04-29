@@ -1,8 +1,11 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { getAllCategoriesAdmin, createCategory, updateCategory, deleteCategory } from '../api';
 import { useToast } from '../context/ToastContext';
+import { useDataCache } from '../context/DataCacheContext';
 import Modal from '../components/Modal';
 import ConfirmDialog from '../components/ConfirmDialog';
+
+const CACHE_KEY = 'categories_list';
 
 const EMPTY = { name: '', slug: '', image: '', parent: '' };
 
@@ -16,16 +19,24 @@ export default function Categories() {
   const [deleteId, setDeleteId] = useState(null);
   const [deleting, setDeleting] = useState(false);
   const { addToast } = useToast();
+  const { getCache, getCacheStale, setCache, invalidate } = useDataCache();
 
-  const fetch = () => {
-    setLoading(true);
-    getAllCategoriesAdmin()
-      .then(res => setCategories(res.data || res.categories || res || []))
-      .catch(() => addToast('Không thể tải danh mục', 'error'))
-      .finally(() => setLoading(false));
-  };
+  const fetchCategories = useCallback(async () => {
+    const cached = getCache(CACHE_KEY);
+    if (cached) { setCategories(cached); setLoading(false); return; }
+    const stale = getCacheStale(CACHE_KEY);
+    if (stale) { setCategories(stale); setLoading(false); }
+    else setLoading(true);
+    try {
+      const res = await getAllCategoriesAdmin();
+      const list = res.data || res.categories || res || [];
+      setCache(CACHE_KEY, list);
+      setCategories(list);
+    } catch { addToast('Không thể tải danh mục', 'error'); }
+    finally { setLoading(false); }
+  }, []); // eslint-disable-line
 
-  useEffect(() => { fetch(); }, []);
+  useEffect(() => { fetchCategories(); }, [fetchCategories]);
 
   const openCreate = () => { setEditing(null); setForm(EMPTY); setModalOpen(true); };
   const openEdit = (c) => { setEditing(c); setForm({ name: c.name, slug: c.slug, image: c.image || '', parent: c.parent || '' }); setModalOpen(true); };
@@ -42,7 +53,8 @@ export default function Categories() {
         addToast('Tạo danh mục thành công', 'success');
       }
       setModalOpen(false);
-      fetch();
+      invalidate(CACHE_KEY); // xóa cache, fetch lại
+      fetchCategories();
     } catch (e) {
       addToast(e.message || 'Lỗi xảy ra', 'error');
     } finally {
@@ -54,7 +66,9 @@ export default function Categories() {
     setDeleting(true);
     try {
       await deleteCategory(deleteId);
-      setCategories(prev => prev.filter(c => c._id !== deleteId));
+      const updated = categories.filter(c => c._id !== deleteId);
+      setCategories(updated);
+      setCache(CACHE_KEY, updated);
       addToast('Đã xóa danh mục', 'success');
       setDeleteId(null);
     } catch (e) {

@@ -1,11 +1,13 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
 import { getAllProducts, createProduct, updateProduct, deleteProduct } from '../api';
 import { useToast } from '../context/ToastContext';
+import { useDataCache } from '../context/DataCacheContext';
 import Modal from '../components/Modal';
 import ConfirmDialog from '../components/ConfirmDialog';
 
 const fmt = (n) => new Intl.NumberFormat('vi-VN').format(n || 0) + '₫';
 const EMPTY_FORM = { name: '', image: '', type: '', category: '', price: '', countInStock: '', discount: '', description: '', material: 'Bạc S925', isFlashSale: false, isNewArrival: false, isBestSeller: false, isActive: true };
+const CACHE_KEY = 'products_list';
 
 export default function Products() {
   const [products, setProducts] = useState([]);
@@ -20,20 +22,34 @@ export default function Products() {
   const [deleting, setDeleting] = useState(false);
   const [filterType, setFilterType] = useState('');
   const { addToast } = useToast();
+  const { getCache, getCacheStale, setCache, invalidate } = useDataCache();
   const PER_PAGE = 10;
 
-  const fetchProducts = () => {
-    setLoading(true);
-    getAllProducts(0, 200)
-      .then(res => {
-        const data = res.data || res.products || res || [];
-        setProducts(Array.isArray(data) ? data : []);
-      })
-      .catch(() => addToast('Không thể tải sản phẩm', 'error'))
-      .finally(() => setLoading(false));
-  };
+  const fetchProducts = useCallback(async () => {
+    // Thử cache fresh
+    const cached = getCache(CACHE_KEY);
+    if (cached) { setProducts(cached); setLoading(false); return; }
 
-  useEffect(() => { fetchProducts(); }, []);
+    // Hiện stale data nếu có
+    const stale = getCacheStale(CACHE_KEY);
+    if (stale) { setProducts(stale); setLoading(false); }
+    else setLoading(true);
+
+    try {
+      const res = await getAllProducts(0, 200);
+      const data = res.data || res.products || res || [];
+      const list = Array.isArray(data) ? data : [];
+      setCache(CACHE_KEY, list);
+      setProducts(list);
+    } catch {
+      addToast('Không thể tải sản phẩm', 'error');
+    } finally {
+      setLoading(false);
+    }
+  }, []); // eslint-disable-line
+
+  useEffect(() => { fetchProducts(); }, [fetchProducts]);
+
 
   const types = useMemo(() => [...new Set(products.map(p => p.type).filter(Boolean))], [products]);
 
@@ -64,11 +80,15 @@ export default function Products() {
     try {
       if (editing) {
         const res = await updateProduct(editing._id, payload);
-        setProducts(prev => prev.map(p => p._id === editing._id ? (res.data || res) : p));
+        const updated = products.map(p => p._id === editing._id ? (res.data || res) : p);
+        setProducts(updated);
+        setCache(CACHE_KEY, updated); // cập nhật cache
         addToast('Cập nhật sản phẩm thành công', 'success');
       } else {
         const res = await createProduct(payload);
-        setProducts(prev => [res.data || res, ...prev]);
+        const updated = [res.data || res, ...products];
+        setProducts(updated);
+        setCache(CACHE_KEY, updated); // cập nhật cache
         addToast('Tạo sản phẩm thành công', 'success');
       }
       setModalOpen(false);
@@ -83,7 +103,9 @@ export default function Products() {
     setDeleting(true);
     try {
       await deleteProduct(deleteId);
-      setProducts(prev => prev.filter(p => p._id !== deleteId));
+      const updated = products.filter(p => p._id !== deleteId);
+      setProducts(updated);
+      setCache(CACHE_KEY, updated); // cập nhật cache
       addToast('Đã xóa sản phẩm', 'success');
       setDeleteId(null);
     } catch (e) {

@@ -1,7 +1,10 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
 import { getAllUsers, deleteUser } from '../api';
 import { useToast } from '../context/ToastContext';
+import { useDataCache } from '../context/DataCacheContext';
 import ConfirmDialog from '../components/ConfirmDialog';
+
+const CACHE_KEY = 'users_list';
 
 export default function Users() {
   const [users, setUsers] = useState([]);
@@ -12,13 +15,29 @@ export default function Users() {
   const [page, setPage] = useState(0);
   const PER_PAGE = 10;
   const { addToast } = useToast();
+  const { getCache, getCacheStale, setCache } = useDataCache();
 
-  useEffect(() => {
-    getAllUsers()
-      .then(res => setUsers(res.data || res.users || res || []))
-      .catch(() => addToast('Không thể tải danh sách người dùng', 'error'))
-      .finally(() => setLoading(false));
-  }, []);
+  const fetchUsers = useCallback(async () => {
+    const cached = getCache(CACHE_KEY);
+    if (cached) { setUsers(cached); setLoading(false); return; }
+
+    const stale = getCacheStale(CACHE_KEY);
+    if (stale) { setUsers(stale); setLoading(false); }
+    else setLoading(true);
+
+    try {
+      const res = await getAllUsers();
+      const list = res.data || res.users || res || [];
+      setCache(CACHE_KEY, list);
+      setUsers(list);
+    } catch {
+      addToast('Không thể tải danh sách người dùng', 'error');
+    } finally {
+      setLoading(false);
+    }
+  }, []); // eslint-disable-line
+
+  useEffect(() => { fetchUsers(); }, [fetchUsers]);
 
   const filtered = useMemo(() => {
     const q = search.toLowerCase();
@@ -36,7 +55,9 @@ export default function Users() {
     setDeleting(true);
     try {
       await deleteUser(deleteId);
-      setUsers(prev => prev.filter(u => u._id !== deleteId));
+      const updated = users.filter(u => u._id !== deleteId);
+      setUsers(updated);
+      setCache(CACHE_KEY, updated); // cập nhật cache
       addToast('Đã xóa người dùng', 'success');
       setDeleteId(null);
     } catch (e) {
@@ -45,6 +66,7 @@ export default function Users() {
       setDeleting(false);
     }
   };
+
 
   return (
     <div className="page-enter">

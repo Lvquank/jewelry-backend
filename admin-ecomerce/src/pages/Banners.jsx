@@ -1,11 +1,13 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { getAllBannersAdmin, createBanner, updateBanner, deleteBanner } from '../api';
 import { useToast } from '../context/ToastContext';
+import { useDataCache } from '../context/DataCacheContext';
 import Modal from '../components/Modal';
 import ConfirmDialog from '../components/ConfirmDialog';
 
-const POSITIONS = ['home-slider', 'home-sidebar', 'category-top', 'popup'];
-const EMPTY = { image: '', title: '', link: '', position: 'home-slider', isActive: true };
+const POSITIONS = ['homepage_hero', 'homepage_sub', 'homepage_flash_sale', 'category_top', 'popup'];
+const EMPTY = { image: '', title: '', link: '', position: 'homepage_hero', isActive: true };
+const CACHE_KEY = 'banners_list';
 
 export default function Banners() {
   const [banners, setBanners] = useState([]);
@@ -17,16 +19,24 @@ export default function Banners() {
   const [deleteId, setDeleteId] = useState(null);
   const [deleting, setDeleting] = useState(false);
   const { addToast } = useToast();
+  const { getCache, getCacheStale, setCache, invalidate } = useDataCache();
 
-  const fetch = () => {
-    setLoading(true);
-    getAllBannersAdmin()
-      .then(res => setBanners(res.data || res.banners || res || []))
-      .catch(() => addToast('Không thể tải banner', 'error'))
-      .finally(() => setLoading(false));
-  };
+  const fetchBanners = useCallback(async () => {
+    const cached = getCache(CACHE_KEY);
+    if (cached) { setBanners(cached); setLoading(false); return; }
+    const stale = getCacheStale(CACHE_KEY);
+    if (stale) { setBanners(stale); setLoading(false); }
+    else setLoading(true);
+    try {
+      const res = await getAllBannersAdmin();
+      const list = res.data || res.banners || res || [];
+      setCache(CACHE_KEY, list);
+      setBanners(list);
+    } catch { addToast('Không thể tải banner', 'error'); }
+    finally { setLoading(false); }
+  }, []); // eslint-disable-line
 
-  useEffect(() => { fetch(); }, []);
+  useEffect(() => { fetchBanners(); }, [fetchBanners]);
 
   const openCreate = () => { setEditing(null); setForm(EMPTY); setModalOpen(true); };
   const openEdit = (b) => { setEditing(b); setForm({ image: b.image, title: b.title || '', link: b.link || '', position: b.position, isActive: b.isActive !== false }); setModalOpen(true); };
@@ -38,7 +48,8 @@ export default function Banners() {
       if (editing) { await updateBanner(editing._id, form); addToast('Cập nhật banner thành công', 'success'); }
       else { await createBanner(form); addToast('Tạo banner thành công', 'success'); }
       setModalOpen(false);
-      fetch();
+      invalidate(CACHE_KEY);
+      fetchBanners();
     } catch (e) {
       addToast(e.message || 'Lỗi xảy ra', 'error');
     } finally {
@@ -50,7 +61,9 @@ export default function Banners() {
     setDeleting(true);
     try {
       await deleteBanner(deleteId);
-      setBanners(prev => prev.filter(b => b._id !== deleteId));
+      const updated = banners.filter(b => b._id !== deleteId);
+      setBanners(updated);
+      setCache(CACHE_KEY, updated);
       addToast('Đã xóa banner', 'success');
       setDeleteId(null);
     } catch (e) {
