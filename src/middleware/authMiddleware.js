@@ -38,7 +38,10 @@ const authUserMiddleWare = (req, res, next) => {
         })
     }
     const token = rawToken.split(' ')[1]
-    const userId = req.params.userId ?? req.params.id
+    
+    // 🔥 Cập nhật: lấy userId từ params, hoặc body, hoặc query
+    const userId = req.params.userId ?? req.params.id ?? req.body.userId ?? req.query.userId;
+    
     jwt.verify(token, process.env.ACCESS_TOKEN, function (err, user) {
         if (err) {
             return res.status(401).json({
